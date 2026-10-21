@@ -22,13 +22,14 @@ SOLUTION_TOPIC_RULES = [
     (
         "AI Tools",
         r"document intelligence|document viewer|chat.?iq|ask ai|ai summar|ai assisted|"
-        r"ai-powered|key phrases?|transcript sentiment|chart explainer",
+        r"ai-powered|key phrases?|transcript sentiment|chart explainer|"
+        r"\bgen(?:erative)?\s*ai\b|\bai[- ]driven\b|\bai tools?\b",
     ),
     (
         "Company Profiles and Financial Data",
         r"corporate profiles?|company profiles?|financials?|estimates?|ownership|"
         r"company data|company information|securities summary|corporate tree|"
-        r"fixed income|ratingsdirect|stock prices?",
+        r"fixed income|ratings\s*xpress|ratingsdirect|credit analytics|stock prices?",
     ),
     (
         "Screening",
@@ -48,7 +49,7 @@ SOLUTION_TOPIC_RULES = [
     ),
     (
         "Dashboards, Watchlists and Alerts",
-        r"dashboards?|watchlists?|alerts?|\blists?\b",
+        r"dashboards?|watchlists?|alerts?|\blists?\b(?!\s+of\b)",
     ),
     (
         "News, Research and Market Data",
@@ -79,7 +80,9 @@ SOLUTION_TOPIC_RULES = [
     ),
     (
         "Platform Overview",
-        r"\boverview\b.{0,100}\b(?:capital iq|ciq pro|the platform|platform)\b",
+        r"\boverview\b.{0,120}\b(?:capital iq|ciq pro|the platform|platform)\b|"
+        r"\b(?:capital iq pro|ciq pro|the platform)\b.{0,120}\boverview\b|"
+        r"\bhigh[- ]level\b.{0,80}\b(?:capital iq|ciq(?:\s+pro)?|platform)\b",
     ),
     (
         "Platform Navigation and Settings",
@@ -90,6 +93,10 @@ SOLUTION_TOPIC_RULES = [
     (
         "Product Training and Learning",
         r"client training|product training|training for new users?|walkthrough|new users?|product overview",
+    ),
+    (
+        "ESG",
+        r"\besg\b",
     ),
 ]
 

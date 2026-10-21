@@ -1,0 +1,91 @@
+analysis,category,visit_count
+Dated visits,2026 (January–June),67
+Monthly visits,2026-01,10
+Monthly visits,2026-02,16
+Monthly visits,2026-03,20
+Monthly visits,2026-04,15
+Monthly visits,2026-05,2
+Monthly visits,2026-06,4
+Quarterly visits,Q1,46
+Quarterly visits,Q2,21
+Country,United Kingdom,14
+Country,Germany,13
+Country,Hong Kong,4
+Country,Sweden,4
+Country,China,3
+Country,France,3
+Country,Singapore,3
+Country,United States,3
+Country,Australia,2
+Country,Canada,2
+Country,India,2
+Country,Switzerland,2
+Country,Belgium,1
+Country,Iceland,1
+Country,Indonesia,1
+Country,Ireland,1
+Country,Israel,1
+Country,Italy,1
+Country,Japan,1
+Country,Philippines,1
+Country,Portugal,1
+Country,Saudi Arabia,1
+Country,Spain,1
+Country,United Arab Emirates,1
+Region,EMEA,45
+Region,APAC,17
+Region,Americas,5
+Demonstration type,Client Training,48
+Demonstration type,New User Training,13
+Demonstration type,S&P Cap IQ Pro Workflow Enrichment,4
+Demonstration type,Client Training; Enhancement Demo,1
+Demonstration type,Client Training; New User Training,1
+Demonstration category,client training|new user training|onboarding,63
+Demonstration category,workflow enrichment,4
+Client role,Investment and finance,24
+Client role,Unspecified,16
+Client role,Other,9
+Client role,Consulting and advisory,5
+Client role,Early-career and new users,5
+Client role,Corporate development and strategy,4
+Client role,Research and analysis,2
+Client role,Executive and leadership,1
+Client role,Sales and business development,1
+Workflow,Uncategorized,19
+Workflow,Valuation and company analysis,14
+Workflow,M&A and transactions,13
+Workflow,Excel and office workflows,9
+Workflow,Private markets,5
+Workflow,Screening and list building,5
+Workflow,Market and news research,4
+Workflow,Data and model integration,2
+Workflow,Alerts and dashboards,1
+Workflow,Product learning,1
+Solution topic,Screening,45
+Solution topic,Excel and Office Tools,37
+Solution topic,Company Profiles and Financial Data,35
+Solution topic,"Dashboards, Watchlists and Alerts",35
+Solution topic,AI Tools,28
+Solution topic,Peer Comps and Valuation,24
+Solution topic,Platform Navigation and Settings,20
+Solution topic,"News, Research and Market Data",18
+Solution topic,Transactions and Deal Data,18
+Solution topic,Private Markets and Specialized Datasets,11
+Solution topic,Charting and Visualization,10
+Solution topic,Helpful Pages,9
+Solution topic,Market Maps and Industry Data,7
+Solution topic,Product Training and Learning,3
+Solution topic,Report Builder,2
+Solution topic,APIs and Data Integration,1
+Solution topic,Platform Overview,1
+Uncategorized solution note,Key functions and data coverage,1
+Uncategorized solution note,S&P Capital IQ Pro,1
+Challenge,Migration and competitor conversion,4
+Challenge,"Excel, export and models",2
+Challenge,Data coverage,1
+Challenge,Learning and navigation,1
+Challenge,Manual effort and complexity,1
+Product,S&P Capital IQ Pro Desktop,65
+Product,S&P Capital IQ Pro Preview,10
+Product,CIQ,2
+Product,Visible Alpha,1

@@ -1,0 +1,382 @@
+analysis,period,category,visit_count
+Monthly visits,2024-01,All dated visits,22
+Monthly visits,2024-02,All dated visits,7
+Monthly visits,2024-03,All dated visits,15
+Monthly visits,2024-04,All dated visits,31
+Monthly visits,2024-05,All dated visits,20
+Monthly visits,2024-06,All dated visits,19
+Monthly visits,2024-07,All dated visits,25
+Monthly visits,2024-08,All dated visits,16
+Monthly visits,2024-09,All dated visits,36
+Monthly visits,2024-10,All dated visits,34
+Monthly visits,2024-11,All dated visits,28
+Monthly visits,2024-12,All dated visits,36
+Monthly visits,2025-01,All dated visits,36
+Monthly visits,2025-02,All dated visits,41
+Monthly visits,2025-03,All dated visits,42
+Monthly visits,2025-04,All dated visits,51
+Monthly visits,2025-05,All dated visits,25
+Monthly visits,2025-06,All dated visits,3
+Monthly visits,2025-07,All dated visits,2
+Monthly visits,2025-08,All dated visits,8
+Monthly visits,2025-09,All dated visits,5
+Monthly visits,2025-10,All dated visits,1
+Monthly visits,2025-11,All dated visits,5
+Monthly visits,2025-12,All dated visits,1
+Monthly visits,2026-01,All dated visits,10
+Monthly visits,2026-02,All dated visits,16
+Monthly visits,2026-03,All dated visits,20
+Monthly visits,2026-04,All dated visits,15
+Monthly visits,2026-05,All dated visits,2
+Monthly visits,2026-06,All dated visits,4
+Quarterly visits,2024 Q1,All dated visits,44
+Quarterly visits,2024 Q2,All dated visits,70
+Quarterly visits,2024 Q3,All dated visits,77
+Quarterly visits,2024 Q4,All dated visits,98
+Quarterly visits,2025 Q1,All dated visits,119
+Quarterly visits,2025 Q2,All dated visits,79
+Quarterly visits,2025 Q3,All dated visits,15
+Quarterly visits,2025 Q4,All dated visits,7
+Quarterly visits,2026 Q1,All dated visits,46
+Quarterly visits,2026 Q2,All dated visits,21
+Monthly solution topic,2024-01,Charting and Visualization,1
+Monthly solution topic,2024-01,Company Profiles and Financial Data,7
+Monthly solution topic,2024-01,"Dashboards, Watchlists and Alerts",8
+Monthly solution topic,2024-01,Excel and Office Tools,8
+Monthly solution topic,2024-01,Helpful Pages,1
+Monthly solution topic,2024-01,Market Maps and Industry Data,1
+Monthly solution topic,2024-01,"News, Research and Market Data",7
+Monthly solution topic,2024-01,Peer Comps and Valuation,2
+Monthly solution topic,2024-01,Platform Navigation and Settings,1
+Monthly solution topic,2024-01,Platform Overview,9
+Monthly solution topic,2024-01,Private Markets and Specialized Datasets,1
+Monthly solution topic,2024-01,Screening,8
+Monthly solution topic,2024-01,Transactions and Deal Data,1
+Monthly solution topic,2024-02,Company Profiles and Financial Data,3
+Monthly solution topic,2024-02,"Dashboards, Watchlists and Alerts",3
+Monthly solution topic,2024-02,Excel and Office Tools,2
+Monthly solution topic,2024-02,"News, Research and Market Data",2
+Monthly solution topic,2024-02,Platform Overview,1
+Monthly solution topic,2024-02,Screening,3
+Monthly solution topic,2024-03,Company Profiles and Financial Data,2
+Monthly solution topic,2024-03,ESG,1
+Monthly solution topic,2024-03,Excel and Office Tools,4
+Monthly solution topic,2024-03,"News, Research and Market Data",1
+Monthly solution topic,2024-03,Peer Comps and Valuation,1
+Monthly solution topic,2024-03,Platform Overview,5
+Monthly solution topic,2024-03,Product Training and Learning,1
+Monthly solution topic,2024-03,Screening,2
+Monthly solution topic,2024-03,Transactions and Deal Data,1
+Monthly solution topic,2024-04,Charting and Visualization,1
+Monthly solution topic,2024-04,Company Profiles and Financial Data,7
+Monthly solution topic,2024-04,"Dashboards, Watchlists and Alerts",6
+Monthly solution topic,2024-04,ESG,1
+Monthly solution topic,2024-04,Excel and Office Tools,6
+Monthly solution topic,2024-04,"News, Research and Market Data",4
+Monthly solution topic,2024-04,Peer Comps and Valuation,3
+Monthly solution topic,2024-04,Platform Navigation and Settings,1
+Monthly solution topic,2024-04,Platform Overview,19
+Monthly solution topic,2024-04,Screening,8
+Monthly solution topic,2024-05,Company Profiles and Financial Data,5
+Monthly solution topic,2024-05,"Dashboards, Watchlists and Alerts",4
+Monthly solution topic,2024-05,ESG,1
+Monthly solution topic,2024-05,Excel and Office Tools,3
+Monthly solution topic,2024-05,"News, Research and Market Data",4
+Monthly solution topic,2024-05,Peer Comps and Valuation,1
+Monthly solution topic,2024-05,Platform Overview,12
+Monthly solution topic,2024-05,Private Markets and Specialized Datasets,1
+Monthly solution topic,2024-05,Screening,3
+Monthly solution topic,2024-05,Transactions and Deal Data,1
+Monthly solution topic,2024-06,Charting and Visualization,1
+Monthly solution topic,2024-06,Company Profiles and Financial Data,6
+Monthly solution topic,2024-06,"Dashboards, Watchlists and Alerts",3
+Monthly solution topic,2024-06,ESG,1
+Monthly solution topic,2024-06,Excel and Office Tools,6
+Monthly solution topic,2024-06,"News, Research and Market Data",4
+Monthly solution topic,2024-06,Peer Comps and Valuation,1
+Monthly solution topic,2024-06,Platform Navigation and Settings,1
+Monthly solution topic,2024-06,Platform Overview,13
+Monthly solution topic,2024-06,Private Markets and Specialized Datasets,2
+Monthly solution topic,2024-06,Screening,6
+Monthly solution topic,2024-06,Transactions and Deal Data,3
+Monthly solution topic,2024-07,AI Tools,1
+Monthly solution topic,2024-07,Company Profiles and Financial Data,10
+Monthly solution topic,2024-07,"Dashboards, Watchlists and Alerts",9
+Monthly solution topic,2024-07,Excel and Office Tools,5
+Monthly solution topic,2024-07,Market Maps and Industry Data,3
+Monthly solution topic,2024-07,"News, Research and Market Data",5
+Monthly solution topic,2024-07,Peer Comps and Valuation,5
+Monthly solution topic,2024-07,Platform Navigation and Settings,3
+Monthly solution topic,2024-07,Platform Overview,10
+Monthly solution topic,2024-07,Screening,11
+Monthly solution topic,2024-07,Transactions and Deal Data,10
+Monthly solution topic,2024-08,AI Tools,2
+Monthly solution topic,2024-08,Charting and Visualization,1
+Monthly solution topic,2024-08,Company Profiles and Financial Data,9
+Monthly solution topic,2024-08,"Dashboards, Watchlists and Alerts",10
+Monthly solution topic,2024-08,Excel and Office Tools,10
+Monthly solution topic,2024-08,Helpful Pages,3
+Monthly solution topic,2024-08,Market Maps and Industry Data,3
+Monthly solution topic,2024-08,"News, Research and Market Data",7
+Monthly solution topic,2024-08,Peer Comps and Valuation,6
+Monthly solution topic,2024-08,Platform Navigation and Settings,5
+Monthly solution topic,2024-08,Platform Overview,3
+Monthly solution topic,2024-08,Private Markets and Specialized Datasets,4
+Monthly solution topic,2024-08,Product Training and Learning,1
+Monthly solution topic,2024-08,Report Builder,2
+Monthly solution topic,2024-08,Screening,12
+Monthly solution topic,2024-08,Transactions and Deal Data,9
+Monthly solution topic,2024-09,AI Tools,16
+Monthly solution topic,2024-09,Charting and Visualization,2
+Monthly solution topic,2024-09,Company Profiles and Financial Data,23
+Monthly solution topic,2024-09,"Dashboards, Watchlists and Alerts",24
+Monthly solution topic,2024-09,Excel and Office Tools,23
+Monthly solution topic,2024-09,Helpful Pages,19
+Monthly solution topic,2024-09,Market Maps and Industry Data,4
+Monthly solution topic,2024-09,"News, Research and Market Data",11
+Monthly solution topic,2024-09,Peer Comps and Valuation,25
+Monthly solution topic,2024-09,Platform Navigation and Settings,15
+Monthly solution topic,2024-09,Platform Overview,2
+Monthly solution topic,2024-09,Private Markets and Specialized Datasets,6
+Monthly solution topic,2024-09,Report Builder,1
+Monthly solution topic,2024-09,Screening,22
+Monthly solution topic,2024-09,Transactions and Deal Data,19
+Monthly solution topic,2024-10,AI Tools,5
+Monthly solution topic,2024-10,Charting and Visualization,6
+Monthly solution topic,2024-10,Company Profiles and Financial Data,24
+Monthly solution topic,2024-10,"Dashboards, Watchlists and Alerts",24
+Monthly solution topic,2024-10,Excel and Office Tools,26
+Monthly solution topic,2024-10,Helpful Pages,8
+Monthly solution topic,2024-10,Market Maps and Industry Data,17
+Monthly solution topic,2024-10,"News, Research and Market Data",20
+Monthly solution topic,2024-10,Peer Comps and Valuation,19
+Monthly solution topic,2024-10,Platform Navigation and Settings,7
+Monthly solution topic,2024-10,Private Markets and Specialized Datasets,8
+Monthly solution topic,2024-10,Product Training and Learning,1
+Monthly solution topic,2024-10,Report Builder,1
+Monthly solution topic,2024-10,Screening,21
+Monthly solution topic,2024-10,Transactions and Deal Data,18
+Monthly solution topic,2024-11,AI Tools,9
+Monthly solution topic,2024-11,Charting and Visualization,6
+Monthly solution topic,2024-11,Company Profiles and Financial Data,18
+Monthly solution topic,2024-11,"Dashboards, Watchlists and Alerts",14
+Monthly solution topic,2024-11,ESG,1
+Monthly solution topic,2024-11,Excel and Office Tools,20
+Monthly solution topic,2024-11,Helpful Pages,6
+Monthly solution topic,2024-11,Market Maps and Industry Data,7
+Monthly solution topic,2024-11,"News, Research and Market Data",11
+Monthly solution topic,2024-11,Peer Comps and Valuation,18
+Monthly solution topic,2024-11,Platform Navigation and Settings,5
+Monthly solution topic,2024-11,Private Markets and Specialized Datasets,2
+Monthly solution topic,2024-11,Screening,15
+Monthly solution topic,2024-11,Transactions and Deal Data,16
+Monthly solution topic,2024-12,AI Tools,12
+Monthly solution topic,2024-12,Charting and Visualization,2
+Monthly solution topic,2024-12,Company Profiles and Financial Data,21
+Monthly solution topic,2024-12,"Dashboards, Watchlists and Alerts",19
+Monthly solution topic,2024-12,Excel and Office Tools,23
+Monthly solution topic,2024-12,Helpful Pages,8
+Monthly solution topic,2024-12,Market Maps and Industry Data,13
+Monthly solution topic,2024-12,"News, Research and Market Data",13
+Monthly solution topic,2024-12,Peer Comps and Valuation,16
+Monthly solution topic,2024-12,Platform Navigation and Settings,8
+Monthly solution topic,2024-12,Private Markets and Specialized Datasets,7
+Monthly solution topic,2024-12,Report Builder,1
+Monthly solution topic,2024-12,Screening,24
+Monthly solution topic,2024-12,Transactions and Deal Data,16
+Monthly solution topic,2025-01,AI Tools,9
+Monthly solution topic,2025-01,Charting and Visualization,5
+Monthly solution topic,2025-01,Company Profiles and Financial Data,25
+Monthly solution topic,2025-01,"Dashboards, Watchlists and Alerts",18
+Monthly solution topic,2025-01,Excel and Office Tools,25
+Monthly solution topic,2025-01,Helpful Pages,10
+Monthly solution topic,2025-01,Market Maps and Industry Data,9
+Monthly solution topic,2025-01,"News, Research and Market Data",19
+Monthly solution topic,2025-01,Peer Comps and Valuation,18
+Monthly solution topic,2025-01,Platform Navigation and Settings,10
+Monthly solution topic,2025-01,Platform Overview,1
+Monthly solution topic,2025-01,Private Markets and Specialized Datasets,6
+Monthly solution topic,2025-01,Product Training and Learning,1
+Monthly solution topic,2025-01,Report Builder,1
+Monthly solution topic,2025-01,Screening,18
+Monthly solution topic,2025-01,Transactions and Deal Data,23
+Monthly solution topic,2025-02,AI Tools,28
+Monthly solution topic,2025-02,Charting and Visualization,2
+Monthly solution topic,2025-02,Company Profiles and Financial Data,23
+Monthly solution topic,2025-02,"Dashboards, Watchlists and Alerts",22
+Monthly solution topic,2025-02,ESG,1
+Monthly solution topic,2025-02,Excel and Office Tools,31
+Monthly solution topic,2025-02,Helpful Pages,12
+Monthly solution topic,2025-02,Market Maps and Industry Data,15
+Monthly solution topic,2025-02,"News, Research and Market Data",15
+Monthly solution topic,2025-02,Peer Comps and Valuation,19
+Monthly solution topic,2025-02,Platform Navigation and Settings,8
+Monthly solution topic,2025-02,Private Markets and Specialized Datasets,5
+Monthly solution topic,2025-02,Report Builder,1
+Monthly solution topic,2025-02,Screening,22
+Monthly solution topic,2025-02,Transactions and Deal Data,19
+Monthly solution topic,2025-03,AI Tools,31
+Monthly solution topic,2025-03,Charting and Visualization,6
+Monthly solution topic,2025-03,Company Profiles and Financial Data,19
+Monthly solution topic,2025-03,"Dashboards, Watchlists and Alerts",16
+Monthly solution topic,2025-03,ESG,1
+Monthly solution topic,2025-03,Excel and Office Tools,29
+Monthly solution topic,2025-03,Helpful Pages,8
+Monthly solution topic,2025-03,Market Maps and Industry Data,11
+Monthly solution topic,2025-03,"News, Research and Market Data",12
+Monthly solution topic,2025-03,Peer Comps and Valuation,14
+Monthly solution topic,2025-03,Platform Navigation and Settings,10
+Monthly solution topic,2025-03,Private Markets and Specialized Datasets,9
+Monthly solution topic,2025-03,Screening,25
+Monthly solution topic,2025-03,Transactions and Deal Data,15
+Monthly solution topic,2025-04,AI Tools,35
+Monthly solution topic,2025-04,APIs and Data Integration,1
+Monthly solution topic,2025-04,Charting and Visualization,4
+Monthly solution topic,2025-04,Company Profiles and Financial Data,35
+Monthly solution topic,2025-04,"Dashboards, Watchlists and Alerts",25
+Monthly solution topic,2025-04,ESG,1
+Monthly solution topic,2025-04,Excel and Office Tools,38
+Monthly solution topic,2025-04,Helpful Pages,15
+Monthly solution topic,2025-04,Market Maps and Industry Data,14
+Monthly solution topic,2025-04,"News, Research and Market Data",18
+Monthly solution topic,2025-04,Peer Comps and Valuation,22
+Monthly solution topic,2025-04,Platform Navigation and Settings,15
+Monthly solution topic,2025-04,Platform Overview,2
+Monthly solution topic,2025-04,Private Markets and Specialized Datasets,15
+Monthly solution topic,2025-04,Report Builder,2
+Monthly solution topic,2025-04,Screening,30
+Monthly solution topic,2025-04,Transactions and Deal Data,19
+Monthly solution topic,2025-05,AI Tools,18
+Monthly solution topic,2025-05,Charting and Visualization,2
+Monthly solution topic,2025-05,Company Profiles and Financial Data,14
+Monthly solution topic,2025-05,"Dashboards, Watchlists and Alerts",13
+Monthly solution topic,2025-05,ESG,1
+Monthly solution topic,2025-05,Excel and Office Tools,16
+Monthly solution topic,2025-05,Helpful Pages,9
+Monthly solution topic,2025-05,Market Maps and Industry Data,7
+Monthly solution topic,2025-05,"News, Research and Market Data",12
+Monthly solution topic,2025-05,Peer Comps and Valuation,10
+Monthly solution topic,2025-05,Platform Navigation and Settings,8
+Monthly solution topic,2025-05,Private Markets and Specialized Datasets,13
+Monthly solution topic,2025-05,Report Builder,4
+Monthly solution topic,2025-05,Screening,19
+Monthly solution topic,2025-05,Transactions and Deal Data,11
+Monthly solution topic,2025-06,Company Profiles and Financial Data,1
+Monthly solution topic,2025-06,"Dashboards, Watchlists and Alerts",1
+Monthly solution topic,2025-06,Excel and Office Tools,2
+Monthly solution topic,2025-06,Private Markets and Specialized Datasets,1
+Monthly solution topic,2025-06,Report Builder,1
+Monthly solution topic,2025-06,Screening,1
+Monthly solution topic,2025-06,Transactions and Deal Data,1
+Monthly solution topic,2025-07,Company Profiles and Financial Data,1
+Monthly solution topic,2025-07,"Dashboards, Watchlists and Alerts",1
+Monthly solution topic,2025-07,Excel and Office Tools,2
+Monthly solution topic,2025-07,Screening,2
+Monthly solution topic,2025-07,Transactions and Deal Data,2
+Monthly solution topic,2025-08,Company Profiles and Financial Data,2
+Monthly solution topic,2025-08,"Dashboards, Watchlists and Alerts",3
+Monthly solution topic,2025-08,Excel and Office Tools,5
+Monthly solution topic,2025-08,"News, Research and Market Data",3
+Monthly solution topic,2025-08,Platform Navigation and Settings,1
+Monthly solution topic,2025-08,Screening,3
+Monthly solution topic,2025-08,Transactions and Deal Data,1
+Monthly solution topic,2025-09,AI Tools,1
+Monthly solution topic,2025-09,Company Profiles and Financial Data,2
+Monthly solution topic,2025-09,"Dashboards, Watchlists and Alerts",4
+Monthly solution topic,2025-09,Excel and Office Tools,3
+Monthly solution topic,2025-09,Peer Comps and Valuation,1
+Monthly solution topic,2025-09,Platform Navigation and Settings,1
+Monthly solution topic,2025-09,Screening,2
+Monthly solution topic,2025-09,Transactions and Deal Data,1
+Monthly solution topic,2025-10,AI Tools,1
+Monthly solution topic,2025-10,Charting and Visualization,1
+Monthly solution topic,2025-10,Company Profiles and Financial Data,1
+Monthly solution topic,2025-10,"Dashboards, Watchlists and Alerts",1
+Monthly solution topic,2025-10,Peer Comps and Valuation,1
+Monthly solution topic,2025-10,Platform Navigation and Settings,1
+Monthly solution topic,2025-11,AI Tools,1
+Monthly solution topic,2025-11,Company Profiles and Financial Data,3
+Monthly solution topic,2025-11,"Dashboards, Watchlists and Alerts",2
+Monthly solution topic,2025-11,Excel and Office Tools,2
+Monthly solution topic,2025-11,"News, Research and Market Data",1
+Monthly solution topic,2025-11,Peer Comps and Valuation,1
+Monthly solution topic,2025-11,Platform Navigation and Settings,1
+Monthly solution topic,2025-11,Private Markets and Specialized Datasets,1
+Monthly solution topic,2025-11,Screening,4
+Monthly solution topic,2025-11,Transactions and Deal Data,2
+Monthly solution topic,2025-12,Excel and Office Tools,1
+Monthly solution topic,2025-12,Report Builder,1
+Monthly solution topic,2026-01,AI Tools,6
+Monthly solution topic,2026-01,Company Profiles and Financial Data,5
+Monthly solution topic,2026-01,"Dashboards, Watchlists and Alerts",7
+Monthly solution topic,2026-01,Excel and Office Tools,7
+Monthly solution topic,2026-01,Helpful Pages,1
+Monthly solution topic,2026-01,"News, Research and Market Data",5
+Monthly solution topic,2026-01,Peer Comps and Valuation,4
+Monthly solution topic,2026-01,Platform Navigation and Settings,4
+Monthly solution topic,2026-01,Private Markets and Specialized Datasets,2
+Monthly solution topic,2026-01,Product Training and Learning,1
+Monthly solution topic,2026-01,Screening,8
+Monthly solution topic,2026-01,Transactions and Deal Data,2
+Monthly solution topic,2026-02,AI Tools,10
+Monthly solution topic,2026-02,Charting and Visualization,4
+Monthly solution topic,2026-02,Company Profiles and Financial Data,12
+Monthly solution topic,2026-02,"Dashboards, Watchlists and Alerts",12
+Monthly solution topic,2026-02,Excel and Office Tools,8
+Monthly solution topic,2026-02,Helpful Pages,2
+Monthly solution topic,2026-02,Market Maps and Industry Data,2
+Monthly solution topic,2026-02,"News, Research and Market Data",6
+Monthly solution topic,2026-02,Peer Comps and Valuation,8
+Monthly solution topic,2026-02,Platform Navigation and Settings,7
+Monthly solution topic,2026-02,Private Markets and Specialized Datasets,3
+Monthly solution topic,2026-02,Product Training and Learning,1
+Monthly solution topic,2026-02,Screening,13
+Monthly solution topic,2026-02,Transactions and Deal Data,6
+Monthly solution topic,2026-03,AI Tools,9
+Monthly solution topic,2026-03,APIs and Data Integration,1
+Monthly solution topic,2026-03,Charting and Visualization,4
+Monthly solution topic,2026-03,Company Profiles and Financial Data,8
+Monthly solution topic,2026-03,"Dashboards, Watchlists and Alerts",9
+Monthly solution topic,2026-03,Excel and Office Tools,11
+Monthly solution topic,2026-03,Helpful Pages,3
+Monthly solution topic,2026-03,Market Maps and Industry Data,5
+Monthly solution topic,2026-03,"News, Research and Market Data",4
+Monthly solution topic,2026-03,Peer Comps and Valuation,8
+Monthly solution topic,2026-03,Platform Navigation and Settings,5
+Monthly solution topic,2026-03,Platform Overview,1
+Monthly solution topic,2026-03,Private Markets and Specialized Datasets,6
+Monthly solution topic,2026-03,Product Training and Learning,1
+Monthly solution topic,2026-03,Report Builder,1
+Monthly solution topic,2026-03,Screening,11
+Monthly solution topic,2026-03,Transactions and Deal Data,6
+Monthly solution topic,2026-04,AI Tools,2
+Monthly solution topic,2026-04,Charting and Visualization,2
+Monthly solution topic,2026-04,Company Profiles and Financial Data,6
+Monthly solution topic,2026-04,"Dashboards, Watchlists and Alerts",5
+Monthly solution topic,2026-04,Excel and Office Tools,8
+Monthly solution topic,2026-04,Helpful Pages,2
+Monthly solution topic,2026-04,"News, Research and Market Data",2
+Monthly solution topic,2026-04,Peer Comps and Valuation,2
+Monthly solution topic,2026-04,Platform Navigation and Settings,1
+Monthly solution topic,2026-04,Screening,7
+Monthly solution topic,2026-04,Transactions and Deal Data,3
+Monthly solution topic,2026-05,AI Tools,1
+Monthly solution topic,2026-05,Company Profiles and Financial Data,1
+Monthly solution topic,2026-05,"Dashboards, Watchlists and Alerts",1
+Monthly solution topic,2026-05,Excel and Office Tools,1
+Monthly solution topic,2026-05,Helpful Pages,1
+Monthly solution topic,2026-05,Peer Comps and Valuation,1
+Monthly solution topic,2026-05,Platform Navigation and Settings,1
+Monthly solution topic,2026-05,Report Builder,1
+Monthly solution topic,2026-05,Screening,2
+Monthly solution topic,2026-06,Company Profiles and Financial Data,3
+Monthly solution topic,2026-06,"Dashboards, Watchlists and Alerts",1
+Monthly solution topic,2026-06,Excel and Office Tools,2
+Monthly solution topic,2026-06,"News, Research and Market Data",1
+Monthly solution topic,2026-06,Peer Comps and Valuation,1
+Monthly solution topic,2026-06,Platform Navigation and Settings,2
+Monthly solution topic,2026-06,Screening,4
+Monthly solution topic,2026-06,Transactions and Deal Data,1
+Yearly visits,2024,2024,289
+Yearly visits,2025,2025,220
+Yearly visits,2026,2026 (January–June),67

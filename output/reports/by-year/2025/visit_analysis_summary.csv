@@ -1,0 +1,145 @@
+analysis,category,visit_count
+Dated visits,2025,220
+Monthly visits,2025-01,36
+Monthly visits,2025-02,41
+Monthly visits,2025-03,42
+Monthly visits,2025-04,51
+Monthly visits,2025-05,25
+Monthly visits,2025-06,3
+Monthly visits,2025-07,2
+Monthly visits,2025-08,8
+Monthly visits,2025-09,5
+Monthly visits,2025-10,1
+Monthly visits,2025-11,5
+Monthly visits,2025-12,1
+Quarterly visits,Q1,119
+Quarterly visits,Q2,79
+Quarterly visits,Q3,15
+Quarterly visits,Q4,7
+Country,Australia,36
+Country,United Kingdom,30
+Country,Singapore,22
+Country,Japan,13
+Country,United States,13
+Country,France,11
+Country,Hong Kong,9
+Country,Netherlands,9
+Country,Malaysia,8
+Country,Philippines,8
+Country,Thailand,7
+Country,Indonesia,6
+Country,Italy,5
+Country,Switzerland,5
+Country,India,4
+Country,New Zealand,4
+Country,United Arab Emirates,4
+Country,Germany,3
+Country,Iceland,3
+Country,Belgium,2
+Country,China,2
+Country,Kenya,2
+Country,South Africa,2
+Country,Spain,2
+Country,Cambodia,1
+Country,Denmark,1
+Country,Fiji,1
+Country,Finland,1
+Country,Ireland,1
+Country,Luxembourg,1
+Country,Norway,1
+Country,Sweden,1
+Country,Unspecified,1
+Country,Vietnam,1
+Region,APAC,122
+Region,EMEA,84
+Region,Americas,13
+Region,Unspecified,1
+Demonstration type,Client Training,102
+Demonstration type,New User Training,71
+Demonstration type,Enhancement Demo,12
+Demonstration type,Subscription Discussion,9
+Demonstration type,Expert Presentation,6
+Demonstration type,Product Help,4
+Demonstration type,Client Training; New User Training,2
+Demonstration type,Client Training; Subscription Discussion,2
+Demonstration type,S&P Cap IQ Pro Workflow Enrichment,2
+Demonstration type,Client Training; Enhancement Demo; S&P Cap IQ Pro Workflow Enrichment,1
+Demonstration type,Client Training; New User Training; S&P Cap IQ Pro Workflow Enrichment,1
+Demonstration type,Client Training; S&P Cap IQ Pro Workflow Enrichment,1
+Demonstration type,Enhancement Demo; Expert Presentation,1
+Demonstration type,New User Training; S&P Cap IQ Pro Workflow Enrichment,1
+Demonstration type,Onboarding,1
+Demonstration type,Sales Demo,1
+Demonstration type,Service Review,1
+Demonstration type,Service Review; Subscription Discussion,1
+Demonstration type,Service Review; Technical Review,1
+Demonstration category,client training|new user training|onboarding,181
+Demonstration category,Other,30
+Demonstration category,expert presentation,7
+Demonstration category,workflow enrichment,6
+Client role,Investment and finance,111
+Client role,Unspecified,26
+Client role,Other,25
+Client role,Early-career and new users,18
+Client role,Executive and leadership,12
+Client role,Corporate development and strategy,10
+Client role,Consulting and advisory,7
+Client role,Sales and business development,5
+Client role,Operations and technical,3
+Client role,Research and analysis,3
+Workflow,Valuation and company analysis,107
+Workflow,M&A and transactions,61
+Workflow,Excel and office workflows,46
+Workflow,Market and news research,36
+Workflow,Data and model integration,30
+Workflow,Uncategorized,26
+Workflow,Private markets,23
+Workflow,Screening and list building,21
+Workflow,Metals and mining,13
+Workflow,Product learning,10
+Workflow,Alerts and dashboards,1
+Solution topic,Excel and Office Tools,154
+Solution topic,Company Profiles and Financial Data,126
+Solution topic,Screening,126
+Solution topic,AI Tools,124
+Solution topic,"Dashboards, Watchlists and Alerts",106
+Solution topic,Transactions and Deal Data,94
+Solution topic,Peer Comps and Valuation,86
+Solution topic,"News, Research and Market Data",80
+Solution topic,Market Maps and Industry Data,56
+Solution topic,Platform Navigation and Settings,55
+Solution topic,Helpful Pages,54
+Solution topic,Private Markets and Specialized Datasets,50
+Solution topic,Charting and Visualization,20
+Solution topic,Report Builder,10
+Solution topic,ESG,4
+Solution topic,Platform Overview,3
+Solution topic,APIs and Data Integration,1
+Solution topic,Product Training and Learning,1
+Uncategorized solution note,Khushal Priyanka took over the call and asked the client about the issues she was experiencing and what kind of report t,1
+Uncategorized solution note,CIQ Pro,1
+Uncategorized solution note,-Company is asking for lower than the starting price -We offer subscriptions on a department level -RM will consolidate ,1
+Uncategorized solution note,"PA -PA can help the team monitor their portfolio. Additionally, it was discussed that the team can assist in setting up ",1
+Uncategorized solution note,"-Mentioned that training is part of their subscription -Clarified their contract is until Feb 28, 2027 -Clarified that w",1
+Uncategorized solution note,"I guided the client on accessing AMR; however, upon investigation, I found that his AMR is not working, so I need to che",1
+Uncategorized solution note,Notice of Digital Operational Resilience Act,1
+Uncategorized solution note,Normal check-in with Kathy,1
+Challenge,"Excel, export and models",22
+Challenge,Learning and navigation,14
+Challenge,Manual effort and complexity,13
+Challenge,Data coverage,10
+Challenge,Access and setup,8
+Challenge,Monitoring and alerts,6
+Challenge,Migration and competitor conversion,5
+Product,S&P Capital IQ Pro Desktop,206
+Product,CIQ,11
+Product,Aftermarket Research,7
+Product,Metals and Mining_Desktop,7
+Product,RateWatch,7
+Product,SNL,7
+Product,S&P Capital IQ Pro Preview,3
+Product,AFL,1
+Product,Data Feed,1
+Product,ESG,1
+Product,Portfolio Analytics,1
+Product,Research,1

@@ -1,127 +1,123 @@
 import unittest
 from pathlib import Path
 
-from analyze_business_story import (
-    YEAR_INPUTS,
-    load_story_visits,
-    top_demonstration_type_labels,
-    yearly_counts,
-    yearly_month_counts,
-    yearly_quarter_counts,
+from narrative import activity_implication, activity_story
+from visit_model import (
+    clean_row,
+    group_by_year,
+    load_cleaned_csv,
+    month_counts,
+    quarter_counts,
+    write_cleaned_csv,
+    clean_table,
 )
+from generate_reports import generate
 
 
 class BusinessStoryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         project_root = Path(__file__).resolve().parents[1]
-        cls.datasets = load_story_visits(
-            {
-                year: project_root / "cleaned_data" / filename
-                for year, filename in YEAR_INPUTS.items()
-            }
-        )
+        visits = []
+        for path in sorted((project_root / "raw-csv").glob("*.xlsx")):
+            rows, fields = clean_table(path)
+            temp = project_root / "output" / "cleaned" / f"{path.stem}_cleaned.csv"
+            write_cleaned_csv(temp, rows, fields)
+            loaded, skipped = load_cleaned_csv(temp)
+            if skipped:
+                raise AssertionError(skipped)
+            visits.extend(loaded)
+        cls.by_year = group_by_year(visits)
 
-    def test_combined_year_counts_match_source_datasets(self) -> None:
+    def test_visit_counts_follow_the_visit_date(self) -> None:
         self.assertEqual(
-            {year: len(visits) for year, visits in self.datasets.items()},
+            {year: len(visits) for year, visits in self.by_year.items()},
             {2024: 289, 2025: 220, 2026: 67},
         )
 
-    def test_2026_is_a_partial_year_and_months_are_not_filled_with_zeros(self) -> None:
-        month_counts = yearly_month_counts(self.datasets)
+    def test_2026_stops_in_june_and_is_not_filled_with_zero_months(self) -> None:
+        counts = {year: month_counts(visits) for year, visits in self.by_year.items()}
 
-        self.assertEqual(sum(month_counts[2026].values()), 67)
-        self.assertNotIn(7, month_counts[2026])
-        self.assertEqual(sum(month_counts[2024][month] for month in range(1, 7)), 114)
-        self.assertEqual(sum(month_counts[2025][month] for month in range(1, 7)), 198)
+        self.assertEqual(sum(counts[2026].values()), 67)
+        self.assertNotIn(7, counts[2026])
+        self.assertEqual(sum(counts[2024][month] for month in range(1, 7)), 114)
+        self.assertEqual(sum(counts[2025][month] for month in range(1, 7)), 198)
+        self.assertEqual(counts[2026][5] + counts[2026][6], 6)
 
-    def test_quarter_counts_reconcile_to_each_year_total_and_keep_partial_2026(self) -> None:
-        quarter_counts = yearly_quarter_counts(self.datasets)
+    def test_quarter_counts_reconcile_and_keep_partial_2026(self) -> None:
+        quarters = {year: quarter_counts(visits) for year, visits in self.by_year.items()}
 
-        self.assertEqual(dict(quarter_counts[2024]), {1: 44, 2: 70, 3: 77, 4: 98})
-        self.assertEqual(dict(quarter_counts[2025]), {1: 119, 2: 79, 3: 15, 4: 7})
-        self.assertEqual(dict(quarter_counts[2026]), {1: 46, 2: 21})
-        for year, counts in quarter_counts.items():
-            self.assertEqual(sum(counts.values()), len(self.datasets[year]))
+        self.assertEqual(dict(quarters[2024]), {1: 44, 2: 70, 3: 77, 4: 98})
+        self.assertEqual(dict(quarters[2025]), {1: 119, 2: 79, 3: 15, 4: 7})
+        self.assertEqual(dict(quarters[2026]), {1: 46, 2: 21})
+        for year, counts in quarters.items():
+            self.assertEqual(sum(counts.values()), len(self.by_year[year]))
 
-    def test_region_counts_use_the_existing_region_mapping(self) -> None:
-        region_counts = yearly_counts(self.datasets, "region")
+    def test_activity_text_uses_the_may_and_june_count_instead_of_zero(self) -> None:
+        text = f"{activity_story(self.by_year)} {activity_implication(self.by_year)}"
 
-        self.assertEqual(region_counts[2024]["APAC"], 188)
-        self.assertEqual(region_counts[2025]["APAC"], 122)
-        self.assertEqual(region_counts[2026]["EMEA"], 45)
-        for year, counts in region_counts.items():
-            self.assertEqual(sum(counts.values()), len(self.datasets[year]))
+        self.assertIn("67 in 2026 (January–June)", text)
+        self.assertIn("2026: 67", text)
+        self.assertNotIn("0 records fall in May", text)
+        self.assertIn("2025 is front-loaded: 198 of 220", text)
 
-    def test_key_story_metrics_are_supported_by_records(self) -> None:
-        topic_counts = yearly_counts(self.datasets, "solution_topics")
-        demo_counts = yearly_counts(self.datasets, "demonstration_categories")
-        demo_type_counts = yearly_counts(self.datasets, "demonstration_type")
-        workflow_counts = yearly_counts(self.datasets, "workflows")
-        months = yearly_month_counts(self.datasets)
-
-        self.assertEqual(topic_counts[2024].most_common(1)[0], ("Excel and Office Tools", 136))
-        self.assertEqual(topic_counts[2025].most_common(1)[0], ("Excel and Office Tools", 154))
-        self.assertEqual(topic_counts[2026].most_common(1)[0], ("Screening", 45))
-        self.assertEqual(demo_counts[2024]["Training"], 263)
-        self.assertEqual(demo_counts[2025]["Training"], 181)
-        self.assertEqual(demo_counts[2026]["Training"], 63)
-        self.assertEqual(
-            demo_counts[2024],
+    def test_job_description_does_not_create_a_workflow(self) -> None:
+        cleaned = clean_row(
             {
-                "Training": 263,
-                "Product Demo or Help": 15,
-                "Workflow Enrichment": 5,
-                "Expert Presentation": 2,
-                "Other": 2,
-                "Subscription or Commercial": 6,
+                "Visit Date": "2024-04-02",
+                "Key Workflows": "Screening for target companies",
+                "Team/User Job Description": "Financial analyst building valuation models in Excel",
+                "Meeting Notes": "Also discussed private equity funds",
+                "Solutions Discussed": "",
             },
+            "example.xlsx",
         )
-        self.assertEqual(
-            demo_counts[2025],
+
+        self.assertEqual(cleaned["Workflow Categories"], "Screening and list building")
+        self.assertEqual(cleaned["Workflow Source"], "Key Workflows")
+        self.assertEqual(cleaned["Client Role Category"], "Investment and finance")
+
+    def test_blank_workflows_can_fall_back_to_meeting_notes(self) -> None:
+        cleaned = clean_row(
             {
-                "Training": 181,
-                "Product Demo or Help": 18,
-                "Workflow Enrichment": 6,
-                "Other": 4,
-                "Subscription or Commercial": 12,
-                "Expert Presentation": 7,
+                "Visit Date": "2024-04-02",
+                "Key Workflows": "",
+                "Meeting Notes": "Walked through peer comps in Excel",
             },
+            "example.xlsx",
         )
-        self.assertEqual(
-            demo_counts[2026],
-            {"Training": 63, "Workflow Enrichment": 4, "Product Demo or Help": 1},
-        )
-        self.assertEqual(demo_type_counts[2024]["Client Training"], 224)
-        self.assertEqual(demo_type_counts[2025]["Client Training"], 102)
-        self.assertEqual(demo_type_counts[2026]["Client Training"], 48)
-        self.assertEqual(
-            demo_type_counts[2025]["Client Training; New User Training"], 2
-        )
-        self.assertEqual(
-            demo_type_counts[2026]["Client Training; New User Training"], 1
-        )
-        self.assertNotIn("Training", demo_type_counts[2024])
-        self.assertEqual(workflow_counts[2024].most_common(1)[0][0], "Valuation and Company Analysis")
-        self.assertEqual(workflow_counts[2025].most_common(1)[0][0], "Valuation and Company Analysis")
-        self.assertEqual(workflow_counts[2026].most_common(1)[0][0], "Valuation and Company Analysis")
-        self.assertEqual(sum(count for month, count in months[2025].items() if month <= 6), 198)
-        self.assertEqual(sum(count for month, count in months[2026].items() if month <= 4), 61)
 
-    def test_demonstration_type_chart_uses_only_the_five_most_frequent_exact_values(self) -> None:
-        counts = yearly_counts(self.datasets, "demonstration_type")
+        self.assertEqual(cleaned["Workflow Source"], "Meeting Notes")
+        self.assertIn("Valuation and company analysis", cleaned["Workflow Categories"])
+        self.assertIn("Excel and office workflows", cleaned["Workflow Categories"])
 
-        self.assertEqual(
-            top_demonstration_type_labels(counts),
-            [
-                "Client Training",
-                "New User Training",
-                "Enhancement Demo",
-                "Subscription Discussion",
-                "Expert Presentation",
-            ],
+    def test_non_financial_is_not_classified_as_finance(self) -> None:
+        cleaned = clean_row(
+            {
+                "Visit Date": "2024-04-02",
+                "Team/User Job Description": "Client segment is non-financial corporate",
+            },
+            "example.xlsx",
         )
+
+        self.assertNotEqual(cleaned["Client Role Category"], "Investment and finance")
+
+
+class ReportGenerationTests(unittest.TestCase):
+    def test_generate_writes_a_report_per_year_and_a_combined_story(self) -> None:
+        project_root = Path(__file__).resolve().parents[1]
+        generate(project_root / "raw-csv", project_root / "output")
+
+        for year, visits in ((2024, 289), (2025, 220), (2026, 67)):
+            report = project_root / "output" / "reports" / "by-year" / str(year) / "visit_analysis.pdf"
+            summary = project_root / "output" / "reports" / "by-year" / str(year) / "visit_analysis_summary.csv"
+            self.assertTrue(report.exists())
+            self.assertTrue(summary.exists())
+            self.assertGreater(report.stat().st_size, 1000)
+            self.assertIn(str(visits), summary.read_text(encoding="utf-8"))
+        combined = project_root / "output" / "reports" / "combined"
+        self.assertTrue((combined / "business_story.pdf").exists())
+        self.assertTrue((combined / "time_series.pdf").exists())
 
 
 if __name__ == "__main__":

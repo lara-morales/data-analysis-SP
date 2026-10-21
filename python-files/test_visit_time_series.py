@@ -1,71 +1,72 @@
 import unittest
-from collections import Counter
 from datetime import date
-from pathlib import Path
 
-from analyze_visit_time_series import (
-    VisitRecord,
-    build_time_series,
-    load_visit_records,
-)
+from analyze_visit_time_series import _observed_months
+from visit_model import Visit
+
+
+def _visit(year: int, month: int, day: int = 1) -> Visit:
+    return Visit(
+        source_file="example.xlsx",
+        visit_number="1",
+        visit_date=date(year, month, day),
+        country="Singapore",
+        region="APAC",
+        account="Example",
+        products=(),
+        demonstration_type="Client Training",
+        demonstration_categories=("Training",),
+        role="Other",
+        workflows=(),
+        workflow_source="Not recorded",
+        challenges=(),
+        challenge_recorded=False,
+        solution_topics=(),
+        solution_note_status="No solution note",
+        solution_note="",
+    )
 
 
 class VisitTimeSeriesTests(unittest.TestCase):
-    def test_monthly_and_quarterly_visit_counts(self) -> None:
-        records = [
-            VisitRecord(date(2024, 1, 3), frozenset()),
-            VisitRecord(date(2024, 1, 20), frozenset()),
-            VisitRecord(date(2024, 4, 2), frozenset()),
-            VisitRecord(date(2026, 6, 30), frozenset()),
-        ]
+    def test_span_keeps_internal_gaps_and_stops_at_the_last_visit(self) -> None:
+        visits = [_visit(2024, 1, 3), _visit(2024, 3, 2), _visit(2026, 6, 30)]
 
-        counts = build_time_series(records)
-
-        self.assertEqual(counts.monthly_visits["2024-01"], 2)
-        self.assertEqual(counts.monthly_visits["2024-04"], 1)
-        self.assertEqual(counts.monthly_visits["2026-06"], 1)
-        self.assertEqual(counts.quarterly_visits["2024 Q1"], 2)
-        self.assertEqual(counts.quarterly_visits["2024 Q2"], 1)
-        self.assertEqual(counts.quarterly_visits["2026 Q2"], 1)
-
-    def test_solution_topics_count_once_per_visit(self) -> None:
-        records = [
-            VisitRecord(
-                date(2024, 2, 5),
-                frozenset({"Screening", "Dashboards, Watchlists and Alerts"}),
-            ),
-            VisitRecord(
-                date(2024, 2, 6),
-                frozenset({"Screening"}),
-            ),
-        ]
-
-        counts = build_time_series(records)
-
-        self.assertEqual(counts.monthly_solution_topics[("2024-02", "Screening")], 2)
         self.assertEqual(
-            counts.monthly_solution_topics[("2024-02", "Dashboards, Watchlists and Alerts")],
-            1,
+            _observed_months(visits),
+            [
+                "2024-01",
+                "2024-02",
+                "2024-03",
+                "2024-04",
+                "2024-05",
+                "2024-06",
+                "2024-07",
+                "2024-08",
+                "2024-09",
+                "2024-10",
+                "2024-11",
+                "2024-12",
+                "2025-01",
+                "2025-02",
+                "2025-03",
+                "2025-04",
+                "2025-05",
+                "2025-06",
+                "2025-07",
+                "2025-08",
+                "2025-09",
+                "2025-10",
+                "2025-11",
+                "2025-12",
+                "2026-01",
+                "2026-02",
+                "2026-03",
+                "2026-04",
+                "2026-05",
+                "2026-06",
+            ],
         )
-
-    def test_combined_cleaned_datasets_cover_expected_years_and_visits(self) -> None:
-        project_root = Path(__file__).resolve().parents[1]
-        inputs = [
-            project_root / "cleaned_data" / "raw-2024_cleaned.csv",
-            project_root / "cleaned_data" / "2025-manila-visit_raw-final_cleaned.csv",
-            project_root / "cleaned_data" / "raw-1h2026_cleaned.csv",
-        ]
-
-        records = load_visit_records(inputs)
-        yearly_counts = build_time_series(records)
-
-        self.assertEqual(len(records), 576)
-        self.assertEqual(
-            dict(sorted(Counter(record.visit_date.year for record in records).items())),
-            {2024: 289, 2025: 220, 2026: 67},
-        )
-        self.assertEqual(yearly_counts.monthly_visits["2026-06"], 4)
-        self.assertNotIn("2026-07", yearly_counts.monthly_visits)
+        self.assertNotIn("2026-07", _observed_months(visits))
 
 
 if __name__ == "__main__":

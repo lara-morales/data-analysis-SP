@@ -1,8 +1,8 @@
-import csv
 import unittest
 from pathlib import Path
 
 from solution_categories import is_non_solution_entry, solution_topic_categories
+from visit_model import normalize_text, read_table
 
 
 class SolutionTopicCategoriesTests(unittest.TestCase):
@@ -55,16 +55,14 @@ class SolutionTopicCategoriesTests(unittest.TestCase):
 
     def test_2024_platform_overview_source_entries_are_all_categorized(self) -> None:
         project_root = Path(__file__).resolve().parents[1]
-        cleaned_path = project_root / "cleaned_data" / "raw-2024_cleaned.csv"
-        with cleaned_path.open(encoding="utf-8-sig", newline="") as handle:
-            rows = csv.DictReader(handle)
-            overview_entries = [
-                row["Solutions Discussed"]
-                for row in rows
-                if "overview" in row.get("Solutions Discussed", "").casefold()
-                and "platform" in row.get("Solutions Discussed", "").casefold()
-                and row.get("Solutions Discussed", "").casefold().startswith("gave ")
-            ]
+        rows, _headers, _sheet = read_table(project_root / "raw-csv" / "raw-2024.xlsx")
+        overview_entries = [
+            normalize_text(row.get("Solutions Discussed"))
+            for row in rows
+            if "overview" in normalize_text(row.get("Solutions Discussed")).casefold()
+            and "platform" in normalize_text(row.get("Solutions Discussed")).casefold()
+            and normalize_text(row.get("Solutions Discussed")).casefold().startswith("gave ")
+        ]
 
         self.assertTrue(overview_entries)
         for entry in overview_entries:
@@ -81,6 +79,19 @@ class SolutionTopicCategoriesTests(unittest.TestCase):
         for variant in variants:
             with self.subTest(variant=variant):
                 self.assertEqual(solution_topic_categories(variant), ["Screening"])
+
+    def test_a_list_of_companies_is_not_treated_as_a_saved_list(self) -> None:
+        topics = solution_topic_categories(
+            "Pulling a list of companies that matches a set of criteria using the screener"
+        )
+
+        self.assertIn("Screening", topics)
+        self.assertNotIn("Dashboards, Watchlists and Alerts", topics)
+
+    def test_genai_and_ai_driven_notes_are_ai_tools(self) -> None:
+        for text in ("Introduction to GenAI Tools in Capital IQ", "AI driven features"):
+            with self.subTest(text=text):
+                self.assertIn("AI Tools", solution_topic_categories(text))
 
     def test_list_variants_are_grouped_with_dashboards_and_alerts(self) -> None:
         variants = (

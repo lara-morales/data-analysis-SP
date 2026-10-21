@@ -1,0 +1,139 @@
+analysis,category,visit_count
+Dated visits,2024,289
+Monthly visits,2024-01,22
+Monthly visits,2024-02,7
+Monthly visits,2024-03,15
+Monthly visits,2024-04,31
+Monthly visits,2024-05,20
+Monthly visits,2024-06,19
+Monthly visits,2024-07,25
+Monthly visits,2024-08,16
+Monthly visits,2024-09,36
+Monthly visits,2024-10,34
+Monthly visits,2024-11,28
+Monthly visits,2024-12,36
+Quarterly visits,Q1,44
+Quarterly visits,Q2,70
+Quarterly visits,Q3,77
+Quarterly visits,Q4,98
+Country,Australia,41
+Country,United Kingdom,41
+Country,Singapore,33
+Country,Philippines,31
+Country,Unspecified,24
+Country,Thailand,21
+Country,Hong Kong,16
+Country,India,11
+Country,Malaysia,9
+Country,France,8
+Country,Indonesia,8
+Country,Sweden,6
+Country,United States,5
+Country,Japan,4
+Country,New Zealand,4
+Country,China,3
+Country,Netherlands,3
+Country,Switzerland,3
+Country,Vietnam,3
+Country,Belgium,2
+Country,Germany,2
+Country,Taiwan,2
+Country,United Arab Emirates,2
+Country,Italy,1
+Country,Jordan,1
+Country,Luxembourg,1
+Country,Pakistan,1
+Country,Saudi Arabia,1
+Country,South Korea,1
+Country,Spain,1
+Region,APAC,188
+Region,EMEA,72
+Region,Unspecified,24
+Region,Americas,5
+Demonstration type,Client Training,224
+Demonstration type,New User Training,34
+Demonstration type,Enhancement Demo,13
+Demonstration type,Subscription Discussion,5
+Demonstration type,Client Training; Sales Demo,2
+Demonstration type,Expert Presentation,2
+Demonstration type,New User Training; S&P Cap IQ Pro Workflow Enrichment,2
+Demonstration type,S&P Cap IQ Pro Workflow Enrichment,2
+Demonstration type,Client Training; S&P Cap IQ Pro Workflow Enrichment,1
+Demonstration type,Onboarding,1
+Demonstration type,Product Help,1
+Demonstration type,Product Help; Subscription Discussion,1
+Demonstration type,Quarterly Review,1
+Demonstration category,client training|new user training|onboarding,263
+Demonstration category,Other,22
+Demonstration category,workflow enrichment,5
+Demonstration category,expert presentation,2
+Client role,Investment and finance,90
+Client role,Other,69
+Client role,Unspecified,69
+Client role,Early-career and new users,19
+Client role,Executive and leadership,11
+Client role,Corporate development and strategy,10
+Client role,Research and analysis,9
+Client role,Consulting and advisory,7
+Client role,Operations and technical,3
+Client role,Sales and business development,2
+Workflow,Valuation and company analysis,120
+Workflow,M&A and transactions,60
+Workflow,Market and news research,48
+Workflow,Product learning,48
+Workflow,Excel and office workflows,42
+Workflow,Uncategorized,34
+Workflow,Private markets,19
+Workflow,Screening and list building,18
+Workflow,Data and model integration,17
+Workflow,Metals and mining,7
+Workflow,Alerts and dashboards,3
+Solution topic,Excel and Office Tools,136
+Solution topic,Company Profiles and Financial Data,135
+Solution topic,Screening,135
+Solution topic,"Dashboards, Watchlists and Alerts",124
+Solution topic,Peer Comps and Valuation,97
+Solution topic,Transactions and Deal Data,94
+Solution topic,"News, Research and Market Data",89
+Solution topic,Platform Overview,74
+Solution topic,Market Maps and Industry Data,48
+Solution topic,Platform Navigation and Settings,46
+Solution topic,AI Tools,45
+Solution topic,Helpful Pages,45
+Solution topic,Private Markets and Specialized Datasets,31
+Solution topic,Charting and Visualization,20
+Solution topic,ESG,5
+Solution topic,Report Builder,5
+Solution topic,Product Training and Learning,3
+Uncategorized solution note,New releases on month of June and July of 2024,1
+Uncategorized solution note,Discussed platform functionalities and enhancements relevant to Desmond's workflow.,1
+Uncategorized solution note,June-July 2024 Enhancement,1
+Uncategorized solution note,- The multi-year options would need to be approved by the pricing team,1
+Uncategorized solution note,Discussed CIQ,1
+Uncategorized solution note,CIQ Pro,1
+Uncategorized solution note,Provided Demo,1
+Uncategorized solution note,Marion will provide another 3-year proposal to the client.,1
+Uncategorized solution note,We had a conversation with Maggie to discuss the recent improvements and commonly utilized features of the CIQ Pro Platf,1
+Uncategorized solution note,Had a call with Meghan and Natalie to discuss a report that they need on their end.,1
+Uncategorized solution note,Client currently have RD on Pro access but showcased Capital IQ Pro an the call and client wants to push through with ha,1
+Uncategorized solution note,Call with Refiloe to discuss the modifications she would like to be implemented in the Corporate Bonds Model that was bu,1
+Uncategorized solution note,Call is focused on addressing the issue Refiloe is experiencing on the Corporate bonds Model. Arjhay Tabios from the Tec,1
+Challenge,"Excel, export and models",19
+Challenge,Data coverage,18
+Challenge,Manual effort and complexity,16
+Challenge,Access and setup,8
+Challenge,Learning and navigation,7
+Challenge,Migration and competitor conversion,7
+Challenge,Monitoring and alerts,2
+Product,S&P Capital IQ Pro Desktop,267
+Product,CIQ,23
+Product,S&P Capital IQ Pro Preview,11
+Product,RD,4
+Product,Aftermarket Research,2
+Product,SNL,2
+Product,Credit Analytics,1
+Product,Document Digitization,1
+Product,FIG_Data Feeds,1
+Product,Insurances Rates_Desktop,1
+Product,RX,1
+Product,Training,1
