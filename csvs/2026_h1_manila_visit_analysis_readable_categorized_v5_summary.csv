@@ -1,0 +1,268 @@
+analysis,category,visit_count
+Monthly visits,2026-01,10
+Monthly visits,2026-02,16
+Monthly visits,2026-03,20
+Monthly visits,2026-04,15
+Monthly visits,2026-05,2
+Monthly visits,2026-06,4
+Quarterly visits,2026 Q1,46
+Quarterly visits,2026 Q2,21
+Products discussed,S&P Capital IQ Pro Desktop,56
+Products discussed,S&P Capital IQ Pro Desktop – S&P Capital IQ Pro Preview,10
+Products discussed,CIQ,2
+Products discussed,Visible Alpha,1
+Visits by country,United Kingdom,14
+Visits by country,Germany,13
+Visits by country,Hong Kong,4
+Visits by country,Sweden,4
+Visits by country,China,3
+Visits by country,Singapore,3
+Visits by country,United States,3
+Visits by country,France,3
+Visits by country,Australia,2
+Visits by country,Canada,2
+Visits by country,Switzerland,2
+Visits by country,India,2
+Visits by country,United Arab Emirates,1
+Visits by country,Belgium,1
+Visits by country,Indonesia,1
+Visits by country,Ireland,1
+Visits by country,Israel,1
+Visits by country,Iceland,1
+Visits by country,Italy,1
+Visits by country,Japan,1
+Visits by country,Philippines,1
+Visits by country,Portugal,1
+Visits by country,Saudi Arabia,1
+Visits by country,Spain,1
+Visits by region,EMEA,45
+Visits by region,APAC,17
+Visits by region,Americas,5
+Demonstration type,Client Training,48
+Demonstration type,New User Training,13
+Demonstration type,S&P Cap IQ Pro Workflow Enrichment,4
+Demonstration type,Client Training; Enhancement Demo,1
+Demonstration type,Client Training; New User Training,1
+Client job category,Investment and finance,24
+Client job category,Unspecified,16
+Client job category,Consulting and advisory,5
+Client job category,Early-career and new users,5
+Client job category,Other,5
+Client job category,Corporate development and M&A,4
+Client job category,Research and analysis,2
+Client job category,Executive and leadership,2
+Client job category,Operations and technical,1
+Client job category,Sales and business development,1
+Client job category,Corporate strategy and planning,1
+Client job category,Client administration and support,1
+Client account,Oxera Consulting LLP,3
+Client account,Swedfund International AB,3
+Client account,Arc Group Securities LLC,2
+Client account,PricewaterhouseCoopers LLP,2
+Client account,Moody's Corporation,2
+Client account,Ernst & Young LLP,2
+Client account,Growtheum Capital Partners Pte. Ltd.,2
+Client account,FRP Advisory Trading Limited,2
+Client account,Mml Holdco 7 Ltd,2
+Client account,Abu Dhabi National Oil Company (ADNOC) P.J.S.C.,1
+Client account,Godfrey Remuneration Group Pty Ltd,1
+Client account,ANZ Group Holdings Limited,1
+Client account,Umicore SA,1
+Client account,Sandvik AB (publ),1
+Client account,Intact Financial Corporation,1
+Client account,Hitachi Energy USA Inc.,1
+Client account,Calibrium AG,1
+Client account,ConocoPhillips,1
+Client account,Schaeffler Technologies AG & Co. KG,1
+Client account,Resmed Pty. Ltd.,1
+Client account,"Brose Fahrzeugteile SE & Co. KG, Coburg",1
+Client account,CFC Corporate Finance Contor GmbH,1
+Client account,WTS Group AG Steuerberatungsgesellschaft,1
+Client account,EMH Partners GmbH,1
+Client account,Fresenius SE & Co. KGaA,1
+Client account,GEA Group Aktiengesellschaft,1
+Client account,Oaklins Germany AG,1
+Client account,Lee Kum Kee Group Ltd,1
+Client account,S&P Global Inc.,1
+Client account,Future M Company Limited,1
+Client account,The Hang Seng University of Hong Kong (incorporated in Hong Kong with limited liability by guarantee),1
+Client account,Asian Institute of Management,1
+Client account,National Treasury Management Agency,1
+Client account,El Al Israel Airlines Ltd.,1
+Client account,Íslandsbanki hf.,1
+Client account,21 Invest SGR S.p.A.,1
+Client account,"MUFG Bank, Ltd.",1
+Client account,Baker & McKenzie Global Services LLC,1
+Client account,"AlixPartners, LLP",1
+Client account,Korn Ferry,1
+Client account,Ikhlas Capital GP Limited,1
+Client account,Pkf Attest,1
+Client account,Cap Structure Ltd,1
+Client account,Touchstone Advisory Limited,1
+Client account,Spectris Limited,1
+Client account,Full Circle Capital Ltd.,1
+Client account,Grant Thornton UK LLP,1
+Client account,University of Portsmouth,1
+Client account,Cl & Co. Management Services Ltd,1
+Client account,Artis Partners LLP,1
+Client account,THCP Advisory Limited,1
+Client account,Nouryon Specialty Chemicals B.V.,1
+Client account,"Teva Branded Pharmaceutical Products R&D, Inc.",1
+Client account,Creadev S.A.S.,1
+Client account,Partech Partners SAS,1
+Client account,Revaia SAS,1
+Key workflow,Valuation and company analysis,21
+Key workflow,Screening and list building,8
+Key workflow,Market and news research,8
+Key workflow,Unspecified,6
+Key workflow,M&A and transactions,6
+Key workflow,Product learning and navigation,6
+Key workflow,Private markets,4
+Key workflow,Portfolio and investment monitoring,2
+Key workflow,Excel and office workflows,2
+Key workflow,"Credit, fixed income and capital markets",1
+Key workflow,Business leadership and management,1
+Key workflow,Client administration and access,1
+Key workflow,Other,1
+Workflow challenge,Unspecified,47
+Workflow challenge,Migration and integration,6
+Workflow challenge,Other,4
+Workflow challenge,Product adoption and learning,4
+Workflow challenge,Workflow complexity and efficiency,3
+Workflow challenge,Data access and coverage,3
+Solutions discussed,"Helpful Links (Whats New, Help Page, Platform Training Webinars and S&P Capital IQ Pro Academy)",6
+Solutions discussed,User Profile and Display Information,6
+Solutions discussed,Dashboard,5
+Solutions discussed,Market Maps,4
+Solutions discussed,Transactions and Private Markets,4
+Solutions discussed,Transactions Comps,4
+Solutions discussed,Peer Comps,3
+Solutions discussed,Financials,3
+Solutions discussed,News,3
+Solutions discussed,"Discussed the AI Solutions we have on the CIQ Pro Platform: Document Intelligence, Chat IQ, IQ Newsletter and AI Assisted Screener",2
+Solutions discussed,Settings Dashboards Corporate Profiles Financials ChatIQ Peer Comps Ownership Investment and Market Research Doc Intelligence Transactions Deal Profile Transaction Comps Screening AI Assisted Screener Chart Builder News Alerts,2
+Solutions discussed,"Peer Comps Corporate Profile Financials (Multiples, Key Stats, Income Statement) Excel",1
+Solutions discussed,"Thank you for your time earlier today on our Teams call. Here’s a summary of our screening demo discussion regarding your request to export single-listed ASX companies and dual-listed ASX companies (such as Rio Tinto) into a single screen or multiple screens, and easy ways to combine them. Since Lara wasn't available to call earlier, I will be taking over the case. Workaround Steps We Tried and was provided by Lara: We followed these steps in CIQ Pro: Click Browse Criteria from the left-hand panel, or use the search bar for Add Criteria and then click Browse Criteria at the bottom. In the Field Selector tool, navigate to Securities Summary > Equities > Security Information > Traded Issue . Under Parameters, select Yes for Traded Issue? Under Parameters, select Secondary Listings for Criteria Applies To. Click Add . Add Exchange > ASX . Click Done . Note: Using this method, companies like Rio Tinto Group and KMD Brands Limited did not appear in the results on CIQ Pro. To confirm, I shared my screen and navigated the same criteria in CIQ Legacy, where the companies you’re looking for were successfully pulled. Alternative Solution: I discovered another workaround by using the Securities Screen ( Application ) instead of the Companies Screen in CIQ Pro. With this method, companies/issuers such as Rio Tinto and KMD Brands were reflected in the results when using only the criteria Exchange > ASX . You may export this data as well. Next Steps: For further review regarding why secondary listings of certain companies aren’t reflecting in the Companies Screen, I will escalate this to our data team for investigation. Please let me know if you need further assistance or have additional questions. I’ll keep you updated once I hear back from the data team",1
+Solutions discussed,Economic Data Geographic Data Geographic Intelligence tool Templates and Models,1
+Solutions discussed,"Dashboard, Screener, Peer Comps, Research",1
+Solutions discussed,"We demonstrated Document Intelligence, highlighting AI-powered search, multi-language support, sentiment analysis, and advanced filtering for document discovery",1
+Solutions discussed,GENERALIST DATASETS Document Intelligence Companies Screener Estimates Data Highlights Detailed Estimates Consensus Transcripts and Investor Presentations Alerts CIQ Pro Excel Screener / Data Wizard ====================== INSURANCE DATASETS Combined Ratio SPGTable w/ SNL Insurance Data Keyfields Company Screener w/ SNL Insurance Keyfields Insurance-Specific metrics Other IFRS-17 metrics,1
+Solutions discussed,"Screening Steps I have created a Transaction screen for you titled ""Buy-Side M&A Fees."" To navigate this, please follow the steps below",1
+Solutions discussed,"In the top-right corner of the CIQ Pro platform, click the Screener",1
+Solutions discussed,"At the bottom of Key Workflows, select Manage Screens > Click on the mentioned saved screen",1
+Solutions discussed,Click on Run Screen to view results. I have also showed the client how to navigate the Transaction screener. Here are the steps in replicating the screen for your reference,1
+Solutions discussed,"In the top navigation bar, click on Screener > Select Transactions",1
+Solutions discussed,"In the left handlings, click on Browse Criteria",1
+Solutions discussed,Search for the keyfield: IQ_INDUSTRY_CLASSIFICATION > In: Energy and Industrials > Applies to: Target/Issuer > Add,1
+Solutions discussed,Search for the keyfield: SPTR_TRANSACTION_VALUE > Between: 0,1
+Solutions discussed,3000 > Add,1
+Solutions discussed,Search for the keyfield: SPTR_CLOSED_DATE > Set the timeframe,1
+Solutions discussed,"Search for the keyfield: SPTR_ADVISER_FEE > Greater than: 0 > Adviser Role: Financial Advisory > Party Advised: Buyer/Investor > Add > Done. Aggregates To show the aggregates, you can click ""Options"" > Show Statistics to display the minimum, average, median, maximum, and standard deviation and/or Group by any category you wish. I’ve noted your feedback regarding the aggregates on CIQ Pro, which differ from those on CIQ Legacy. I apologize for this limitation on our end. Please note that prior to this email, I have sent an Enhancement Request to our Product Management so they can review this further and hopefully consider adding this to our future releases. Thank you for understanding! Currency and Magnitude You can change the currency at the top part of the screener. Alternatively, currency and magnitude can be changed by clicking on the Settings. Criteria vs Display Columns Criteria will filter the results, so only records that meet these criteria will be included and anything that does not meet them will be filtered out. Display columns control which columns are shown, regardless of whether they contain data, and they do not affect the number of results returned. Transaction Value vs Total Transaction Value vs Deal Value You may find the definition of the criteria in the screener. For the mentioned keyfields, here are the differences: Transaction Value [KeyField: 300198, SPTR_DEAL_TRANSACTION_VALUE] Deal value paid for equity, plus the value of assumed current liabilities, net of current assets Total Transaction Value [KeyField: 300057, SPTR_TRANSACTION_VALUE] For M&A, this is the consideration accrued to the seller for all target securities, including assumed liabilities. For capital offerings, this is the principal amount of capital raised in the offering, before fees and other expenses, including any amounts not sold directly by the issuer and exercised overallotment options. For rounds of funding and private M&A deals, this will also include estimated values (e.g. values disclosed by sources close to the matter reported in news or press or rumored values). For equity buybacks, this is the price paid for equity repurchased by company. For spin-offs or split-offs, this is the distribution value of target equity distributed to the seller’s shareholders.​​​​​​​ Deal Value [KeyField: 300194, SPTR_DEAL_VALUE] Total consideration accrued to the sellers. Includes only the price paid for equity, not assumption of any obligations of the entity sold. For Spin-off/ Split-offs, this field indicates distribution value of the transaction",1
+Solutions discussed,Settings Dashboards Corporate Profiles Financials ChatIQ Peer Comps Screening AI-Assisted Screener,1
+Solutions discussed,Dashboard and Widgets Alerts Corporate Profile and Financials Peer Comps Screener Excel and Templates,1
+Solutions discussed,A quick refresher of yesterday with formula builder + formula syntax Quick sample of where to find and generate custom formulas A sample of rough peer comps Exporting to ppt (pres center) Charting Tool Screener Wizard Helpful Templates Usual where to find help spiel and useful articles,1
+Solutions discussed,Downloading Excel Pro Plugin Template Library Formula Builder Formula Syntax Identifier Lookup Peer Comps on Plugin Financials and Transaction Dataset,1
+Solutions discussed,Financial Sources,1
+Solutions discussed,CIQ Pro Plugin,1
+Solutions discussed,Report Builder,1
+Solutions discussed,Screening,1
+Solutions discussed,Discussed the AI Solutions we have on the CIQ Pro Platform: Chat IQ and AI Assisted Screener,1
+Solutions discussed,Key functions and data coverage,1
+Solutions discussed,AI Functionalities Doc Intelligence AI Assisted Screener ChatIQ Ask AI Help Chart Explainer Private Markets Data Market Maps Private Markets Tab,1
+Solutions discussed,Chart explainer Multi Doc Intelligence ChatIQ for Documents AI Assisted Screener General Screening ChatIQ Ask AI Help,1
+Solutions discussed,Agenda Dashboard Lists Alerts Corporate Profile Financials Peer Comps Transactions Screener Office Plug-in AI Assisted Screener Chat IQ Transcript Sentiment,1
+Solutions discussed,"Pro Plug-In Formula Builder, Templates",1
+Solutions discussed,AI Tools and Private Markets,1
+Solutions discussed,Settings Dashboards Corporate Profiles Financials Report Builder Analyst Reports and Estimates Document Intelligence ChatIQ Natural Language Screener Company Screener,1
+Solutions discussed,"S&P Capital IQ Pro Excel Plug-in, Formula Builder, Prebuilt Templates",1
+Solutions discussed,"Discussed the Dashboard, Search function, Company Profile, Document Intelligence, Screener, ChatIQ",1
+Solutions discussed,Dashboards,1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Dashboards The S&P Capital IQ Pro Dashboard application is meant to serve as an informational tool that can quickly provide data that is constantly changing in the global markets. The Dashboard is a fully customizable application, and provides you with the tools to create a solution that is meaningful to your workflow and helps with market monitoring. Creating Watch Lists",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Creating-List-of-Companies-or-Assets-using-My-Lists-on-MI Static lists are usable in Screener criteria, on the dashboard, in alert creation, in the chart builder, and across many other tools on the platform. When added to the Chart Builder, static lists are only able to uploaded as a custom index and cannot be charted as independent entities. Dynamic lists are purely generated by saving Screener results but cannot be used on any tools in the platform due to the nature of their potentially varying outcome of entities due to data being updated. Alerts",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/MI-Alerts-Help You can create alerts on companies and other entities so that they receive notifications on new or updated News, Key Developments, Filings and Annual Reports, Activity Logs, Events Calendar, Transcripts, RatingsDirect Acitons, RatingsDirect Credit Research, and Stock Price. Sharing Alerts on CIQ Pro – https://spglobal.my.site.com/s/article/Can-I-Share-My-Alert-on-CIQ Users can share an Alert with up to ten recipients",1
+Solutions discussed,"these recipients can be within their company or at an outside email address. Please note that email sharing does not support attachments. This includes Investment Research, Regulatory Filings and Transcripts. Peer Comps",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Peer-Comps-on-CIQ-Pro Peer Comps is the new comps-building tool on S&P Capital IQ Pro platform that lets you find similar companies based on meaningful, editable attributes of a base company. This tool is available for all public and private companies supported in the Companies data set. Financials",1
+Solutions discussed,https://spglobal.my.site.com/s/article/MI-Financials-Templated Templated financial data on the S&P Capital IQ Pro platform is data that has been standardized across all of our covered companies so that you can conduct an apples-to-apples analysis of their financial and operational performance. Estimates,1
+Solutions discussed,https://spglobal.my.site.com/s/article/Earnings-Estimates S&P Capital IQ Estimates standardize the contributing broker's recommendation scales into a five-point range whereby one represents the strongest possible recommendation and five the weakest. Document Intelligence,1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Document-Intelligence An enriched user workflow for document discovery and insight powered by a suite of AI technology aimed to increase user productivity and an overall enhanced research experience. Events Calendar- https://spglobal.my.site.com/s/article/Events-Calendar The S&P Capital IQ Pro Events Calendar allows you to see at a glance a comprehensive listing of earnings releases, company meetings, industry conferences and other events occurring in your selected industry or industries. Regarding the Health Care Conferences , I see that we can filter these on the Events Calendar: Enabling the Sharing Access Feature on CIQ Pro",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Enabling-the-Sharing-Access-Feature-on-CIQ-Pro You can easily create time-series charts with your target companies, index, and/or saved lists by searching or browsing through different data sets in one go. Visible Alpha",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/FAQs-for-Navigating-Visible-Alpha-Estimates-on-CIQ-Pro You can easily create time-series charts with your target companies, index, and/or saved lists by searching or browsing through different data sets in one go. Why can I not see other brokers’ numbers? Visible Alpha Estimates has established a strict entitlement system to safeguard brokers' data from being shown to users who do not have the appropriate broker entitlements. @Steinhorst, Norika can help here for the entitlements needed to the broker numbers. Investment and Market Research",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Investment-and-Market-Research Investment research examines economic conditions, company information, and market trends to determine business, sector, and industry recommendations for buying or selling stocks or mutual funds. Market research firms produce reports which contain expert insight and trends relating to industries, companies, products, and their respective consumers",1
+Solutions discussed,I covered the below topics: Settings Dashboard News Alerts Document Intelligence Screening AI Assisted Screener Chat IQ AI Help Corporate Profile Peer Comps Transactions Page Transaction Comps Plugin,1
+Solutions discussed,Introduction to a new user DASHBOARD CUSTOMIZATION SCREENING FUNCTIONALITY DOCUMENT VIEWER AI PRO TOOLS,1
+Solutions discussed,"Formula Builder > Go through the data items, identifiers, parameters, and cell-referencing Templates > Available templates including Company Comparables Analysis Discussed terms and metrics like NM, TEV, Historical vs Estimates, Trailing vs Forward, etc. Audit Data Functionality",1
+Solutions discussed,"Dashboard List Creation Company Profiles (Financials, Securities, Filings) Document Intelligence (ChatIQ) ChatIQ",1
+Solutions discussed,Screener,1
+Solutions discussed,Dashboard (List + Recent Transactions),1
+Solutions discussed,Transactions & Private Markets Page,1
+Solutions discussed,Private Companies + Headcount and Public Companies,1
+Solutions discussed,Peer Comps & Transaction Comps,1
+Solutions discussed,AI Tools,1
+Solutions discussed,CS and Authorize CIQ Pro Assist 11.Plug-in,1
+Solutions discussed,"Financials, Chart Builder, Screener, Plug-in",1
+Solutions discussed,Demo by Diego Sevilla User Settings Dashboard Company Screener Lists and Alerts Company Profile Financials and Estimates AI Tools CIQ Pro Excel plugin,1
+Solutions discussed,"TOPICS DISCUSSED: Mastering the Fundamentals of the Capital IQ Pro Plugin * Unlocking the power of Single Cell Formulas for both single values and ranges. * Harnessing SPG Table formulas to efficiently pull information across multiple entities. * Leveraging Excel Templates for Efficiency * Discovering where to find our extensive library of pre-made templates. * Understanding ""Trace Precedents"" for enhanced data auditing. * Guidance on creating bespoke templates. For this, you can reach out to me or Diana directly. We welcome any data metrics or shell templates you have in mind. * Streamlining Your Workflow: Excel to PowerPoint * Effortlessly linking your data and tables to PowerPoint for impactful presentations",1
+Solutions discussed,Peer Comps/ Screener and Excel Plug-In,1
+Solutions discussed,CIQ Pro Platform and Excel Plug In,1
+Solutions discussed,features and content of the CIQ Pro platform and Pro plug-in,1
+Solutions discussed,Dashboard Watchlist Corporate Profile Investment Research Trading Multiples News Transactions Screening Find Buyers Capital IQ Pro Plug-in Help Page,1
+Solutions discussed,Using the Screener tool as an alternate tool to compile metrics as display columns for a specific list of companies,1
+Solutions discussed,Specific screen for Transactions Creating Screens in general and the available metrics on CIQ Pro Setting up Screening Alerts Setting up Alerts as a whole,1
+Solutions discussed,"What is the objective of the meeting? Meeting to train new users on Pro Excel. What do they do (Department, Geography, Industry, Team Size, Workflow)? Various Junior Roles, Strategy. Industry: Agnostic. Geog: Europe. Team has 3 main focuses",1
+Solutions discussed,Corporate Strategy (growth plans for clients),1
+Solutions discussed,Commercial DD (buy-side for PE firms),1
+Solutions discussed,"Deal Execution Which competitors? How they use them? None mentioned. How they currently use the platform? New users. What have you improved or demo? Deep dive into Pro Excel Wish list? What they would love to have? N/A Other qualitative inputs, feedback, positive comments… N/A",1
+Solutions discussed,Call to speak to regular users of Pro regarding: AI Screener Updates Doc Intel Excel Overview,1
+Solutions discussed,"What is the objective of the meeting? Training for new user of Pro. What do they do (Department, Geography, Industry, Team Size, Workflow)? Senior Associate, Executive Search. Industry: Agnostic. Geog: Global. Key focus: People data (both at individual level & business analytics). Do they have any competitor tools? How do they use them? None mentioned. How do they currently use the platform? NA",1
+Solutions discussed,"new user. What have you demoed? Intro to Pro CS Dashboard, Lists & Alerts Company Profile Screener AMR Wish list",1
+Solutions discussed,"What would they love to have? NA Other qualitative inputs, feedback, positive comments… NA",1
+Solutions discussed,"Profile Settings: You can customize your profile to align with your company’s main function and your specific role. Dashboard: The dashboard allows you to stream news updates relevant to different markets. Search Tools: We explored three distinct search tools, each designed to enhance your data retrieval experience. Company Profile: This section provides the latest information about companies. Financials Tab: Under this tab, you’ll find ""Templated"" and ""As Reported"" sections, offering different views of financial data. Peer Comps Tool: This tool helps identify comparable companies within the same industry, Transaction Comps: This allows you to pull all transactions with characteristics similar to your selected base transaction. Screener : Tool to filter and screen companies or securities based on specific criteria for identifying investment opportunities. Pro Plug-In: The plug-in enables you to pull data directly from our databases into a Microsoft Excel workbook using a modern user interface",1
+Solutions discussed,"Guided the client through our datasets available on the CIQ pro platform, the screener, and the Excel Plug-in",1
+Solutions discussed,"SPGTables, Peer Comps, Transactions, Company Datasets, Data Wizard/ Screener",1
+Solutions discussed,CIQ Pro Overview > Dashboard,1
+Solutions discussed,"Monitoring companies > Screening, Peer Comps- Looking for similar companies > Corporate Profile, Financials, Excel",1
+Solutions discussed,"Due Diligence > Market Maps, Topic Tags",1
+Solutions discussed,Looking for PE firms in niche industries > API,1
+Solutions discussed,"as client is onto Data Science and Optimization, this would be the best product fit for her and her team",1
+Solutions discussed,AI Enhancements Document Intelligence AI Screener ChatIQ Corporate Profile Financials Peer Comps Screening Lists Alerts Excel Plug-in Basics Excel Templates,1
+Solutions discussed,"Using the S&P Capital IQ Pro Platform, Dashboard Customization, Corporate Profile pages, Screener, and Excel Plug-in",1
+Solutions discussed,Formula Builder Indepth Formula Syntax Financial Datasets Availability Templates 24/7 Support Team/Financial Modeling,1
+Solutions discussed,AI Tools 1.Chat IQ 2.Ask AI Help 3.Natural Language Screener 4.Multi Doc and Single Doc ChatIQ 5.Chart Explainer,1
+Solutions discussed,Alerts,1
+Solutions discussed,"Discussed the AI Solutions we have on the CIQ Pro Platform: Document Intelligence, Single Document Chat IQ, Chat IQ, Ask Ai Help, and AI Assisted Screener",1
+Solutions discussed,Overview: Settings Dashboards Corporate Profile Financials Doc Intelligence Investment and Market Research Peer Comps Transactions Deal Profile Transaction Comps Screening AI Assisted Screener Lists Alerts News ChatIQ,1
+Solutions discussed,Settings Dashboard Company Profile Screener Peer/Transaction Comps Market Maps Chart Explainer and AI Assisted Screener (For AI Tools) Excel Plugin,1
+Solutions discussed,especially formula builder/building a model 24/7 Support,1
+Solutions discussed,"Discussed the AI Solutions we have on the CIQ Pro Platform: Document Intelligence, Chat IQ, Ask AI Help",1
+Solutions discussed,"Walked the client through the screening steps however, as it is not possible for the client to pull the constituents of FTSE in Screener, we scheduled a 2nd call for the workaround which is Holdings dta",1
+Solutions discussed,S&P Capital IQ Pro,1
+Solutions discussed,"Profile Settings: You can customize your profile to align with your company’s main function and your specific role. Dashboard: The dashboard allows you to stream news updates relevant to different markets. Company Profile: This section provides the latest information about companies. Financials Tab: Under this tab, you’ll find ""Templated"" and ""As Reported"" sections, offering different views of financial data. Investments: Focus on private equity investments, showcasing direct investments and customizable views of investment activities. Screener: Tool to filter and screen companies or securities based on specific criteria for identifying investment opportunities. Pro Plug-In: The plug-in enables you to pull data directly from our databases into a Microsoft Excel workbook using a modern user interface",1
+Solutions discussed,AI functionalities and tools on Capital IQ Pro Document Intelligence ChatIQ Natural Language AI Screener Macroeconomic Data Excel plug-in basic functionalities and template library,1
+Solutions discussed,"Expressed feedback on ChatIQ to further enhance it by allowing automatic redirection to platform page by just typing the prompt, depending on what the client wants to view",1
+Solutions discussed,"Guided client on locating saved lists from the platform to Excel, Pulling Financials and Segmented Financials into Excel given said list of entities. Walked them through Excel Templates helpful for their workflow and workflow of their other teams. Auditing information for the rationale of data and Pres Center for their presentations",1
+Solutions discussed,"Discussed the Dashboard, Lists, Company profile, Screener, and CIQ Pro office",1
+Solutions discussed,Excel Plug in Overview: Formula Builder Charting Screener Templates Identifier Lookup Settings,1
+Solutions discussed,Peer Comps Company Profile Transaction Comps Dashboard Plugin In Screener Ask AI Help,1
+Solutions discussed,"Utilizing tools such as the Widgets, News and Dashboard",1
+Solutions discussed,Focused on PE/Private Markets Dataset,1
+Solutions discussed,M&A/Rounds of Funding within the European Tech Scene,1
+Solutions discussed,qQuick Overveiw of Excel Plug In,1
+Solution topic category,Screening,54
+Solution topic category,"Dashboards, Watchlists and Alerts",42
+Solution topic category,Company Profiles and Financial Data,41
+Solution topic category,Excel and Office Tools,39
+Solution topic category,Transactions and Deal Data,30
+Solution topic category,AI Tools,27
+Solution topic category,Peer Comps and Valuation,25
+Solution topic category,"News, Research and Market Data",23
+Solution topic category,Platform Navigation and Settings,20
+Solution topic category,Private Markets and Specialized Datasets,13
+Solution topic category,Charting and Visualization,12
+Solution topic category,Helpful Pages,9
+Solution topic category,Market Maps and Industry Data,7
+Solution topic category,Product Training and Learning,5
+Solution topic category,Report Builder,2
+Solution topic category,Key functions and data coverage,1
+Solution topic category,Corporate Strategy (growth plans for clients),1
+Solution topic category,APIs and Data Integration,1
+Solution topic category,S&P Capital IQ Pro,1

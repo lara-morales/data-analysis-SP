@@ -1,0 +1,941 @@
+analysis,category,visit_count
+Monthly visits,2024-01,22
+Monthly visits,2024-02,7
+Monthly visits,2024-03,15
+Monthly visits,2024-04,31
+Monthly visits,2024-05,20
+Monthly visits,2024-06,19
+Monthly visits,2024-07,25
+Monthly visits,2024-08,16
+Monthly visits,2024-09,36
+Monthly visits,2024-10,34
+Monthly visits,2024-11,28
+Monthly visits,2024-12,36
+Quarterly visits,2024 Q1,44
+Quarterly visits,2024 Q2,70
+Quarterly visits,2024 Q3,77
+Quarterly visits,2024 Q4,98
+Products discussed,S&P Capital IQ Pro Desktop,260
+Products discussed,CIQ,23
+Products discussed,S&P Capital IQ Pro Desktop – S&P Capital IQ Pro Preview,11
+Products discussed,RD,4
+Products discussed,Aftermarket Research,2
+Products discussed,SNL,2
+Products discussed,Training,1
+Products discussed,Document Digitization,1
+Products discussed,Credit Analytics,1
+Products discussed,FIG_Data Feeds,1
+Products discussed,Insurances Rates_Desktop,1
+Products discussed,RX,1
+Visits by country,Australia,41
+Visits by country,United Kingdom,41
+Visits by country,Singapore,33
+Visits by country,Philippines,31
+Visits by country,Unspecified,24
+Visits by country,Thailand,21
+Visits by country,Hong Kong,16
+Visits by country,India,11
+Visits by country,Malaysia,9
+Visits by country,France,8
+Visits by country,Indonesia,8
+Visits by country,Sweden,6
+Visits by country,United States,5
+Visits by country,Japan,4
+Visits by country,New Zealand,4
+Visits by country,Switzerland,3
+Visits by country,China,3
+Visits by country,Netherlands,3
+Visits by country,Vietnam,3
+Visits by country,United Arab Emirates,2
+Visits by country,Belgium,2
+Visits by country,Germany,2
+Visits by country,Taiwan,2
+Visits by country,Italy,1
+Visits by country,Jordan,1
+Visits by country,South Korea,1
+Visits by country,Luxembourg,1
+Visits by country,Pakistan,1
+Visits by country,Saudi Arabia,1
+Visits by country,Spain,1
+Visits by region,APAC,188
+Visits by region,EMEA,72
+Visits by region,Unspecified,24
+Visits by region,Americas,5
+Demonstration type,Client Training,224
+Demonstration type,New User Training,34
+Demonstration type,Enhancement Demo,13
+Demonstration type,Subscription Discussion,5
+Demonstration type,New User Training; S&P Cap IQ Pro Workflow Enrichment,2
+Demonstration type,Expert Presentation,2
+Demonstration type,S&P Cap IQ Pro Workflow Enrichment,2
+Demonstration type,Client Training; Sales Demo,2
+Demonstration type,Quarterly Review,1
+Demonstration type,Product Help,1
+Demonstration type,Onboarding,1
+Demonstration type,Product Help; Subscription Discussion,1
+Demonstration type,Client Training; S&P Cap IQ Pro Workflow Enrichment,1
+Client job category,Investment and finance,95
+Client job category,Unspecified,69
+Client job category,Product session participant (role not stated),50
+Client job category,Early-career and new users,16
+Client job category,Executive and leadership,13
+Client job category,Research and analysis,12
+Client job category,Corporate development and M&A,12
+Client job category,Consulting and advisory,7
+Client job category,Academia and education,4
+Client job category,Corporate strategy and planning,3
+Client job category,Client administration and support,3
+Client job category,Other,2
+Client job category,Operations and technical,2
+Client job category,Sales and business development,1
+Client account,"BDO Unibank, Inc.",6
+Client account,Asian Development Bank,6
+Client account,Fortman Cline Capital Markets Limited,4
+Client account,Eastspring Investments (Singapore) Limited,4
+Client account,Kiatnakin Phatra Securities Public Company Limited,4
+Client account,Apis Partners Group (UK) Limited,4
+Client account,ICON Corporate Finance Ltd.,4
+Client account,Metrics Credit Partners Pty Ltd,3
+Client account,"The Capital Group Companies, Inc.",3
+Client account,PT MDS Retailing Tbk,3
+Client account,AWR Lloyd Limited,3
+Client account,Osborne Partners Ltd,3
+Client account,Acquara Investment India Private Limited,3
+Client account,First Metro Investment Corporation,3
+Client account,Axiom Asia Private Capital Pte. Ltd.,3
+Client account,Nexia Singapore Pac,3
+Client account,Bangkok Bank Public Company Limited,3
+Client account,Smith Square Partners LLP,3
+Client account,Bendigo and Adelaide Bank Limited,2
+Client account,Berkshire Global Advisors LP,2
+Client account,Hall Chadwick Pty Limited,2
+Client account,Sapere Research Group Limited,2
+Client account,Longreach HQI - Global Market Neutral Fund,2
+Client account,Otium Partners InvestCo,2
+Client account,"Skadden, Arps, Slate, Meagher & Flom LLP",2
+Client account,Apah Capital Management Limited,2
+Client account,OSK Technology Ventures Sdn Bhd,2
+Client account,Andersen Corporate Finance & Valuation Advisors B.V.,2
+Client account,Security Bank Capital Investment Corporation,2
+Client account,Asian Institute of Management,2
+Client account,"UNILAB, Inc.",2
+Client account,Priveq Investment,2
+Client account,University of Portsmouth,2
+Client account,Sasin Graduate Institute Of Business Administration Chulalongkorn University,2
+Client account,TRACTUS ASIA LIMITED,2
+Client account,The Siam Commercial Bank Public Company Limited,2
+Client account,Intel Corporation,2
+Client account,Spectron Services Ltd,2
+Client account,Magnesium Capital Llp,2
+Client account,Eighteen48 Partners Limited,2
+Client account,Silverpeak LLP,2
+Client account,Ash Park Capital LLP,2
+Client account,Pemberton Asset Management Services UK Limited,2
+Client account,CAP10 Partners LLP,2
+Client account,Africa Capitalworks Management,2
+Client account,King Abdullah Petroleum Studies and Research Center,2
+Client account,Ras Al Khaimah Free Trade Zone Authority,2
+Client account,Northstar Asset Management (Pty) Ltd,2
+Client account,INSEAD,1
+Client account,Vision Bank,1
+Client account,Bank of Queensland Limited,1
+Client account,American Express Australia Limited,1
+Client account,Pemba Capital Partners Pty Limited,1
+Client account,Ox Capital Pty Ltd,1
+Client account,Fortitude Investment Partners Pty Ltd,1
+Client account,Nash Advisory Pty Ltd,1
+Client account,Kidder Williams Limited,1
+Client account,Greenstone Partners Pty Limited,1
+Client account,Amira International Limited,1
+Client account,AMC Consultants Pty Ltd.,1
+Client account,Federation Asset Management Pty Ltd,1
+Client account,Cilento Australia Pty Ltd.,1
+Client account,Link Business Broking Ltd,1
+Client account,Nucleus Wealth Management,1
+Client account,Cordis Asset Management Pty Ltd,1
+Client account,"Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts",1
+Client account,"Shinewing Certified Public Accountants Co., Ltd.",1
+Client account,Liverpool Partners Shared Services Pty Ltd,1
+Client account,REA Group Limited,1
+Client account,PanAust Limited,1
+Client account,Ox Capital Management,1
+Client account,Delbridge Forensic Accounting Pty Limited,1
+Client account,ICA Partners,1
+Client account,Right Click Capital Management Pty Limited,1
+Client account,IAG Asset Management Limited,1
+Client account,Farmcove Investment Holdings,1
+Client account,Cuscal Limited,1
+Client account,New Zealand Superannuation Fund,1
+Client account,Sherpa Invest II SA PRICAF,1
+Client account,SD Worx NV,1
+Client account,Corestar Partners GmbH,1
+Client account,Montana Capital Partners AG,1
+Client account,Alatus Capital LLC,1
+Client account,"Guidepoint Global, LLC",1
+Client account,Lanvin Group Holdings Limited,1
+Client account,Welkin Capital Group Limited,1
+Client account,Resmed Pty. Ltd.,1
+Client account,Terrafirma GmbH,1
+Client account,Worldline Europe SA,1
+Client account,Worldline Australia Pty Ltd,1
+Client account,ArchiMed SAS,1
+Client account,Rexel Développement SAS,1
+Client account,Compagnie Financière Richemont SA,1
+Client account,Revaia SAS,1
+Client account,ORIX Asia Capital Limited,1
+Client account,Walkers (Cayman) LLP,1
+Client account,"Coleman Research Group, Inc.",1
+Client account,Sediment Capital Management LLC,1
+Client account,MI Test Account - 1,1
+Client account,Azuremount Partners Company Limited,1
+Client account,Darkhorse Capital Limited,1
+Client account,China Vered Asset Management (Hong Kong) Limited,1
+Client account,EmergeVest Limited,1
+Client account,Sun Life Financial Inc.,1
+Client account,Wellington Management Company LLP,1
+Client account,CoreView Capital Management Limited,1
+Client account,PT Lippo Karawaci Tbk,1
+Client account,MDI Ventures,1
+Client account,PT Mitra Pinasthika Mustika Tbk,1
+Client account,PT Bahana Securities,1
+Client account,"D. E. Shaw & Co., L.P.",1
+Client account,Quona Capital Management LLC,1
+Client account,IHS Markit Ltd.,1
+Client account,Accenture Financial Services Group,1
+Client account,International Business Machines Corporation,1
+Client account,"Targray Technology International, Inc.",1
+Client account,Translink Strempel & Co. S.r.l.,1
+Client account,Jordan Capital & Investment Fund Management Company,1
+Client account,AIBJ Inc.,1
+Client account,G-FAS Corporation,1
+Client account,Sysmex Corporation,1
+Client account,"Bain Capital, LP",1
+Client account,Copenhagen Infrastructure Partners P/S,1
+Client account,Luxempart,1
+Client account,Johor Corporation,1
+Client account,AFFIN Bank Berhad,1
+Client account,Edgenta First Sdn Bhd.,1
+Client account,Universiti Malaya,1
+Client account,AHAM Asset Management Berhad,1
+Client account,Hong Leong Bank Berhad,1
+Client account,AmBank Group,1
+Client account,Avedon Capital Partners,1
+Client account,2040 Ventures,1
+Client account,Fletcher Building Limited,1
+Client account,The University of Auckland,1
+Client account,Craigs Investment Partners Limited,1
+Client account,Alphaprimus Advisors Inc.,1
+Client account,"International Container Terminal Services, Inc.",1
+Client account,Security Bank Corporation,1
+Client account,"SIERRA MADRE ADVISERS, INC.",1
+Client account,PNB Capital and Investment Corporation,1
+Client account,Investment & Capital Corporation of the Philippines,1
+Client account,Habib Bank Limited,1
+Client account,National Industrialization Company,1
+Client account,Swedia Capital AB,1
+Client account,"Litorina IV, L.P.",1
+Client account,AB Max Sievert,1
+Client account,Nalka Invest AB,1
+Client account,Jardine Cycle & Carriage Limited,1
+Client account,Air8 Pte. Ltd.,1
+Client account,Nanofilm Technologies International Limited,1
+Client account,Greenfield Advisory Pte Ltd.,1
+Client account,JLB Alliance Pte. Ltd.,1
+Client account,"CFGI, LLC",1
+Client account,Asia Pacific Exchange Pte. Ltd.,1
+Client account,Saison International Pte. Ltd.,1
+Client account,Integra Venture Partners Pte. Ltd.,1
+Client account,RGE Pte. Ltd.,1
+Client account,Tamita Singapore Advisors Pte Ltd,1
+Client account,JERA Asia Pte. Ltd.,1
+Client account,Auric Pacific Group Limited,1
+Client account,Singapore Telecommunications Limited,1
+Client account,Vingroup Joint Stock Company,1
+Client account,Ontario Teachers' Pension Plan Board,1
+Client account,Mitsui & Co. (Asia Pacific) Pte. Ltd.,1
+Client account,Heliconia Capital Management Pte. Ltd.,1
+Client account,AIGF Advisors Pte. Ltd.,1
+Client account,Baker Tilly España S.L.,1
+Client account,SCB X Public Company Limited,1
+Client account,NTAsset (Cayman) Limited,1
+Client account,Krung Thai Bank Public Company Limited,1
+Client account,Saha Pathana Inter-Holding Public Company Limited,1
+Client account,Thai Beverage Public Company Limited,1
+Client account,Thai Union Group Public Company Limited,1
+Client account,KASIKORNBANK PUBLIC COMPANY LIMITED,1
+Client account,National Yang Ming Chiao Tung University,1
+Client account,Ardonagh Specialty Limited,1
+Client account,Dawn Capital LLP,1
+Client account,Cameron Barney LLP,1
+Client account,Terra Firma Capital Partners Limited,1
+Client account,Knaggs Limited,1
+Client account,Highstead Partners Limited,1
+Client account,Clifford Street Advisors LLP,1
+Client account,Telemos Capital Limited,1
+Client account,Europa Partners Limited,1
+Client account,Alpha Real Capital LLP,1
+Client account,Rianta Capital Zurich AG,1
+Client account,Bacchus Capital Advisers Limited,1
+Client account,Akira Partners LLP,1
+Client account,Exponent Private Equity LLP,1
+Client account,Px3 Partners Limited,1
+Client account,Nio Capital,1
+Client account,"TA Associates Management, L.P.",1
+Client account,Sullivan & Cromwell LLP,1
+Client account,Military Commercial Joint Stock Bank,1
+Client account,VinaCapital Investment Management Ltd,1
+Client account,Labuan Reinsurance (L) Ltd,1
+Client account,Bank Lombard Odier & Co Ltd,1
+Client account,Saudi Arabian Oil Company,1
+Client account,Bahrain National Holding Company B.S.C.,1
+Client account,Mamoura Diversified Global Holding PJSC,1
+Client account,Ronesans Holding Anonim Sirketi,1
+Client account,Bank One Limited,1
+Client account,Oman Investment Authority,1
+Client account,Oman National Investments Development Company SAOC,1
+Client account,Contango Management Consultancy LLC,1
+Client account,Metier Investment and Advisory Services Proprietary Limited,1
+Client account,Medu Capital,1
+Client account,ALAT Technologies Company,1
+Client account,Attijari Finances Corporate,1
+Client account,VY Capital Holding Company,1
+Client account,RisCura Holdings (Pty) Ltd,1
+Key workflow,Valuation and company analysis,146
+Key workflow,Product learning and navigation,27
+Key workflow,Screening and list building,25
+Key workflow,Unspecified,25
+Key workflow,M&A and transactions,17
+Key workflow,Market and news research,15
+Key workflow,Excel and office workflows,9
+Key workflow,Portfolio and investment monitoring,6
+Key workflow,Private markets,4
+Key workflow,"Credit, fixed income and capital markets",4
+Key workflow,Other,2
+Key workflow,Platform support and setup,2
+Key workflow,Business leadership and management,2
+Key workflow,Data and model integration,2
+Key workflow,Academic and educational research,1
+Key workflow,Metals and mining,1
+Key workflow,Alerts and dashboards,1
+Workflow challenge,Unspecified,203
+Workflow challenge,Data access and coverage,40
+Workflow challenge,Workflow complexity and efficiency,23
+Workflow challenge,Migration and integration,11
+Workflow challenge,Product adoption and learning,6
+Workflow challenge,Configuration and access,4
+Workflow challenge,Product usability and technical issues,2
+Solutions discussed,Helpful Links,38
+Solutions discussed,Financials,37
+Solutions discussed,Peer Comps,35
+Solutions discussed,User Profile and Display Information,33
+Solutions discussed,Help Page,32
+Solutions discussed,Platform Training Webinars,32
+Solutions discussed,S&P Capital IQ Pro Academy,32
+Solutions discussed,Transactions,28
+Solutions discussed,Dashboard,25
+Solutions discussed,Estimates,25
+Solutions discussed,Screener,22
+Solutions discussed,"Dashboards, Watchlists and Alerts",20
+Solutions discussed,Document Viewer,20
+Solutions discussed,Excel Plug In,19
+Solutions discussed,Preqin Data,13
+Solutions discussed,Alerts,11
+Solutions discussed,Company Profile,10
+Solutions discussed,Excel Plug-In,9
+Solutions discussed,News,7
+Solutions discussed,"Platform logistics (Login, Settings)",7
+Solutions discussed,Dashboards,6
+Solutions discussed,Brief Overview of Transactions,6
+Solutions discussed,Topic Tags and Market Maps,5
+Solutions discussed,Market Maps,4
+Solutions discussed,Document Intelligence,4
+Solutions discussed,Market Maps and Topic Tags,4
+Solutions discussed,Watchlist,4
+Solutions discussed,Sync Calendar,4
+Solutions discussed,CIQ Pro Platform Overview,4
+Solutions discussed,Watchlists,4
+Solutions discussed,Gave client a high level overview of the Capital IQ Pro Platforn,3
+Solutions discussed,AMR,3
+Solutions discussed,IQ Newsletter,3
+Solutions discussed,Corporate Profile,3
+Solutions discussed,"Brief overview of Fixed Income, Investors)",3
+Solutions discussed,Screening,3
+Solutions discussed,Gave the client a high level overview of the CIQ Pro Platform,3
+Solutions discussed,Geographic Intelligence,3
+Solutions discussed,Macroeconomic Data,3
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform,3
+Solutions discussed,Screener Tool,2
+Solutions discussed,Consensus Estimates,2
+Solutions discussed,IQ Newsletters,2
+Solutions discussed,Search,2
+Solutions discussed,Document Viewer and Sentiment Scores,2
+Solutions discussed,Excel Plug-in,2
+Solutions discussed,Chat IQ,2
+Solutions discussed,Report Builder,2
+Solutions discussed,"They use the database for company-specific (public market data, research, comps), industry-related research, and screening for companies and transactions. The client mentioned that most transactions they pull do not contain total transaction values and implied multiples. They also brought up the slowness of their desktop when the CIQ Pro Plug-in is installed",2
+Solutions discussed,Watch List,2
+Solutions discussed,CIQ Pro,2
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform as she is fairly new to it,2
+Solutions discussed,"Dashboards,",2
+Solutions discussed,Gave the client a high level overview of the platform and tailored it accordingly to the client's workflow,2
+Solutions discussed,Helpful Links Help Page Platform Training Webinars S&P Capital IQ Pro Academy 2.Dashboard,2
+Solutions discussed,Investment & Market Research,2
+Solutions discussed,Gave the team a high level overview of the Capital IQ Pro Platform,2
+Solutions discussed,"It was discussedhow each of the tools(screeening, watchlist) works and where they are located. Some examples were given for reference. Excel plug-in was also demonstrated",1
+Solutions discussed,Gave Saloni and Sameena a high level overview of the RatingsDirect platform on Capital IQ Pro,1
+Solutions discussed,The call was mainly to walk the client through how to use the screener and dashboard in pulling ratings data and in monitoring her portfolio of companies,1
+Solutions discussed,Gave Lang a high level overview of the Pro Platform. We also showcased the RatingsDirect platform to which he access to since he mainly looks at Ratings info as well,1
+Solutions discussed,Gave the client an overview of the platform and also tailored the session the key areas that she would like to focus on,1
+Solutions discussed,Gave the client an overview of the platform and also tailored the session the key areas that he would like to focus on,1
+Solutions discussed,Gave Gregory and Leila a high level overview of the Pro Platform. We also showcased the RatingsDirect platform to which they have access to as well,1
+Solutions discussed,Dashboard to track markets and entities,1
+Solutions discussed,"Corporate profile for due diligence and valuation (e.g. financials, peer comps, transactions)",1
+Solutions discussed,Market maps for more information on niche industries,1
+Solutions discussed,Screener to pull companies and transactions within the software space,1
+Solutions discussed,Pro plug-in to access relevant templates and pull information,1
+Solutions discussed,Screener display columns to find relevant data for the companies in his search,1
+Solutions discussed,Chart Builder annotations to select key developments and find the impacts on share price,1
+Solutions discussed,"Document intelligence to quickly find documents for an entity or based on a keyword. AI generated summary, key phrases, and ChatIQ would be useful to identify trends or pull more information",1
+Solutions discussed,Market maps to identify emerging or niche industries and find the deals and companies engaged in the space,1
+Solutions discussed,"Screener to pull public and private companies (with financials) in a particular industry/geography, and then import the list onto the Dashboard to stay up to date with movements",1
+Solutions discussed,"Corporate profile for company due diligence, key performance indicators, and peer comparison",1
+Solutions discussed,"Private Markets tab to gain insights in investors, investments, fundraising trends, etc",1
+Solutions discussed,"Research Library for proprietary research, and AMR for research from covered contributors",1
+Solutions discussed,Excel Plugin to make use of available models and have changes if needed,1
+Solutions discussed,Dashboards and User Display to set up and customize his data gathering and tracking,1
+Solutions discussed,Screener tool to find companies and transactions within a particular geography/industry,1
+Solutions discussed,Market Maps to find niche industries and relevant data,1
+Solutions discussed,Peer Comps and Transaction Comps to compare and benchmark,1
+Solutions discussed,"Transcripts to view company updates and make use of the Summary, Key Phrases, and ChatIQ tool",1
+Solutions discussed,Excel templates,1
+Solutions discussed,IQ Newsletters and Alerts,1
+Solutions discussed,to stay on top of market-moving news for specific regions/industries/lists. Document Intelligence,1
+Solutions discussed,"quickly access documents for entities or via a keyword search. AI-generated summaries, key trends, and ChatIQ can assist in easily pulling data and identifying trends. Save Templates on Transaction Screener",1
+Solutions discussed,"rather than having to add display columns manually, the templates can populate the transaction details quickly. Excel Plug-in",1
+Solutions discussed,"As mentioned, CIQ legacy formulas and templates will work on Pro. users can make use of new templates on CIQ Pro as well as the link to PPT feature to help with updating pitchbooks",1
+Solutions discussed,Dashboard to stay up to date with market and tracked entities,1
+Solutions discussed,"Company profile for due diligence (e.g. financials, estimates, filings, transactions)",1
+Solutions discussed,Peer Comps and Transaction Comps,1
+Solutions discussed,Country profile for macro data,1
+Solutions discussed,Screener to pull specific transactions and companies,1
+Solutions discussed,Excel plug-in to utilize formulas and templates,1
+Solutions discussed,Market Maps to find niche industry data,1
+Solutions discussed,AMR to access broker research,1
+Solutions discussed,"M&M Dashboard to stay on top of news, price movements, and activity within the industry",1
+Solutions discussed,Screener to pull specific companies that could be potential targets. The M&M Screener features can also help identify properties and analyze ownership data,1
+Solutions discussed,"Commodity Profiles to dive deep into a certain commodity and find data on cost curves, pricing, researching, and assumptions",1
+Solutions discussed,Corporate Profile to find company-level data and view M&M specific metrics,1
+Solutions discussed,Maps to find and analyze properties,1
+Solutions discussed,Excel Plug-in to export tables as formulas and provide relevant templates,1
+Solutions discussed,Metals & Mining tab,1
+Solutions discussed,"to access the commodity profiles and in-depth information filtered to his project focus (e.g. iron ore). For example, to find the mining properties dealing with iron ore. Company Profiles",1
+Solutions discussed,"to access auditable/transparent financials, M&M industry-specific datasets, transactions News",1
+Solutions discussed,to find movements within a particular industry/geography Screener,1
+Solutions discussed,to find companies/transactions within a particular industry/geography,1
+Solutions discussed,"We have discussed about the User Profile, Dashboard, Search Function, Corporate Profile, Peer Comps, Financials, Estimates, Ownership, Transaction and Transaction Comps. Moving forward, we do also have run a Screener and Excel Pro Plugin formula pull and show of prebuilt templates. The client commended how the plugin is very convenient to pull formulas and how our prebuilt templates are helpful as well. I have provided a segue of the financial modeling team's purpose. Apart from that, the Peer and Transaction Comps would be of help for the client to conveniently see the relevant companies and transactions to the respective bases instead of going through one by one. Similar to this, the audit data function for financials were deemed helpful as well by the client to address pain points",1
+Solutions discussed,to stay on top of news and performance of covered companies Company Profile,1
+Solutions discussed,"to access financials, peer comps, estimates, etc. AI-Generated Summaries/Chat IQ",1
+Solutions discussed,to easily find highlights within a document Excel Plugin,1
+Solutions discussed,shared a few formulas the user needed and shared we have a Modeling Team if he requires further edits,1
+Solutions discussed,"To find transactions within niche industries, the client can use the topic tags and business description criteria in case he can not find options under the typical CIQ/GICS criteria",1
+Solutions discussed,"To help with his analysis, the user can maximize our plugin templates (e.g. transaction templates) as well as our Modeling Team's support if he has further specifications",1
+Solutions discussed,"s tay up to date with the market and entities Corporate Profile – one page summary for company information. Peer Comps – pull peers based on an (adjustable) criteria set and quickly navigate through the columns to view the desired metrics and see how the base company’s performance is relative to peers Financials – houses the financial statements, multiples, and other financial information for due diligence/valuation Transactions – displays the company’s transactions in an aggregated or detailed layout Screener",1
+Solutions discussed,pull companies and transactions of interest and utilize the pivot tool to easily switch between screen types Excel Plug-in,1
+Solutions discussed,"formulas and templates can assist with valuations, while office tools can automate linking tables/photos to presentation materials",1
+Solutions discussed,Transaction Screener and Company Screener,1
+Solutions discussed,"The user can input the criteria set he wishes such as transaction value, transaction valuation, etc. To pull data for niche industries, the client can make use of topic tags or business description criteria to specify to drill down an industry",1
+Solutions discussed,User can export the data onto Excel for further analysis,1
+Solutions discussed,find niche industries along with the deals and companies that fall under the categories. Documents,1
+Solutions discussed,"find and analyze documents via AI-generated summaries, chatiq, and key phrases Export As Formulas (Financials)",1
+Solutions discussed,"as it was difficult for the user to pull large datasets with single formulas, this tool can assist in automating the workflow",1
+Solutions discussed,to stay on top of markets and entities tracked. Market Maps,1
+Solutions discussed,to identify and view deal/company data for niche industries within the health care sector. News,1
+Solutions discussed,IQ Newsletters to stay informed of market-moving news at the start and end of the day. Corporate Profile,1
+Solutions discussed,to assist in due diligence and valuation tasks of the client. Excel Templates,1
+Solutions discussed,"models can be edited/created by the in-house FM team, or the user can utilize the valuation templates in our library",1
+Solutions discussed,To identify companies within a specific industry and geography Document Viewer,1
+Solutions discussed,"To easily export tables/data, find companies mentioned within a report, and make use of AI-generated summaries Alerts",1
+Solutions discussed,To stay on top on market-moving news or actions Peer Comps,1
+Solutions discussed,To do peer analysis based on their specific peer criteria Excel Plugin,1
+Solutions discussed,To automate their Excel workflow and make use of templates/in-house Modeling Team,1
+Solutions discussed,Market maps,1
+Solutions discussed,to look into deals and companies that fall within niche industries he tracks (e.g. renewables) Company profile,1
+Solutions discussed,enhancement of adjustable peer comps and AI-generated summaries for earnings calls Screener,1
+Solutions discussed,"enhancement of exporting his analysis as either values or formulas, as well as the ability to pivot into a transaction screen Plug-in",1
+Solutions discussed,"for data gathering and analysis, as well as models (e.g. valuation)",1
+Solutions discussed,The user can pull companies belonging to a specific geography and industry for his analysis,1
+Solutions discussed,The user can find M&As within a specific geography and industry Transactions/Private Equity Tab,1
+Solutions discussed,"In this tab, the user can easily find recent transactions and transaction statistics News",1
+Solutions discussed,"The user can visit several topics under the News tab, such as the M&As topic to stay up to date with any movements",1
+Solutions discussed,To be notified of movement/news around Australia and New Zealand News,1
+Solutions discussed,"To track regulatory, sustainability, and recap articles Corporate Profile",1
+Solutions discussed,"Analyze company-level market data, financials, and peers Doc Viewer",1
+Solutions discussed,AI-summary to help save time when understanding earnings calls Market Maps,1
+Solutions discussed,"To dive into niche industries, especially those that fit their 'impact investing' strategy. Screener",1
+Solutions discussed,Pull specific companies and transactions Plug-in,1
+Solutions discussed,Directly pull data onto Excel and make use of pre-built templates,1
+Solutions discussed,"Dashboard to stay up to date with the market, REA's existing investments/portfolio, and potential targets",1
+Solutions discussed,News to keep up with market-moving activity in his geographic coverage,1
+Solutions discussed,Market maps (such as Real Estate Technology and Consumer Lending) to identify target companies in niche industries,1
+Solutions discussed,Screening Tool to analyze M&As and find companies within a particular industry,1
+Solutions discussed,"Corporate Profile to conduct due diligence (e.g. company financials, transactions, etc)",1
+Solutions discussed,Editable navigation,1
+Solutions discussed,user can add the Metals & Mining menu item to reach industry-specific data sets Metals & Mining Home,1
+Solutions discussed,to stay up to date with industry news and easily find the prices of the commodities she tracks Commodity Profile,1
+Solutions discussed,"dive deep into a certain commodity via the commodity profile. Within this space, she can find the latest price, charts, future contracts, and pricing estimates via the menu Excel Plugin",1
+Solutions discussed,user is a heavy Excel user and can make use of the M&M templates to easily refresh pricing/estimate data for commodities,1
+Solutions discussed,"Basic walkthrough, focused more on transactions",1
+Solutions discussed,"Discussed with the client how to find beta on the profile of a company. The charting tool to chart the beta. The peer comps tool, the screening tool as well as the excel plug-in",1
+Solutions discussed,"Dashboard, Excel Plug-in, Screener",1
+Solutions discussed,"Discussed the overview of the S&P Capital IQ Pro Platform and focused on screening reports within industries, screening for enterprise value, EBIT, EBITDA and associated multiples. Also, gave a walkthrough about peer analysis, M&A transactions in industries, and the multiples page",1
+Solutions discussed,CIQ Pro plug-in was introduced to the client to help pull the data easily and share relevant pre-made templates,1
+Solutions discussed,"We touched base on the dashboard, the company data such as financials, transactions, estimates, peer comps, transaction comps, company and transactions screening, and the dashboard",1
+Solutions discussed,Discussed the following Watch Lists Company Profiles Financials Estimates Transactions Peer Comps Screening Commodities CIQ Pro Excel plug-in,1
+Solutions discussed,"Gave Vitthuran a high level of the Capital IQ Pro platform. ESG product specialist, Matthew Pirrottina also joined the call and showcased our ESG offering which the client currently don't have access to but is interested in",1
+Solutions discussed,"Showed the client where to get industry research, news articles, market data for rates and yields, how to screen for securities and create a watchlist",1
+Solutions discussed,Gave a Suzanne a high level overview of the RatingsDirect Platform on Capital IQ Pro tailored to her workflow,1
+Solutions discussed,The client can use the Screener tool to pull Australia-based or listed companies and display the metrics he requires,1
+Solutions discussed,The companies and list import feature allows the client to work on the companies he already listed via the List tool,1
+Solutions discussed,The export options such as individual formulas or SNL Table could help the client input and expand the formulas in a more efficient manner,1
+Solutions discussed,Idea Generation screens under the Investment Management segment may be helpful in case the client would like to discover pre-built screens,1
+Solutions discussed,"Kat haven't used the platform that much yet and is fairly new to it so Josh ran the call where he showcased the functionalities and datasets available tailored to Kat's workflow. The following functionalities were discussed: Dashboard, List, Alerts, RD dataset, RD on Corp. Profile, Securities, Corporate Issuance, Securities Screening, and Country Profile",1
+Solutions discussed,Nathan is fairly new to the platform so I gave him a high level overview of the CIQ Pro platform where I showcased functionalities that can be useful to his workflow,1
+Solutions discussed,"John assisted the client with his screening concerns. However, the client was not satisfied with the results hence, we will still have a followed up meeting",1
+Solutions discussed,Platform Training Webinars ii. S&P Capital IQ Pro Academy iii. Help Page,1
+Solutions discussed,Private Markets,1
+Solutions discussed,new Energy group on the Market Maps,1
+Solutions discussed,Dashboard Templates,1
+Solutions discussed,Earnings Call Transcript Summarization,1
+Solutions discussed,Fixed Income,1
+Solutions discussed,We have discussed below points Company Profile Company Search Corporate Tree Quick Comps People data set,1
+Solutions discussed,The topics discussed during the demo were as follows: Dashboard Corporate Profile Peer Comps Financials Fixed Income Transactions Transcripts & Investor Presentations (for the AI Summary) Screener Excel Plug-in Chart Builder Labs,1
+Solutions discussed,"We went through the following functions during the demo: Dashboard Company Profile Corporate Profile page Financials News, Events & Filings Transactions Corporate Issuance News Research Screener Excel Plug-in & Templates",1
+Solutions discussed,"for due diligence and access to financials, estimates, peer comps Transaction Comps",1
+Solutions discussed,to easily pull transaction compts and display relevant metrics he can also reuse for other sets Transaction Statistics,1
+Solutions discussed,to quickly pull M&A activity based on his applied filters Excel Plugin,1
+Solutions discussed,"shared that for his existing legacy models, he would not need to have them converted Market Maps",1
+Solutions discussed,to find transaction activity and company information within niche industries AMR,1
+Solutions discussed,to find reports by company or boolean search,1
+Solutions discussed,Misha discussed the company's renewal,1
+Solutions discussed,"Help Page, Platform Training Webinars, S&P Capital IQ Pro Academy",1
+Solutions discussed,Excel Plug In 10.Preqin Data,1
+Solutions discussed,Research,1
+Solutions discussed,Excel Template Library,1
+Solutions discussed,Template Library,1
+Solutions discussed,Identifier Converter: If you want to pull a list of ticker names or IDs of specific entities. (I also attached the file for your convenience),1
+Solutions discussed,This allows you to pull data from the vast datasets on the platform. It will enable you to refine the universe of different screen types to a subset that interests you. Each screen type describes the results you will see in that screen type,1
+Solutions discussed,Idea Generation Screen – Pre-built Screen made by our specialist,1
+Solutions discussed,Company profile Screener Excel,1
+Solutions discussed,"This demo session served more as a refresher for the client about the many functions that CIQ offers. The topics covered were as follows: Company Profile (Financials, Estimates, Quick Comps, Fixed Income, Transactions, Investors, Investments) Research Screening Excel Plug-in (Formulas and Templates)",1
+Solutions discussed,"I went over these functions related to CIQ during the demo. Company Profile Page ( Financials , Filings , Estimates, etc.) Research Tab Screening (Companies) Capital IQ Excel Plug-in (Formulas and Templates) The bolded ones seemed to be more important to Stacey, who asked multiple questions related to them during the call",1
+Solutions discussed,"Dashboard Profile Company Profile Financials Estimates News, Events & Filings Transactions Search Bar Lists Alerts Screen Excel Plug-in Templates Help site",1
+Solutions discussed,"Discussed all the new features in Pro (Dashboards & Widgets, Sharing Access, Dark mode, Topic Tags, Market Maps, New Search Experience, News Recaps, Screener)",1
+Solutions discussed,"The functions that were discussed during the demo are as follows: Dashboard Search Corporate Profile Peer Comps Financials Estimates Corporate Issuance News, Events & Filings Transactions Ownership Investments Investment & Market Research Screener News Excel Plug-in",1
+Solutions discussed,"recent releases, screener, excel",1
+Solutions discussed,24/7 Support for urgent assistance,1
+Solutions discussed,Dashboard widgets and broadcast feature to stay up to date with the market and his list of companies,1
+Solutions discussed,Screening Tool to find deals and unicorn companies conveniently,1
+Solutions discussed,"Private Equity tab to view fundraising, AUM, and dry powder trends",1
+Solutions discussed,Export functions and Excel Plugin to assist in building/enhancing his models for valuation,1
+Solutions discussed,Market Maps to find companies and transactions relating to niche industries (e.g. GenAI),1
+Solutions discussed,Research and Alerts as he actively tracks broker reports and movement,1
+Solutions discussed,Corporate Profile for due diligence and in-depth company financials,1
+Solutions discussed,Topics that were discussed during the demo are as follows: General Functions Search Corporate Profile Financials Fixed Income Profile Transactions Transcripts & Investor Presentations Investment and Market Research News CIQ Pro Excel Plug-in Newest Enhancements Fixed Income Update (GSAC) Earning Calls Transcripts Summaries (Generative AI) Ratio Breakdown in Transactions,1
+Solutions discussed,Customizable Navigation,1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Customizable-Navigation-on-CIQ-Pro Organize content and capabilities in the top menu to personalize your navigation experience with the S&P Capital IQ Pro platform. This functionality enables quick and easy access to relevant and tailored content that aligns to your workflows. While the default navigation aligns with selected industry focus, the top menu display can be modified to accommodate individual preferences. Dashboards",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Dashboards The S&P Capital IQ Pro Dashboard application is meant to serve as an informational tool that can quickly provide data that is constantly changing in the global markets. The Dashboard is a fully customizable application, and provides you with the tools to create a solution that is meaningful to your workflow and helps with market monitoring. Creating Watch Lists",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Creating-List-of-Companies-or-Assets-using-My-Lists-on-MI Static lists are usable in Screener criteria, on the dashboard, in alert creation, in the chart builder, and across many other tools on the platform. When added to the Chart Builder, static lists are only able to uploaded as a custom index and cannot be charted as independent entities. Dynamic lists are purely generated by saving Screener results but cannot be used on any tools in the platform due to the nature of their potentially varying outcome of entities due to data being updated. Alerts",1
+Solutions discussed,"https://spglobal.my.site.com/s/article/MI-Alerts-Help You can create alerts on companies and other entities so that they receive notifications on new or updated News, Key Developments, Filings and Annual Reports, Activity Logs, Events Calendar, Transcripts, RatingsDirect Acitons, RatingsDirect Credit Research, and Stock Price. Financials",1
+Solutions discussed,https://spglobal.my.site.com/s/article/MI-Financials-Templated Templated financial data on the S&P Capital IQ Pro platform is data that has been standardized across all of our covered companies so that you can conduct an apples-to-apples analysis of their financial and operational performance. Estimates,1
+Solutions discussed,https://spglobal.my.site.com/s/article/Earnings-Estimates S&P Capital IQ Estimates standardize the contributing broker's recommendation scales into a five-point range whereby one represents the strongest possible recommendation and five the weakest. Screening,1
+Solutions discussed,"https://spglobal.my.site.com/s/article/MI-Screener S&P Capital IQ Pro's Screening tool has thousands of criteria that you can use to refine the universe of Companies, Transactions, Key Developments, Securities and more. Excel",1
+Solutions discussed,https://spglobal.my.site.com/s/article/MI-Office-HomePage The S&P Cap IQ Pro Office plug-in is a significant upgrade to the Excel Add-in and allows you to pull data directly from our databases into a Microsoft Excel workbook using a modern user interface. Report Builder,1
+Solutions discussed,"https://spglobal.my.site.com/s/article/Report-Builder The new Report Builder tool allows you to build customized Company or Asset reports with data from the S&P Capital IQ Pro platform. Events Calendar- https://spglobal.my.site.com/s/article/Events-Calendar The S&P Capital IQ Pro platform Events Calendar allows you to see at a glance a comprehensive listing of earnings releases, company meetings, industry conferences and other events occurring in your selected industry or industries. Chart Builder- https://spglobal.my.site.com/s/article/MI-Chart-Builder",1
+Solutions discussed,Discussed the following topics during the enhancement demo: Fixed Income Update (GSAC) Transcripts Summaries (Generative AI) Ratio Breakdown in Transactions Events Calendar Market Maps Labs,1
+Solutions discussed,New releases on month of June and July of 2024,1
+Solutions discussed,Gave Dorothea a high level overview of the CIQ Pro platform tailored to her workflow,1
+Solutions discussed,Discussed platform functionalities and enhancements relevant to Desmond's workflow,1
+Solutions discussed,"The following parts of the CIQ Pro platform were discussed: Dashboard (Real time News and Filings Widget) Estimates and Broker Reports News, Events, and Filings section Investment and Market Research CIQ Pro plug-in and Excel templates",1
+Solutions discussed,The session was focused on showing Fakhrul how to create a dashboard on Capital IQ Pro to monitor their investments. He is also keen in understanding how the Portfolio Analytics Tool work,1
+Solutions discussed,Capital IQ Pro Plug-in can be used regardless if the formula or template is using legacy or Pro formulas,1
+Solutions discussed,Capital IQ Pro Plug-in has office tools to help link pitchbooks with the working sheets,1
+Solutions discussed,Capital IQ Pro can provide a larger coverage of companies and more industry-specific data,1
+Solutions discussed,Market Maps could be useful when looking into the 8 categories they cover as well as potential categories they'd like to look into,1
+Solutions discussed,Lists,1
+Solutions discussed,to create list of entities and easily use it throughout the dashboard and screener to track metrics Screener,1
+Solutions discussed,to identify the companies within industries/geographies and display metrics for analysis Charting,1
+Solutions discussed,the tool can assist in plotting multiple companies and entities and can make use of the additional tools to customize,1
+Solutions discussed,The client can easily find and analyze filings based on an entity or key word search ChatIQ,1
+Solutions discussed,The client can utilize ChatIQ within Document Intelligence to gain answers to questions regarding the document. Also mentioned that a separate ChatIQ tool for general data is in the pipeline. New Templates,1
+Solutions discussed,"The client can make use of the new templates (e.g. financial highlights with VA data) to further support their workflow. In case any edits are required, the FM team can assist",1
+Solutions discussed,Corporate profile,1
+Solutions discussed,"For due diligence and accessing information on financials, transactions, peers, and filings ESG",1
+Solutions discussed,"As the account is not subscribed to ESG data, the user can utilize ESG Home to view ESG statistics, research, and news Screener",1
+Solutions discussed,To pull M&As within a particular region/industry and view metrics fitting to her analysis News,1
+Solutions discussed,To stay on top of developments within M&As or geographies/industries of interest Excel Plug-in,1
+Solutions discussed,For easy population of data via templates,1
+Solutions discussed,to track her portfolio and target companies Company Profile,1
+Solutions discussed,"to conduct her due diligence and analyze the company's performance (eg. financials, estimates, filings, peers comparison) Screener",1
+Solutions discussed,to pull targets or transactions from a particular region or sector. idea generation can also be utilized Chart Builder,1
+Solutions discussed,to analyze data on a particular time horizon and help in creating presentations Plugin,1
+Solutions discussed,pull data directly onto Excel and utlize models (e.g. valuation) Market Maps,1
+Solutions discussed,to dive deeper into niche industries,1
+Solutions discussed,stay up to date with the market and entities he tracks Corporate Profile,1
+Solutions discussed,"for due diligence on companies (e.g. peer comps, financials, multiples, estimates, transactions) Market Maps",1
+Solutions discussed,to find deals and companies within niche industries Screener,1
+Solutions discussed,to find companies and transactions that fall under a certain industry/geography for analysis Plug-in,1
+Solutions discussed,"to directly pull data on Excel and make use of templates (e.g. valuation, comps)",1
+Solutions discussed,"Dashboard Stay up to date with the market and entities the user tracks. Market Maps Dive into niche industries and find deals and companies that fall within the space. News Utilize Newsletters & Recaps and IQ Newsletters for a summary of market-moving news. Corporate Profile Peer Comps – Pulls list of comps based on criteria set that is adjustable. Financials – We have templated (standardized) and as-reported financials available. Transactions – We have aggregated and detailed transaction data. News, Events, and Filings – For Earnings Calls under the Transcripts & Investor Presentations section, AI-generated summaries are available at the top of the document. ﻿ Screener Pull entities (e.g. companies, transactions) that fit within the criteria set. Capital IQ Pro Plug-in Directly pull data onto Excel via single formulas or templates",1
+Solutions discussed,Hargundeep is fairly new to the platform so I gave him a high level overview of the functionalities he can mainly use in his workflow,1
+Solutions discussed,Watchlists and Alerts,1
+Solutions discussed,AI driven features,1
+Solutions discussed,Watchlists: (see image below to create these),1
+Solutions discussed,Alerts: (see image below to create these),1
+Solutions discussed,Installing Plug-In on Mac,1
+Solutions discussed,Capital IQ (Legacy) Financials/Valuations Estimates Fixed Income Datasets Screening Excel Plug-in Government Debt Market Data CIQ Pro Financials/Valuations Estimates Fixed Income Datasets Screening Excel Plug-in (Fixed Income Templates) Rates& Yields Loans / Loans Sector,1
+Solutions discussed,Gave an overview of the CIQ Excel plug-in and Screening tool,1
+Solutions discussed,"Transaction Screening, Transaction Comps, Market Maps",1
+Solutions discussed,"Dashboard, Alerts, Research, News, Company Profile, Search, Estimates, Transactions, Screener, Excel Plug-in, templates",1
+Solutions discussed,Editable navigation and widgets allowed him to customize his platform. Search functionality to help him easily navigate through the platform. News recaps and filters to assist in finding relevant information. Screening tool to input criteria and find a list of relevant companies and Peer Comps,1
+Solutions discussed,Jon identified what are the issues they were experiencing on their end,1
+Solutions discussed,Suggested recreating all screens,1
+Solutions discussed,All Follow-up concerns about Find Buyers ( adding an entity on the Find Buyers and including revenue filters for the buyer on pro) were answered vi email,1
+Solutions discussed,Escalated the tech issue to the IT Team,1
+Solutions discussed,June-July 2024 Enhancement,1
+Solutions discussed,The transactions screener tool can help the client pull transactions within a particular industry/geography,1
+Solutions discussed,"The transaction screener templates can easily populate the transaction details. Alternatively, display columns can also be added if the user has valuation metrics in mind",1
+Solutions discussed,User can save the screen or export onto Excel,1
+Solutions discussed,Transaction deal profiles to find deal information and valuation,1
+Solutions discussed,"Dashboard The Dashboard helps the user stay up to date with the market and entities tracked. News News articles are sorted by sector or topic. We also have the Newsletters & Recaps and IQ Newsletters functions. Corporate Profile Deep dive into a company through the Corporate Profile. Chart Builder Create different types of charts (e.g., column, line) for a set of metrics and entities. Screener The Screener tool allows the user to pull a list of entities (transactions, companies, etc.) based on the criteria set you input. We also have the Idea Generation Screens, which is a library of ready-made screens. S&P Capital IQ Pro Office Our data can be pulled on Excel via single formulas or models available in the template library",1
+Solutions discussed,Users can stay up to date with the market and companies they track,1
+Solutions discussed,There is a Health Care Dashboard template available that is fitting to their workflow News,1
+Solutions discussed,Users can find articles focused on the Real Estate Sector as well as recaps on the APAC market Corporate Profile,1
+Solutions discussed,Pulls health care comps with adjustable criteria,1
+Solutions discussed,News Events Filings,1
+Solutions discussed,"Earnings calls have AI-generated summaries Plug-in Users can pull data via formulas or templates (peer analysis, tearsheets, etc)",1
+Solutions discussed,"Discussed company profiles, financials, estimates, transactions, securities summary, screener, and Office plug-in",1
+Solutions discussed,Dashboard Corporate Profile Financials Data Excel Plug-in,1
+Solutions discussed,Gave the users a high level overview of the platform tailored to their workflow,1
+Solutions discussed,"Mastura didn't have that much use case for the Capital IQ Pro Platform since she just mainly look after the Scorecards data that is being provided by S&P but since she heavily uses Excel as part of her workflow, I just showcased the Excel Plug-In tool that she can leverage if needed",1
+Solutions discussed,Dashboard to stay on top of markets and tracked entities,1
+Solutions discussed,Research library for outlook articles,1
+Solutions discussed,Company profile for due diligence and peer comps,1
+Solutions discussed,Screener to identify companies within a particular region and geography,1
+Solutions discussed,Transactions & Private Markets tab to find a list of investors based on their investment preferences,1
+Solutions discussed,Excel plug-in to directly pull data onto Excel and make use of templates,1
+Solutions discussed,The multi-year options would need to be approved by the pricing team,1
+Solutions discussed,"Dashboard To stay up to date with the markets and entities (portfolio companies) the user track. Transactions & Private Markets tab Provides data on Private Market Investments, Investors, Private Capital Benchmarks, and more. Corporate Profile Deep dive into a Corporate Profile to find financials, estimates, transactions, etc. Market Maps Find niche and emerging industries (e.g. decentralized finance, digital asset management) and view fundraising/transaction trends and companies engaged in the space. Screener This can be used to identify target companies or analyze a particular industry/geography. Excel Plugin Allows user to pull data directly onto Excel via single formulas or templates (valuation, peer analysis, etc.)",1
+Solutions discussed,"Guided the client on how to screen for public companies in software industry, located in Japan. Also guided the client how to download the Excel Plug-in",1
+Solutions discussed,Gave the AHAM team a high level overview of the CIQ Pro & RD Platform. I was also joined by Serafin (RM of the account) as well as Natalie Liu from Business Development team in the call as the team is currently under trial access for the full desktop page (full CIQ Pro capabilities),1
+Solutions discussed,Gave Vivi and Vicky a high level overview of the Capital IQ Pro Platform tailored to their workflow,1
+Solutions discussed,Julaine is fairly new to the platform so I gave her a high level overview of the platform which I tailored to her workflow,1
+Solutions discussed,"Document Intelligence to quickly find reports and utilize the key phrases, summary, and ChatIQ functions ChatIQ is in the pipeline but can be useful to quickly pulling information Market Maps helps identify niche and emerging industries, along with the deal and company lists Peer Comps allows the user to manipulate the data so he can pull the relevant peers Screener can be another tool to utilize when finding companies within a particular industry and geography Mentioned that the Private Company Financials sources include company sources, registries, and feed vendors",1
+Solutions discussed,The IQ Newsletters and Recaps function can help the client stay up to date with market-moving news Peer Comps,1
+Solutions discussed,"The client was manually pulling peers and their metrics, so the Peer Comps tool would be useful if he wants to automate his workflow Excel Templates",1
+Solutions discussed,"Since the client was having difficulty with finding metrics, the template 'Formula Reference Guide' would help the client navigate through the options. In addition, the FM team can help with template edits/creation Chart Builder Beta",1
+Solutions discussed,Automatically create a chart from templates and export the data onto Excel for further analysis,1
+Solutions discussed,"Macro data (M&A, PE, Country profile)",1
+Solutions discussed,"Company profiles (financials, capital structure, brokers' estimates, etc)",1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro platform tailored to his workflow. Joshua (RM) also showcased the Portfolio Analytics tool as the client have access to this as well,1
+Solutions discussed,Started the demo with our editable dashboards and showed the client how we can integrate our own set of comps on the dashboard. Proceeded with discussing company profile functionalities such as financials and stock chart. Guided the client on how to use the screening tool and how to download the CIQ Pro Plug-In and templates,1
+Solutions discussed,Gave the team a high level overview of the CIQ Pro Platform,1
+Solutions discussed,Discussed CIQ,1
+Solutions discussed,Stay up to date with market and entities,1
+Solutions discussed,User can make use of the healthcare dashboard template Corporate Profile,1
+Solutions discussed,Due diligence,1
+Solutions discussed,Peer Comps analysis to do valuations Screener,1
+Solutions discussed,Pull companies and transactions within a particular industry/geography,1
+Solutions discussed,Screener templates to easily populate data for analysis or valuations News,1
+Solutions discussed,To stay up to date with movements in a particular region/industry Market Maps,1
+Solutions discussed,Dive deeper into niche industries within the Health and Life blanket Excel Plugin,1
+Solutions discussed,"The user can utilize the DCF template or other relevant templates, and have models created/edited by FM",1
+Solutions discussed,Company coverage,1
+Solutions discussed,"Company profile (peer comps, financials, estimates, transactions)",1
+Solutions discussed,Country profile (historical and forecasted macro data),1
+Solutions discussed,Market maps to dive into niche industries,1
+Solutions discussed,Screener to pull companies/transactions based on a particular industry,1
+Solutions discussed,Charting to analyze movement and assist in creating visualization tools,1
+Solutions discussed,Document viewer to find/view documents and make use of AI-generated summaries,1
+Solutions discussed,"Showed and discussed company data, financials, estimates, ownership, transactions, news, alerts, research, dashboard, screener, peer comps, transaction comps, CIQ Pro excel plug in (Template library)",1
+Solutions discussed,Dashboard News Alerts Fundamentals Estimates Screner,1
+Solutions discussed,Corporate profile to view company-level financials and market data,1
+Solutions discussed,Peer Comps to analyze industry performance and trends,1
+Solutions discussed,Market tab (Market maps and Sectors) to find information on emerging trends and stay up to date with developments within the industries,1
+Solutions discussed,Chart Builder to easily create different types of charts for their presentations,1
+Solutions discussed,Overview of the plugin templates for valuation and the linking functionality for PPT,1
+Solutions discussed,watchlist and alerts Company Profile,1
+Solutions discussed,Financials and Transactions Screening Tool,1
+Solutions discussed,"Corporate Profile, Peer comps, report builder, screener",1
+Solutions discussed,Gave the team a high level overview of the CIQ Pro platform tailored to the team's workflow,1
+Solutions discussed,Corporate Profiles Peer Comps Chart Builder Company/Transaction Screener Country Profiles (Historical/Forecast demographic data) Currency Exchange Rates Downloading the Capital IQ Pro Plug-in,1
+Solutions discussed,Gave Christopher an overview of the Capital IQ Pro Platform and tailored it to his workflow,1
+Solutions discussed,Gave Colin and JM a high level overview of the Capital IQ Pro platform,1
+Solutions discussed,Gave TJ an overview of the Capital IQ Pro Platform and tailored it to her workflow,1
+Solutions discussed,"Gave the team a high level overview of the platform tailored to their workflow. I discussed tool like the Dashboard, Company & Country Profile, Monitoring Tools, News, and Screener",1
+Solutions discussed,Financial information for public and private companies Screening Tool CIQ Pro excel plug-in,1
+Solutions discussed,Gave Ualikhan and Ivy an overview of the Capital IQ Pro Platform since they both haven't used the Pro version of the platform yet and tailored it to their workflow,1
+Solutions discussed,Gave Cecilia an overview of the Capital IQ Pro Platform since she hasn't used the Pro version of the platform yet and tailored it to her workflow,1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform as he is fairly new to it,1
+Solutions discussed,Gave Justin a high level overview of the CIQ Pro Platform tailored to his workflow,1
+Solutions discussed,Gave Shayne a high level overview of the Capital IQ Pro Platform since he is fairly new and tailored it to his workflow,1
+Solutions discussed,Gave Gabrielle a high level overview of the platform since she is fairly new and it is her first time using it,1
+Solutions discussed,Gave Ken and Camille an overview of the Capital IQ Pro Platform. I also specifically discussed the companies screener tool as per Ken's requirement as he mainly does peer analysis and is keen into pulling financial data on a set of companies as well,1
+Solutions discussed,"Main focus of the call is to show the client how to customize dashboard, where to get news and how to set up alerts",1
+Solutions discussed,Gave the team a high level overview of the Capital IQ Pro Platform & Excel Plug-In,1
+Solutions discussed,Report Builder 13.Preqin Data,1
+Solutions discussed,User Profile and Display information,1
+Solutions discussed,Transactions Comps,1
+Solutions discussed,Peer Comps 6 Screener,1
+Solutions discussed,Gave the client a high level overview of the Excel Plug-In and tailored it accordingly to the client's workflow,1
+Solutions discussed,CIQ Pro walkthrough,1
+Solutions discussed,Discussed the followin pages of CIQ Watch Lists Alerts Financials Quick Comps Screener Investment Research,1
+Solutions discussed,"I discussed the basic monitoring tool. which is the dashboard. Moreover, I discussed the new enhnacements in our marcroeconomic data which are PMI and Country Risk Scores. I also discussed the company profile and financials. Laslty, I discussed the screening and excel tool",1
+Solutions discussed,"Yourim provided a Credit Analytics overview, touching on the risk information we have available. She touched on the three models the client can use, (e.g. PD Fundamental, Credit Model) depending on the use-case",1
+Solutions discussed,"On the Capital IQ Pro side, the company profile would be useful for due diligence and access to financials. Screener can also assist in finding companies within a particular industry/geography of focus. Excel Plug-in could be useful for client to pull data directly onto Excel as well as the templates",1
+Solutions discussed,to track movements within a geography/interest Corporate Profile,1
+Solutions discussed,to conduct peer comps and analyze company-level data Country Profiles,1
+Solutions discussed,to pull macro data Market Maps,1
+Solutions discussed,to identify niche industries Document Intelligence,1
+Solutions discussed,to quickly find and analyze documents based on filters Screener,1
+Solutions discussed,pull a list of companies/transactions within a specific region/industry Plug-in,1
+Solutions discussed,to directly pull data onto Excel and utilize models,1
+Solutions discussed,Quickly find documents of a company/companies or via a kay word search. Keyphrases will help in identifying trends. ChatIQ and the Summary could help save time and pull the data relevant to the user. Market Maps,1
+Solutions discussed,Identify and analyze niche ior emerging industries Peer Comps,1
+Solutions discussed,"Emphasized that on Pro, the peer criteria can be manipulated Excel Plugin",1
+Solutions discussed,"Shared that we have new templates in the library and that an in-house modeling team can assist with conversion, edits, and creations",1
+Solutions discussed,"for due diligence and access to financials, peer comps, etc. Market Maps",1
+Solutions discussed,"to find a list of nice industries and pull data on deals, activity, and companies engaged Screener",1
+Solutions discussed,to pull and analyze a list of companies within an industry/geography as well as quickly pivot into a transaction screen Chart Builder,1
+Solutions discussed,to easily plot and compare metrics across entities,1
+Solutions discussed,Markets Tab,1
+Solutions discussed,"to find data on exchange rates, yields, geographies, and sectors Corporate Profile",1
+Solutions discussed,"for due diligence and access to financials, peer comps, estimates, and transactions Screener",1
+Solutions discussed,to pull transactions in a particular geography/industry Excel Plugin,1
+Solutions discussed,to directly pull data onto Excel via formulas or templates Chart Builder,1
+Solutions discussed,to plot entities and metrics of choice,1
+Solutions discussed,"Features such as Lists, Alerts, Screening, and Office tools was discussed to help the client keep track of preferred companies and necessary data. Audit data/click throughs was also discussed to easily check the sources",1
+Solutions discussed,"to track market and entities, including fx/crypto News",1
+Solutions discussed,utilize recaps and newsletters to stay up to date with market-moving news Company profile,1
+Solutions discussed,for due diligence Screener,1
+Solutions discussed,to pull lists of companies or transactions within a criteria. idea generation screens also have credit rating options. Plugin,1
+Solutions discussed,to utilize models for risk and credit ratings,1
+Solutions discussed,financials,1
+Solutions discussed,peer comps,1
+Solutions discussed,adjustable criteria and ability to create a peer report for specific metrics,1
+Solutions discussed,transactions,1
+Solutions discussed,estimates to view consensus data and audit to find the included contributors,1
+Solutions discussed,"news, events, filings to view recent news",1
+Solutions discussed,"stock chart to find market data and include the annnotations of choice Dashboard To stay on top of market data, financials, and news for a list of companies Screener To find companies within a particular geography/sector as well as transactions Market Maps To dive into niche industries and view the deals and companies in the category Excel Plugin To pull data directly onto Excel and make use of templates (valuation, peer comps)",1
+Solutions discussed,Dashboard to stay up to date with markets and entities tracked,1
+Solutions discussed,"Corporate Profile (adjustable peer comps to find peers aligned to her study, financials, transactions)",1
+Solutions discussed,Market maps to dive deep into niche industries such as fintech,1
+Solutions discussed,Screener to pull companies in a particular geography and industry,1
+Solutions discussed,Plug-in to pull public and private company data directly onto Excel,1
+Solutions discussed,Editable Navigation Users can click ‘Edit’ to sort the menu items as well as add additional menu items (in his case the Real Estate tab) Market Maps Discover and view niche industries. Company Profile,1
+Solutions discussed,Peer Comps – To pull peers based on a custom criteria set and view the desired metrics,1
+Solutions discussed,"News, Events and Filings – For earnings call transcripts, AI-generated summaries can provide quick insights. Excel Plug-in User rarely creates models, so the template library can be utilized for valuation, peer analysis, etc. Dashboard Templates User can make use of the Real Estate template to stay up to date with industry developments",1
+Solutions discussed,"Help Section As the user is new to the platform, she can make user of our 24/7 support, help center, and training webinars. Dashboard User can stay up to date with markets and entities she tracks TMT Menu Item Through editable navigation, the user can reach TMT specific datasets Corporate Profile The user can deep dive into company market data, comps, financials, and filings (e.g. press releases)",1
+Solutions discussed,"helps the user stay up to date with the events, activity, and market data for entities she covers. Corporate Profile",1
+Solutions discussed,"tasked with analyzing company and market data, the user can utilize the stock chart, financials, and peer comps features within the corporate profile. Screener",1
+Solutions discussed,assists the user in finding companies within their focus,1
+Solutions discussed,the APAC region and displaying key information needed for analysis. Excel Plugin,1
+Solutions discussed,user can utilize the templates for analysis and data gathering,1
+Solutions discussed,"Financials, Search tool, Alerts, etc",1
+Solutions discussed,Screening ﻿ SNL FIG (led by Gerica Ong from FIG),1
+Solutions discussed,Bank financials and sources,1
+Solutions discussed,CIQ Platform Overview,1
+Solutions discussed,"Discussed the following during the refresher demo: Dashboard Company Profile Corporate Profile page Peer Comps Financials Estimates News, Events & Filings Ownership Investments Transactions Corporate Issuance Research Screener",1
+Solutions discussed,"Guided the client through the Dashboard, the search tool, the company profile pages for peer comp, financials, estimates, ownership, investments, investment research, screening, excel plug-in",1
+Solutions discussed,Gave Gabriel a high level overview of the CIQ Pro Platform and tailored it accordingly to his workflow,1
+Solutions discussed,"Discussed the overview of the S&P Capital IQ Pro Platform and focused on the navigation within the platform, how to find private companies' financials, public companies' stock prices, how to use Excel plugin to extract data onto Excel for further analysis etc",1
+Solutions discussed,Gave Sharifah a high level overview of the Capital IQ Pro Platform,1
+Solutions discussed,Gave Vincent and Anh a high level overview of the CIQ Pro platform tailored to their workflow,1
+Solutions discussed,Demonstrated the CIQ Pro plug-in to the client such as how to pull for data and what other options are available on the formula builder. Discussed the beta generator template as well and guided her how to use it,1
+Solutions discussed,"CIQ Pro Screening, Idea Generation, and Peer Comps were discussed",1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform and tailored it to his workflow,1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform and tailored it according to his workflow,1
+Solutions discussed,Gave the team an overview on the tools available in the Pro platform and mainly discussed the ESG dataset that's available as a whole and on a company level,1
+Solutions discussed,"Gave Kitiya a high level overview of the CIQ Pro Platform where I showed basic functionalities like the Dashboard, List & alerts, Corporate Profile, Screener, News, and Excel",1
+Solutions discussed,"Gave Suchapa a high level overview of the CIQ Pro Platform where I showed basic functionalities like the Dashboard, List & alerts, Corporate Profile, Screener, News, and Excel",1
+Solutions discussed,M&A Alerts,1
+Solutions discussed,"Document Intelligence (ChatIQ, key phrases, AI-generated summaries)",1
+Solutions discussed,Screener (Transaction Templates),1
+Solutions discussed,Excel Plug-in templates,1
+Solutions discussed,"to assist in company research, including financials, estimates, transactions, and peer comps News",1
+Solutions discussed,recaps can provide the user with summarized news for a particular industry and geography Screener,1
+Solutions discussed,to assist in finding potential targets and viewing metrics for analysis Market Maps,1
+Solutions discussed,find deal and company information for niche industries Excel Plugin,1
+Solutions discussed,to pull data directly onto Excel and make use of relevant templates,1
+Solutions discussed,"Shared that we offer different types of trainings, depending on the use case of the faculty/student",1
+Solutions discussed,"We have a list of current users, so we can share the list to double-check if the list is updated and correct",1
+Solutions discussed,Tech Guide,1
+Solutions discussed,"The tech guide provides information on the system requirements, cache, and etc. needed for his role in supporting Capital IQ Pro users within his company Support Team",1
+Solutions discussed,"We mentioned that we have our own Tech Support team, and they would be the point of contact if he or other users require assitsance on our end",1
+Solutions discussed,"Corporate Profile to access financials, filings, and peer comparison",1
+Solutions discussed,Excel Plugin Templates to easily create charts,1
+Solutions discussed,Transaction Statistics feature to easily filter our transactions and view the chart by transaction number and value,1
+Solutions discussed,Screener to identify specific transactions and companies for her study,1
+Solutions discussed,track market-moving news by sector/geography Peer comps,1
+Solutions discussed,to analyze private or public peers for target companies Financials,1
+Solutions discussed,for company valuation Screener,1
+Solutions discussed,to pull companies belonging to a particular industry/geography Chart Builder,1
+Solutions discussed,to analyze key metrics over a time horizon and assist with presentations,1
+Solutions discussed,Excel Plugin,1
+Solutions discussed,The client can use our Identifier Converter template to easily pull identifiers for lists of companies and upload them onto the platform,1
+Solutions discussed,The client can make use of formulas or our template library to pull data directly on Excel List Function,1
+Solutions discussed,The client can upload the list of companies onto the platform to be able to use the list throughout the functionalities without manually having to enter in the entities again Screener,1
+Solutions discussed,The client would like to pull company and transaction information for his target list. He can narrow down his list based on their needs and from there display the relevant metrics. Document Intelligence,1
+Solutions discussed,This new enhancement can help the client find news for his list of targets and do keyword searches,1
+Solutions discussed,The topics discussed during the demo are as follows: Company Profile Financials Multiples and Ratios Quick Comps Private Company Data Research Advanced Search Research Alerts Screening CIQ Excel Plug-in,1
+Solutions discussed,"Gave Khun Pattrakorn a high level overview of the CIQ Pro Platform where I showed basic functionalities like the Dashboard, List & alerts, Corporate Profile, Screener, News, etc. tailored to his workflow",1
+Solutions discussed,Gave the team a high level overview of the CIQ Pro Platform tailored to their worklfow,1
+Solutions discussed,Gave the team a high level overview of the Capital IQ Pro Platform tailored to their workflow,1
+Solutions discussed,Provided Demo,1
+Solutions discussed,Gave Panuvit a high level overview of the Capital IQ Pro platform as he is fairly new to it,1
+Solutions discussed,Mentioned the following features during the demo session: Company Profile Peer Comps Investment Research Chart Builder Screener Markets tab Plug-in News,1
+Solutions discussed,We went through the following during the demo: Dashboard Corporate Profile People Summary (Professionals Profile) Earnings Call Transcripts and Sentiment Scores Financials Ratings (to be discussed with Natalie about access to ratings history) ESG (to be discussed with Natalie about access) News Research,1
+Solutions discussed,Ratings Direct Presentation Corporate Profile and Ownership Information,1
+Solutions discussed,"Dashboard, Watchlist and Alerts",1
+Solutions discussed,"Payal discussed how to pull Insurance data from the Screener Tool, Managing General Agent, and Excel Plug-In",1
+Solutions discussed,Marion will provide another 3-year proposal to the client,1
+Solutions discussed,Marion discussed the Renewal Pricing. We also talked about the Document Intelligence and ChatIQ,1
+Solutions discussed,Peer/Transaction Comps,1
+Solutions discussed,Screener Tool and Find Buyers,1
+Solutions discussed,Helpful Page,1
+Solutions discussed,"We had a conversation with Maggie to discuss the recent improvements and commonly utilized features of the CIQ Pro Platform. During our discussion, she expressed a desire to gain clarity on the specific access privileges that they currently possess, as well as the rationale behind the anticipated substantial increase of 10% in the premium",1
+Solutions discussed,Private Market Data,1
+Solutions discussed,Template Screening Discussion was Led by Julio Bangco,1
+Solutions discussed,Difference of CIQ and CIQ Pro,1
+Solutions discussed,Macroeconomic,1
+Solutions discussed,Analyst Research,1
+Solutions discussed,Bond Yields,1
+Solutions discussed,Yield curves,1
+Solutions discussed,Enhanced Excel Templates,1
+Solutions discussed,Combined Private Company from Crunchbase,1
+Solutions discussed,"Enhanced News Sources such as Dow Jones, Nikkei, and our in-house research Team",1
+Solutions discussed,Peer Comparables Customization,1
+Solutions discussed,"The client would like to have follow-up training and clarifications about some features. Discuss more on Screener, Excel Tool and Transactions",1
+Solutions discussed,Document Viewwer,1
+Solutions discussed,a,1
+Solutions discussed,Fixed Income Top Movers Widget,1
+Solutions discussed,Fixed Income Expansion,1
+Solutions discussed,Excel Plug In 11.Financials,1
+Solutions discussed,Classic Search,1
+Solutions discussed,Advanced Search,1
+Solutions discussed,New Search Experience,1
+Solutions discussed,Ratings Direct Report,1
+Solutions discussed,"Platform Training Webinars, S&P Capital IQ Pro Academy and Help Page",1
+Solutions discussed,Help Page ii. Platform Training Webinars iii. S&P Capital IQ Pro Academy,1
+Solutions discussed,"News, Events, Filings",1
+Solutions discussed,Document Viewer and Sentiment Score,1
+Solutions discussed,Company Profile Peer Comps Financials Document Viewer Transcript and AI Summarization,1
+Solutions discussed,Excel Plug-In Download,1
+Solutions discussed,Shrey discussed how to create a List on Watchlist,1
+Solutions discussed,"Build Alerts about share price, credit ratings, and other data that is available on the Alert Triggers",1
+Solutions discussed,"We do not have a direct way to build Alerts about bond prices hence, Shrey suggested using the Screening Alerts",1
+Solutions discussed,Hopped on a call and discussed the following: CIQ Pro Platform Overview,1
+Solutions discussed,IQ Pro Platform Overview,1
+Solutions discussed,"I conducted a 30-minute training session on setting up customized news alerts. The focus was on covering M&A activity in specific sub-industries (Telecommunications) and following certain keywords (IoT, Cloud)",1
+Solutions discussed,"The client was a CIQ user. Hence, she only wanted to see the Investment & Market Research, Peer Comps, and Excel Plug-In. I also showed the User Profile & Display Information and the Transaction &Private Equity Page",1
+Solutions discussed,"News, Events, and Filings",1
+Solutions discussed,"financials, estimates, transaction Screening tool",1
+Solutions discussed,"We discussed: News, Dashboard, Screener, Alerts",1
+Solutions discussed,"Discussed the different datasets and how to navigate and audit the Company Profiles, Professionals, Ownership, Corporate Tree, and Transaction, Screening, Excel Client also asked about Sovereign Funds Transactions",1
+Solutions discussed,#1 to screen for Regulation S and Rule 144A Offerings. #2 we discussed the transaction league tables,1
+Solutions discussed,Jeremiah Cai from the CR&S ran the call and showcased the RatingsXpress solution that we offer,1
+Solutions discussed,Find Buyers To identify buyers/investors interested in Vietnam and the logistics sector Corporate Profile To conduct due diligence and view peer/financial performance Business Involvement Screens To track target/portfolio companies' business activities and analyze if their involvements are aligned with the company's investment strategies. Private Markets Tab To identify a list of investors and able to view their funds and PE investments Dashboard and Lists To monitor the performance and activity of her portfolio or target companies Plug-in To pull data directly onto Excel and have the ability to pull updated data for her list of companies and also utilize templates,1
+Solutions discussed,Introduced the client to our News and Transactions & Private Equity Datasets since their workflow revolves around advisory. I also walked the client through the Corporate profile page and focused heavily on Peer Comps since they are interested in building comparables. I also gave an overview of the Transaction Screener and exported a sample to Excel to then walk the client through the Formula Builder. I ended the session with the resources the client can utilize to explore our database,1
+Solutions discussed,Joe Tabing ran the session with the client where he specifically discussed how the client can export data from the platform and how the client can screen information such as Ratings as well as ESG scores for specific companies using the Company screener tool. He also showed how the client can leverage the Excel Plug-In tool when it comes to pulling the data directly in excel. He highlighted how the client can leverage SPG & SPG Table formulas when building a report via Excel. Joe also mentioned the availability of pre-built models via the Template Library as well as the Financial Modeling Team when it comes to building complex reports/model,1
+Solutions discussed,Had a call with Meghan and Natalie to discuss a report that they need on their end,1
+Solutions discussed,Checked the issue on the model and found out that the client haven't installed the Excel Plug-In tool yet,1
+Solutions discussed,Client currently have RD on Pro access but showcased Capital IQ Pro an the call and client wants to push through with having access to the whole desktop,1
+Solutions discussed,Call with Refiloe to discuss the modifications she would like to be implemented in the Corporate Bonds Model that was built by the Modeling Team,1
+Solutions discussed,The purpose of the meeting is to walk Amanjit through how she can pull data for the list of companies she is currently monitoring. I specifically discussed the Companies Screener and List Manager tool in the call which would greatly help with the project she is currently doing,1
+Solutions discussed,"Gave the client a high level overview of the Capital IQ Pro Platform and discussed tools relevant to his needs like the Dashboard, Screener, Company Profile, and Research",1
+Solutions discussed,Call is focused on addressing the issue Refiloe is experiencing on the Corporate bonds Model. Arjhay Tabios from the Tech Team ran the call,1
+Solutions discussed,Jose ran the call and he gave an overview of the RatingsDirect Platform on Capital IQ Pro,1
+Solutions discussed,"Gave the client an overview of the tools available in the Capital IQ Pro platform such as the Dashboard, Monitoring Tools, Corp Profile, Screener, Country Profile, and PE Activity. I also showed the Excel Plug-In as well",1
+Solutions discussed,Mainly discussed the Companies Screener Tool which is the best tool for the requirement which is pulling a set of companies based on a specific industry and geography,1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform since client is fairly new,1
+Solutions discussed,"Gave the client an overview of the tools available in the Capital IQ Pro Platform relevant to the client's workflow such as the Dashboard, Company Profile, Screener, Market & Deals and Private Equity Data",1
+Solutions discussed,Gave the Wesley and Tahar a high level overview of the Capital IQ Pro Platform since they are both fairly new to it,1
+Solutions discussed,Assessed the issue with the client's plug-in and asked the Tech Team to assist with the issue. Issue was resolved,1
+Solutions discussed,Discussed how to pull exchange rate data in the platform and plug-in. Also answered queries that the client had,1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro platform since client is fairly new to the Pro platform. Made sure to tailor the session to client's workflow,1
+Solutions discussed,Gave the client a very high level overview of the Capital IQ Pro Platform,1
+Solutions discussed,Gave the client a high level overview of the Capital IQ Pro Platform. Below functionalities were discussed in the call: Dashboard Alert Company Profile Screener Peer Analytics Country Profile Excel Plug-In,1
+Solution topic category,Company Profiles and Financial Data,201
+Solution topic category,Excel and Office Tools,172
+Solution topic category,"Dashboards, Watchlists and Alerts",169
+Solution topic category,Screening,148
+Solution topic category,Helpful Pages,146
+Solution topic category,Transactions and Deal Data,125
+Solution topic category,"News, Research and Market Data",111
+Solution topic category,Peer Comps and Valuation,110
+Solution topic category,Platform Overview,65
+Solution topic category,Platform Navigation and Settings,53
+Solution topic category,Market Maps and Industry Data,52
+Solution topic category,AI Tools,47
+Solution topic category,Private Markets and Specialized Datasets,33
+Solution topic category,Charting and Visualization,23
+Solution topic category,Report Builder,6
+Solution topic category,Sync Calendar,4
+Solution topic category,Product Training and Learning,3
+Solution topic category,AMR,3
+Solution topic category,Geographic Intelligence,3
+Solution topic category,Search,2
+Solution topic category,CIQ Pro,2
+Solution topic category,Maps to find and analyze properties,1
+Solution topic category,find niche industries along with the deals and companies that fall...,1
+Solution topic category,The user can pull companies belonging to a specific geography and...,1
+Solution topic category,Editable navigation,1
+Solution topic category,Gave Vitthuran a high level of the Capital IQ Pro platform.,1
+Solution topic category,Earnings Call Transcript Summarization,1
+Solution topic category,to find reports by company or boolean search,1
+Solution topic category,Misha discussed the company's renewal,1
+Solution topic category,Customizable Navigation,1
+Solution topic category,New releases on month of June and July of 2024,1
+Solution topic category,Discussed platform functionalities and enhancements relevant to...,1
+Solution topic category,Capital IQ Pro can provide a larger coverage of companies and more...,1
+Solution topic category,the tool can assist in plotting multiple companies and entities and...,1
+Solution topic category,to dive deeper into niche industries,1
+Solution topic category,Hargundeep is fairly new to the platform so I gave him a high level...,1
+Solution topic category,AI driven features,1
+Solution topic category,Jon identified what are the issues they were experiencing on their end,1
+Solution topic category,All Follow-up concerns about Find Buyers ( adding an entity on the...,1
+Solution topic category,Escalated the tech issue to the IT Team,1
+Solution topic category,June-July 2024 Enhancement,1
+Solution topic category,Users can stay up to date with the market and companies they track,1
+Solution topic category,Pulls health care comps with adjustable criteria,1
+Solution topic category,The multi-year options would need to be approved by the pricing team,1
+Solution topic category,Discussed CIQ,1
+Solution topic category,Stay up to date with market and entities,1
+Solution topic category,Due diligence,1
+Solution topic category,Company coverage,1
+Solution topic category,"Yourim provided a Credit Analytics overview, touching on the risk...",1
+Solution topic category,to easily plot and compare metrics across entities,1
+Solution topic category,Markets Tab,1
+Solution topic category,to plot entities and metrics of choice,1
+Solution topic category,to utilize models for risk and credit ratings,1
+Solution topic category,adjustable criteria and ability to create a peer report for specific...,1
+Solution topic category,assists the user in finding companies within their focus,1
+Solution topic category,"Shared that we offer different types of trainings, depending on the...",1
+Solution topic category,Tech Guide,1
+Solution topic category,to analyze key metrics over a time horizon and assist with presentations,1
+Solution topic category,Provided Demo,1
+Solution topic category,Marion will provide another 3-year proposal to the client,1
+Solution topic category,We had a conversation with Maggie to discuss the recent improvements...,1
+Solution topic category,Difference of CIQ and CIQ Pro,1
+Solution topic category,Bond Yields,1
+Solution topic category,Yield curves,1
+Solution topic category,Document Viewwer,1
+Solution topic category,a,1
+Solution topic category,Classic Search,1
+Solution topic category,Advanced Search,1
+Solution topic category,New Search Experience,1
+Solution topic category,Ratings Direct Report,1
+Solution topic category,Jeremiah Cai from the CR&S ran the call and showcased the...,1
+Solution topic category,Had a call with Meghan and Natalie to discuss a report that they...,1
+Solution topic category,Client currently have RD on Pro access but showcased Capital IQ Pro...,1
+Solution topic category,Call with Refiloe to discuss the modifications she would like to be...,1
+Solution topic category,Call is focused on addressing the issue Refiloe is experiencing on...,1
