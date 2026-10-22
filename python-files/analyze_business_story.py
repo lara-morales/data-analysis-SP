@@ -9,33 +9,38 @@ from pathlib import Path
 
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.figure import Figure
+from matplotlib.patches import Rectangle
 
 from narrative import (
-    activity_implication,
+    account_counts_by_year,
+    action_items,
+    account_year_callout,
     activity_story,
-    demonstration_implication,
     demonstration_story,
+    job_description_years_story,
     limits_implication,
     limits_story,
     method_implication,
     method_story,
-    quarterly_implication,
     quarterly_story,
-    region_implication,
     region_story,
-    solution_implication,
-    solution_story,
-    workflow_implication,
+    region_watch_note_years,
+    role_year_callout,
+    solution_training_note_years,
+    year_column_lines,
     workflow_story,
 )
 from report_style import (
-    INK,
-    MUTED,
+    BLACK,
+    RED,
+    add_action_page,
+    add_year_columns_page,
     add_text_page,
     bar_axis,
     draw_footer,
     grouped_bars,
     new_figure,
+    region_pies,
     save_page,
     series_colors,
 )
@@ -134,10 +139,12 @@ def write_business_story(
     workflow_counts = {year: count_labels(year_visits, "workflows") for year, year_visits in by_year.items()}
     demo_type_counts = {year: count_labels(year_visits, "demonstration_type") for year, year_visits in by_year.items()}
     region_counts = {year: count_labels(year_visits, "region") for year, year_visits in by_year.items()}
-    topic_labels = _theme_categories(by_year, "solution_topics", 7, skip_residual=False)
-    workflow_labels = _theme_categories(by_year, "workflows", 6, skip_residual=True)
+    topic_labels = _theme_categories(by_year, "solution_topics", 8, skip_residual=False)
+    workflow_labels = _theme_categories(by_year, "workflows", 5, skip_residual=True)
     demo_labels = _theme_categories(by_year, "demonstration_type", 5, skip_residual=False)
-    region_labels = [label for label, _count in ranked(sum(region_counts.values(), Counter()))]
+    role_counts = {year: count_labels(year_visits, "role") for year, year_visits in by_year.items()}
+    role_labels = _theme_categories(by_year, "role", 8, skip_residual=False)
+    account_by_year = account_counts_by_year(by_year)
 
     summary_rows: list[tuple[str, str, str, int]] = []
     for year, year_visits in by_year.items():
@@ -154,57 +161,68 @@ def write_business_story(
             summary_rows.append(("Workflow", str(year), label, count))
         for label, count in ranked(demo_type_counts[year]):
             summary_rows.append(("Demonstration type", str(year), label, count))
+        for label, count in ranked(role_counts[year]):
+            summary_rows.append(("Client role", str(year), label, count))
+        for label, count in ranked(account_by_year[year]):
+            summary_rows.append(("Account", str(year), label, count))
 
     total = len(visits)
     with PdfPages(pdf_path) as pdf:
         cover = new_figure()
-        cover.patch.set_facecolor("#F4F7F8")
-        cover.text(0.07, 0.86, "MANILA CLIENT VISITS", fontsize=12, fontweight="bold", color="#1C7C8C")
         cover.text(
-            0.07,
-            0.74,
-            f"What {total} dated visit records show",
+            0.055,
+            0.86,
+            f"What {total} logged demos tell Manila",
             fontsize=26,
             fontweight="bold",
-            color=INK,
+            color=BLACK,
         )
         cover.text(
-            0.07,
-            0.64,
-            "Activity, session types, workflows, solution topics, and region",
+            0.055,
+            0.76,
+            "Where to add associate capacity, what to product-train, and which accounts can book the next demo.",
             fontsize=12,
-            color=MUTED,
+            color=BLACK,
         )
-        colors = series_colors(list(by_year))
         slot_width = 0.84 / max(len(by_year), 1)
-        for index, (year, year_visits) in enumerate(by_year.items()):
-            x = 0.07 + index * slot_width
-            cover.text(x, 0.50, "RECORDED VISITS", fontsize=8, color=MUTED)
-            cover.text(x, 0.40, str(len(year_visits)), fontsize=28, color=colors[year], fontweight="bold")
-            cover.text(x, 0.33, year_coverage_label(year_visits), fontsize=10, color=MUTED)
+        for index, (_year, year_visits) in enumerate(by_year.items()):
+            x = 0.055 + index * slot_width
+            cover.patches.append(
+                Rectangle(
+                    (x, 0.40),
+                    0.12,
+                    0.008,
+                    transform=cover.transFigure,
+                    facecolor=RED,
+                    edgecolor="none",
+                )
+            )
+            cover.text(x, 0.62, "LOGGED DEMOS", fontsize=9, color=RED, fontweight="bold")
+            cover.text(x, 0.48, str(len(year_visits)), fontsize=36, color=BLACK, fontweight="bold")
+            cover.text(x, 0.34, year_coverage_label(year_visits), fontsize=12, color=BLACK)
         cover.text(
-            0.07,
-            0.20,
-            "Compare months that appear in every year. A partial year is labeled with its months and is not treated as a full year of zero activity.",
-            fontsize=10,
-            color=INK,
+            0.055,
+            0.22,
+            "Set the next demo target on the months every year contains. FH1 2026 is January–June, so it is not a full year of lost demand.",
+            fontsize=12,
+            color=BLACK,
         )
         cover.text(
-            0.07,
-            0.12,
-            "Rows are logged visits, not unique clients. Topic and workflow bars can overlap.",
-            fontsize=9,
-            color=MUTED,
+            0.055,
+            0.14,
+            "Each row is one logged demo. A repeat account is the fastest way to add the next one.",
+            fontsize=12,
+            color=BLACK,
         )
-        draw_footer(cover, "Source: cleaned Manila visit files grouped by the visit date.")
+        draw_footer(cover)
         save_page(pdf, cover)
 
         add_chart_page = _chart_page(pdf)
         add_chart_page(
-            "Read the months that were actually logged",
+            "Monthly visits — when to roster associates for demos",
             activity_story(by_year),
             lambda figure: _line_chart(figure, by_year),
-            note=activity_implication(by_year),
+            note="Roster more associates in the months the line is high. That is when clients are requesting demos. Use the lighter months to train the bench on the workflows and solutions those demos require.",
         )
         quarter_keys = [str(quarter) for quarter in range(1, 5)]
         quarter_by_year = {
@@ -212,7 +230,7 @@ def write_business_story(
             for year, year_visits in by_year.items()
         }
         add_chart_page(
-            "Quarterly cadence, with missing quarters left out",
+            "Quarterly visits — where demo capacity is already tight",
             quarterly_story(by_year),
             lambda figure: grouped_bars(
                 figure,
@@ -220,23 +238,22 @@ def write_business_story(
                 _series(by_year, quarter_keys, quarter_by_year, skip_missing=True),
                 ylabel="Recorded visits",
             ),
-            note=quarterly_implication(by_year),
+            note="Put the bench on the heavy quarter, when demo requests are already booked. Use the lighter quarter to train associates on the workflows and solutions they will need when the next heavy quarter arrives.",
         )
         add_chart_page(
-            "Solution topics mentioned in the visit notes",
-            solution_story(by_year),
+            "Solution topics — modules to put in product training",
+            "The eight solution topics clients ask to see most often, including AI Tools. One visit can match more than one topic.",
             lambda figure: grouped_bars(
                 figure,
                 topic_labels,
                 _series(by_year, topic_labels, topic_counts),
                 ylabel="Visits mentioning the topic",
                 horizontal=True,
-                rect=(0.32, 0.22, 0.48, 0.60),
             ),
-            note=solution_implication(by_year),
+            note=solution_training_note_years(by_year),
         )
         add_chart_page(
-            "Workflows written in the visit notes",
+            "Key workflows — the product path to rehearse before the call",
             workflow_story(by_year),
             lambda figure: grouped_bars(
                 figure,
@@ -244,12 +261,11 @@ def write_business_story(
                 _series(by_year, workflow_labels, workflow_counts),
                 ylabel="Visits mentioning the workflow",
                 horizontal=True,
-                rect=(0.32, 0.22, 0.48, 0.60),
             ),
-            note=workflow_implication(by_year),
+            note="Walk associates through valuation and company analysis, and through M&A, including the questions clients usually ask. They can then show the solution in the demo instead of stopping to find a specialist.",
         )
         add_chart_page(
-            "Demonstration type, as selected",
+            "Demonstration type — the session associates must be ready to run",
             demonstration_story(by_year),
             lambda figure: grouped_bars(
                 figure,
@@ -257,31 +273,61 @@ def write_business_story(
                 _series(by_year, demo_labels, demo_type_counts),
                 ylabel="Visits",
                 horizontal=True,
-                rect=(0.30, 0.22, 0.50, 0.60),
             ),
-            note=demonstration_implication(by_year),
+            note="Client Training is the session these clients book. Train associates to run it against the client’s workflow, so they can anticipate the questions and show the solution in the same demo.",
         )
         add_chart_page(
-            "Where the logged visits were based",
-            region_story(by_year),
+            "Job description — who will be in the room",
+            job_description_years_story(by_year),
             lambda figure: grouped_bars(
                 figure,
-                region_labels,
-                _series(by_year, region_labels, region_counts, as_percent=True),
-                ylabel="Share of dated visits (%)",
-                value_format="{:.0f}%",
+                role_labels,
+                _series(by_year, role_labels, role_counts),
+                ylabel="Visits",
+                horizontal=True,
             ),
-            note=region_implication(by_year),
+            note="Train associates on the demonstration types these roles book, so they know the client’s workflow and can anticipate the queries and the solutions to show. Investment and finance is that room in every year.",
+        )
+        add_year_columns_page(
+            pdf,
+            "Top visit roles — who the associate will meet",
+            "The three roles with the most logged demos in each year. Unspecified and Other are visits without a usable job title.",
+            year_column_lines(by_year, kind="role"),
+            role_year_callout(by_year),
+        )
+        add_year_columns_page(
+            pdf,
+            "Top accounts — where the next demo can come from",
+            "The three named accounts with the most logged demos in each year.",
+            year_column_lines(by_year, kind="account"),
+            account_year_callout(by_year),
+        )
+        region_panels = [
+            (year_coverage_label(year_visits), ranked(region_counts[year]))
+            for year, year_visits in by_year.items()
+        ]
+        add_chart_page(
+            "Client region — where to aim demo coverage",
+            region_story(by_year),
+            lambda figure: region_pies(figure, region_panels),
+            note=region_watch_note_years(by_year),
         )
         add_text_page(
             pdf,
-            "What these records can and cannot support",
+            "How Manila should use these records",
             [
-                ("Scope", limits_story(by_year)),
-                ("Limit", limits_implication()),
-                ("Method", method_story()),
-                ("Interpretation", method_implication()),
+                ("What the files cover", limits_story(by_year)),
+                ("What a demo target can use", limits_implication()),
+                ("How the themes were read", method_story()),
+                ("How to act on a chart", method_implication()),
             ],
+        )
+        add_action_page(
+            pdf,
+            action_items(visits, by_year=by_year),
+            (
+                f"What Manila can do with these {total} logged demos to take more of the requests that come in."
+            ),
         )
 
     with summary_path.open("w", encoding="utf-8", newline="") as handle:

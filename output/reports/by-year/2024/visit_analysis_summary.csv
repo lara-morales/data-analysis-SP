@@ -63,10 +63,12 @@ Demonstration type,Onboarding,1
 Demonstration type,Product Help,1
 Demonstration type,Product Help; Subscription Discussion,1
 Demonstration type,Quarterly Review,1
-Demonstration category,client training|new user training|onboarding,263
-Demonstration category,Other,22
-Demonstration category,workflow enrichment,5
-Demonstration category,expert presentation,2
+Demonstration category,Training,264
+Demonstration category,Product Demo or Help,17
+Demonstration category,Subscription or Commercial,6
+Demonstration category,Workflow Enrichment,5
+Demonstration category,Expert Presentation,2
+Demonstration category,Account Review,1
 Client role,Investment and finance,90
 Client role,Other,69
 Client role,Unspecified,69
@@ -77,6 +79,218 @@ Client role,Research and analysis,9
 Client role,Consulting and advisory,7
 Client role,Operations and technical,3
 Client role,Sales and business development,2
+Account,Asian Development Bank,6
+Account,"BDO Unibank, Inc.",6
+Account,Apis Partners Group (UK) Limited,4
+Account,Eastspring Investments (Singapore) Limited,4
+Account,Fortman Cline Capital Markets Limited,4
+Account,ICON Corporate Finance Ltd.,4
+Account,Kiatnakin Phatra Securities Public Company Limited,4
+Account,Acquara Investment India Private Limited,3
+Account,AWR Lloyd Limited,3
+Account,Axiom Asia Private Capital Pte. Ltd.,3
+Account,Bangkok Bank Public Company Limited,3
+Account,First Metro Investment Corporation,3
+Account,Metrics Credit Partners Pty Ltd,3
+Account,Nexia Singapore Pac,3
+Account,Osborne Partners Ltd,3
+Account,PT MDS Retailing Tbk,3
+Account,Smith Square Partners LLP,3
+Account,"The Capital Group Companies, Inc.",3
+Account,Africa Capitalworks Management,2
+Account,Andersen Corporate Finance & Valuation Advisors B.V.,2
+Account,Apah Capital Management Limited,2
+Account,Ash Park Capital LLP,2
+Account,Asian Institute of Management,2
+Account,Bendigo and Adelaide Bank Limited,2
+Account,Berkshire Global Advisors LP,2
+Account,CAP10 Partners LLP,2
+Account,Eighteen48 Partners Limited,2
+Account,Hall Chadwick Pty Limited,2
+Account,Intel Corporation,2
+Account,King Abdullah Petroleum Studies and Research Center,2
+Account,Longreach HQI - Global Market Neutral Fund,2
+Account,Magnesium Capital Llp,2
+Account,Northstar Asset Management (Pty) Ltd,2
+Account,OSK Technology Ventures Sdn Bhd,2
+Account,Otium Partners InvestCo,2
+Account,Pemberton Asset Management Services UK Limited,2
+Account,Priveq Investment,2
+Account,Ras Al Khaimah Free Trade Zone Authority,2
+Account,Sapere Research Group Limited,2
+Account,Sasin Graduate Institute Of Business Administration Chulalongkorn University,2
+Account,Security Bank Capital Investment Corporation,2
+Account,Silverpeak LLP,2
+Account,"Skadden, Arps, Slate, Meagher & Flom LLP",2
+Account,Spectron Services Ltd,2
+Account,The Siam Commercial Bank Public Company Limited,2
+Account,TRACTUS ASIA LIMITED,2
+Account,"UNILAB, Inc.",2
+Account,University of Portsmouth,2
+Account,2040 Ventures,1
+Account,AB Max Sievert,1
+Account,Accenture Financial Services Group,1
+Account,AFFIN Bank Berhad,1
+Account,AHAM Asset Management Berhad,1
+Account,AIBJ Inc.,1
+Account,AIGF Advisors Pte. Ltd.,1
+Account,Air8 Pte. Ltd.,1
+Account,Akira Partners LLP,1
+Account,ALAT Technologies Company,1
+Account,Alatus Capital LLC,1
+Account,Alpha Real Capital LLP,1
+Account,Alphaprimus Advisors Inc.,1
+Account,AmBank Group,1
+Account,AMC Consultants Pty Ltd.,1
+Account,American Express Australia Limited,1
+Account,Amira International Limited,1
+Account,ArchiMed SAS,1
+Account,Ardonagh Specialty Limited,1
+Account,Asia Pacific Exchange Pte. Ltd.,1
+Account,Attijari Finances Corporate,1
+Account,Auric Pacific Group Limited,1
+Account,Avedon Capital Partners,1
+Account,Azuremount Partners Company Limited,1
+Account,Bacchus Capital Advisers Limited,1
+Account,Bahrain National Holding Company B.S.C.,1
+Account,"Bain Capital, LP",1
+Account,Baker Tilly España S.L.,1
+Account,Bank Lombard Odier & Co Ltd,1
+Account,Bank of Queensland Limited,1
+Account,Bank One Limited,1
+Account,Cameron Barney LLP,1
+Account,"CFGI, LLC",1
+Account,China Vered Asset Management (Hong Kong) Limited,1
+Account,Cilento Australia Pty Ltd.,1
+Account,Clifford Street Advisors LLP,1
+Account,"Coleman Research Group, Inc.",1
+Account,Compagnie Financière Richemont SA,1
+Account,Contango Management Consultancy LLC,1
+Account,Copenhagen Infrastructure Partners P/S,1
+Account,Cordis Asset Management Pty Ltd,1
+Account,Corestar Partners GmbH,1
+Account,CoreView Capital Management Limited,1
+Account,Craigs Investment Partners Limited,1
+Account,Cuscal Limited,1
+Account,"D. E. Shaw & Co., L.P.",1
+Account,Darkhorse Capital Limited,1
+Account,Dawn Capital LLP,1
+Account,Delbridge Forensic Accounting Pty Limited,1
+Account,"Department of Infrastructure, Transport, Regional Development, Communications, Sport and the Arts",1
+Account,Edgenta First Sdn Bhd.,1
+Account,EmergeVest Limited,1
+Account,Europa Partners Limited,1
+Account,Exponent Private Equity LLP,1
+Account,Farmcove Investment Holdings,1
+Account,Federation Asset Management Pty Ltd,1
+Account,Fletcher Building Limited,1
+Account,Fortitude Investment Partners Pty Ltd,1
+Account,G-FAS Corporation,1
+Account,Greenfield Advisory Pte Ltd.,1
+Account,Greenstone Partners Pty Limited,1
+Account,"Guidepoint Global, LLC",1
+Account,Habib Bank Limited,1
+Account,Heliconia Capital Management Pte. Ltd.,1
+Account,Highstead Partners Limited,1
+Account,Hong Leong Bank Berhad,1
+Account,IAG Asset Management Limited,1
+Account,ICA Partners,1
+Account,IHS Markit Ltd.,1
+Account,INSEAD,1
+Account,Integra Venture Partners Pte. Ltd.,1
+Account,International Business Machines Corporation,1
+Account,"International Container Terminal Services, Inc.",1
+Account,Investment & Capital Corporation of the Philippines,1
+Account,Jardine Cycle & Carriage Limited,1
+Account,JERA Asia Pte. Ltd.,1
+Account,JLB Alliance Pte. Ltd.,1
+Account,Johor Corporation,1
+Account,Jordan Capital & Investment Fund Management Company,1
+Account,KASIKORNBANK PUBLIC COMPANY LIMITED,1
+Account,Kidder Williams Limited,1
+Account,Knaggs Limited,1
+Account,Krung Thai Bank Public Company Limited,1
+Account,Labuan Reinsurance (L) Ltd,1
+Account,Lanvin Group Holdings Limited,1
+Account,Link Business Broking Ltd,1
+Account,"Litorina IV, L.P.",1
+Account,Liverpool Partners Shared Services Pty Ltd,1
+Account,Luxempart,1
+Account,Mamoura Diversified Global Holding PJSC,1
+Account,MDI Ventures,1
+Account,Medu Capital,1
+Account,Metier Investment and Advisory Services Proprietary Limited,1
+Account,MI Test Account - 1,1
+Account,Military Commercial Joint Stock Bank,1
+Account,Mitsui & Co. (Asia Pacific) Pte. Ltd.,1
+Account,Montana Capital Partners AG,1
+Account,Nalka Invest AB,1
+Account,Nanofilm Technologies International Limited,1
+Account,Nash Advisory Pty Ltd,1
+Account,National Industrialization Company,1
+Account,National Yang Ming Chiao Tung University,1
+Account,New Zealand Superannuation Fund,1
+Account,Nio Capital,1
+Account,NTAsset (Cayman) Limited,1
+Account,Nucleus Wealth Management,1
+Account,Oman Investment Authority,1
+Account,Oman National Investments Development Company SAOC,1
+Account,Ontario Teachers' Pension Plan Board,1
+Account,ORIX Asia Capital Limited,1
+Account,Ox Capital Management,1
+Account,Ox Capital Pty Ltd,1
+Account,PanAust Limited,1
+Account,Pemba Capital Partners Pty Limited,1
+Account,PNB Capital and Investment Corporation,1
+Account,PT Bahana Securities,1
+Account,PT Lippo Karawaci Tbk,1
+Account,PT Mitra Pinasthika Mustika Tbk,1
+Account,Px3 Partners Limited,1
+Account,Quona Capital Management LLC,1
+Account,REA Group Limited,1
+Account,Resmed Pty. Ltd.,1
+Account,Revaia SAS,1
+Account,Rexel Développement SAS,1
+Account,RGE Pte. Ltd.,1
+Account,Rianta Capital Zurich AG,1
+Account,Right Click Capital Management Pty Limited,1
+Account,RisCura Holdings (Pty) Ltd,1
+Account,Ronesans Holding Anonim Sirketi,1
+Account,Saha Pathana Inter-Holding Public Company Limited,1
+Account,Saison International Pte. Ltd.,1
+Account,Saudi Arabian Oil Company,1
+Account,SCB X Public Company Limited,1
+Account,SD Worx NV,1
+Account,Security Bank Corporation,1
+Account,Sediment Capital Management LLC,1
+Account,Sherpa Invest II SA PRICAF,1
+Account,"Shinewing Certified Public Accountants Co., Ltd.",1
+Account,"SIERRA MADRE ADVISERS, INC.",1
+Account,Singapore Telecommunications Limited,1
+Account,Sullivan & Cromwell LLP,1
+Account,Sun Life Financial Inc.,1
+Account,Swedia Capital AB,1
+Account,Sysmex Corporation,1
+Account,"TA Associates Management, L.P.",1
+Account,Tamita Singapore Advisors Pte Ltd,1
+Account,"Targray Technology International, Inc.",1
+Account,Telemos Capital Limited,1
+Account,Terra Firma Capital Partners Limited,1
+Account,Terrafirma GmbH,1
+Account,Thai Beverage Public Company Limited,1
+Account,Thai Union Group Public Company Limited,1
+Account,The University of Auckland,1
+Account,Translink Strempel & Co. S.r.l.,1
+Account,Universiti Malaya,1
+Account,VinaCapital Investment Management Ltd,1
+Account,Vingroup Joint Stock Company,1
+Account,Vision Bank,1
+Account,VY Capital Holding Company,1
+Account,Walkers (Cayman) LLP,1
+Account,Welkin Capital Group Limited,1
+Account,Wellington Management Company LLP,1
+Account,Worldline Australia Pty Ltd,1
+Account,Worldline Europe SA,1
 Workflow,Valuation and company analysis,120
 Workflow,M&A and transactions,60
 Workflow,Market and news research,48

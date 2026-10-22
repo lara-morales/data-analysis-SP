@@ -11,7 +11,7 @@ from pathlib import Path
 from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.figure import Figure
 
-from report_style import add_chart_page, add_text_page, bar_axis, series_colors, style_axis
+from report_style import INK, SERIES, add_chart_page, add_text_page, bar_axis, series_colors, style_axis
 from visit_model import Visit, group_by_year, load_cleaned_csv, month_span, year_coverage_label
 
 
@@ -57,7 +57,10 @@ def write_time_series(visits: list[Visit], pdf_path: Path, summary_path: Path) -
         for topic in visit.solution_topics:
             topic_monthly[(key, topic)] += 1
             topic_totals[topic] += 1
-    top_topics = [topic for topic, _count in topic_totals.most_common(8)]
+    ranked_topics = [topic for topic, _count in topic_totals.most_common()]
+    top_topics = ranked_topics[:5]
+    if "AI Tools" in ranked_topics and "AI Tools" not in top_topics:
+        top_topics.append("AI Tools")
 
     summary_rows: list[tuple[str, str, str, int]] = []
     for month in months:
@@ -91,20 +94,48 @@ def write_time_series(visits: list[Visit], pdf_path: Path, summary_path: Path) -
 
     def plot_monthly(figure: Figure) -> None:
         axis = bar_axis(figure)
-        style_axis(axis)
-        positions = list(range(len(months)))
         colors = series_colors(list(by_year))
-        live_positions = [index for index, month in enumerate(months) if month in present]
-        axis.bar(
-            live_positions,
-            [monthly[months[index]] for index in live_positions],
-            color=[colors[int(months[index][:4])] for index in live_positions],
+        run: list[int] = []
+        previous: tuple[int, int] | None = None
+        labeled_years: set[int] = set()
+
+        def draw_run(indexes: list[int]) -> None:
+            if not indexes:
+                return
+            year = int(months[indexes[0]][:4])
+            axis.plot(
+                indexes,
+                [monthly[months[index]] for index in indexes],
+                marker="o",
+                linewidth=2,
+                color=colors[year],
+                label=str(year) if year not in labeled_years else None,
+            )
+            labeled_years.add(year)
+
+        for index, month in enumerate(months):
+            if month not in present:
+                draw_run(run)
+                run = []
+                previous = None
+                continue
+            year, month_number = int(month[:4]), int(month[5:])
+            year_changed = previous is not None and year != previous[0]
+            month_gap = previous is not None and (year, month_number) != _next_month(*previous)
+            if year_changed or month_gap:
+                draw_run(run)
+                run = []
+            run.append(index)
+            previous = (year, month_number)
+        draw_run(run)
+        tick_indexes = [index for index, month in enumerate(months) if int(month[5:]) in (1, 7)]
+        axis.set_xticks(
+            tick_indexes,
+            [date(int(months[index][:4]), int(months[index][5:]), 1).strftime("%b %Y") for index in tick_indexes],
+            rotation=0,
         )
-        axis.set_xticks(positions, months, rotation=65, ha="right", fontsize=7)
         axis.set_ylabel("Visits")
-        for position in live_positions:
-            value = monthly[months[position]]
-            axis.text(position, value, str(value), ha="center", va="bottom", fontsize=6.5)
+        axis.legend(title="Year", frameon=False, ncol=len(by_year), loc="upper left")
 
     def plot_by_year(figure: Figure) -> None:
         axis = bar_axis(figure)
@@ -136,10 +167,11 @@ def write_time_series(visits: list[Visit], pdf_path: Path, summary_path: Path) -
                 labeled = True
         axis.set_xticks(range(1, 13), ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"])
         axis.set_ylabel("Visits")
-        axis.legend(title="Coverage", frameon=False)
+        axis.legend(title="Coverage", frameon=False, loc="upper left")
+        axis.margins(y=0.18)
 
     def plot_quarterly(figure: Figure) -> None:
-        axis = bar_axis(figure, (0.08, 0.24, 0.86, 0.58))
+        axis = bar_axis(figure)
         labels = sorted(quarterly, key=lambda label: (int(label[:4]), int(label[-1])))
         colors = series_colors(list(by_year))
         positions = list(range(len(labels)))
@@ -150,92 +182,100 @@ def write_time_series(visits: list[Visit], pdf_path: Path, summary_path: Path) -
         )
         axis.set_xticks(positions, labels, rotation=35, ha="right")
         axis.set_ylabel("Visits")
+        peak = max(quarterly.values()) if quarterly else 0
+        axis.set_ylim(0, peak * 1.18 if peak else 1)
         for position, label in enumerate(labels):
             axis.text(position, quarterly[label], str(quarterly[label]), ha="center", va="bottom", fontsize=8)
 
     def plot_topics(figure: Figure) -> None:
-        axis = bar_axis(figure, (0.08, 0.24, 0.72, 0.58))
-        for topic in top_topics:
-            runs: list[list[str]] = []
-            current: list[str] = []
-            previous: tuple[int, int] | None = None
-            for month in months:
-                if month not in present:
-                    if current:
-                        runs.append(current)
-                        current = []
-                    previous = None
-                    continue
-                year, month_number = int(month[:4]), int(month[5:])
-                if previous is not None and (year, month_number) != _next_month(*previous):
-                    runs.append(current)
-                    current = []
-                current.append(month)
-                previous = (year, month_number)
-            if current:
-                runs.append(current)
-            labeled = False
-            for run in runs:
-                positions = [months.index(month) for month in run]
-                axis.plot(
-                    positions,
-                    [topic_monthly.get((month, topic), 0) for month in run],
-                    marker="o",
-                    linewidth=1.6,
-                    label=topic if not labeled else None,
+        # One panel per topic. Several lines on one axis hide each other.
+        panels = top_topics[:6]
+        band = getattr(figure, "chart_rect", (0.08, 0.20, 0.86, 0.58))
+        left, bottom, width, height = band
+        columns = 3 if len(panels) > 4 else 2
+        rows = 2
+        gap_x, gap_y = 0.06, 0.08
+        panel_width = (width - gap_x * (columns - 1)) / columns
+        panel_height = (height - gap_y * (rows - 1)) / rows
+        rects = []
+        for index in range(len(panels)):
+            column = index % columns
+            row = index // columns
+            rects.append(
+                (
+                    left + column * (panel_width + gap_x),
+                    bottom + (rows - 1 - row) * (panel_height + gap_y),
+                    panel_width,
+                    panel_height,
                 )
-                labeled = True
-        axis.set_xticks(range(len(months)), months, rotation=65, ha="right", fontsize=7)
-        axis.set_ylabel("Visits mentioning the topic")
-        axis.legend(loc="upper left", bbox_to_anchor=(1.01, 1), fontsize=7, frameon=False)
+            )
+        tick_indexes = [index for index, month in enumerate(months) if int(month[5:]) in (1, 7)]
+        tick_labels = [
+            date(int(months[index][:4]), int(months[index][5:]), 1).strftime("%b %y")
+            for index in tick_indexes
+        ]
+        for topic, rect in zip(panels, rects):
+            axis = figure.add_axes(rect)
+            style_axis(axis)
+            axis.plot(
+                range(len(months)),
+                [topic_monthly.get((month, topic), 0) if month in present else None for month in months],
+                marker="o",
+                linewidth=1.6,
+                color=SERIES[0],
+            )
+            axis.set_title(topic, fontsize=9, loc="left", color=INK)
+            axis.set_xticks(tick_indexes, tick_labels, fontsize=7)
+            axis.set_ylabel("Visits", fontsize=8)
 
     start = min(visit.visit_date for visit in visits)
     end = max(visit.visit_date for visit in visits)
     with PdfPages(pdf_path) as pdf:
         add_text_page(
             pdf,
-            "Manila visits over time",
+            "MNL visits over time — where to add demo capacity",
             [
                 (
                     "Coverage",
                     f"{len(visits)} dated visits from {start:%b %d, %Y} to {end:%b %d, %Y}. "
-                    + " ".join(f"{year_coverage_label(year_visits)}: {len(year_visits)}." for year_visits in by_year.values()),
+                    + " ".join(f"{year_coverage_label(year_visits)}: {len(year_visits)}." for year_visits in by_year.values())
+                    + " Use the peaks to roster associates, and compare years only on months every file contains.",
                 ),
                 ("Gaps", gap_note + " " + partial_note),
                 (
                     "Solution topics",
-                    "A visit counts once for each matched topic in Solutions Discussed. "
-                    "The topic chart shows the eight topics with the most visits across the whole span.",
+                    "Each panel is a solution clients ask to see, including AI Tools. "
+                    "A visit can appear in more than one panel.",
                 ),
             ],
         )
         add_chart_page(
             pdf,
-            "Monthly visit volume",
+            "Monthly visits — when the bench needs more associates",
             f"{start:%b %Y} through {end:%b %Y}. {partial_note}",
             plot_monthly,
-            note=gap_note,
+            note="Roster extra associates onto the peaks. Each color is one year. A break inside a year is a month with no logged demo, not a month plotted as zero.",
         )
         add_chart_page(
             pdf,
-            "Same month compared across years",
-            "Each line is one calendar year. A year stops where its file stops. A gap in recorded months breaks the line.",
+            "Same month across years — the window for the demo target",
+            "Each line is one calendar year and stops where that file stops. Compare January–June when FH1 2026 is in the set.",
             plot_by_year,
-            note=partial_note,
+            note="Publish the next demo target on the months every year contains. Do not score FH1 2026 against a full year.",
         )
         add_chart_page(
             pdf,
-            "Quarterly visit volume",
-            "Only quarters with at least one visit are shown.",
+            "Quarterly visits — where demo capacity is already tight",
+            "Only quarters with at least one visit are shown. A missing quarter was not in that file.",
             plot_quarterly,
             note=partial_note,
         )
         add_chart_page(
             pdf,
-            "Solution topics over time",
-            "Monthly visits for the eight most mentioned solution topics. A month with visits but no mention of that topic is zero. A month with no visits is a gap.",
+            "Solution topics over time — what to keep in product training",
+            "Each panel is one solution topic. A month with visits but no mention of that topic is zero. A month with no visits breaks the line.",
             plot_topics,
-            note="Topics are not exclusive. One visit can contribute to more than one line.",
+            note="Train the modules that stay in the requests, including AI Tools. Associates who can show them can take the next demo.",
         )
 
     with summary_path.open("w", encoding="utf-8", newline="") as handle:

@@ -295,8 +295,11 @@ def role_category(text: str) -> str:
 def demonstration_categories(text: str) -> list[str]:
     if not text.strip():
         return ["Unspecified"]
-    matched = _matches(text, DEMONSTRATION_RULES)
-    return matched or ["Other"]
+    found: list[str] = []
+    for pattern, label in DEMONSTRATION_RULES:
+        if re.search(pattern, text, re.IGNORECASE) and label not in found:
+            found.append(label)
+    return found or ["Other"]
 
 
 def workflow_categories(text: str) -> list[str]:

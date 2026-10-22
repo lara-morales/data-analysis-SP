@@ -40,8 +40,9 @@ Demonstration type,New User Training,13
 Demonstration type,S&P Cap IQ Pro Workflow Enrichment,4
 Demonstration type,Client Training; Enhancement Demo,1
 Demonstration type,Client Training; New User Training,1
-Demonstration category,client training|new user training|onboarding,63
-Demonstration category,workflow enrichment,4
+Demonstration category,Training,63
+Demonstration category,Workflow Enrichment,4
+Demonstration category,Product Demo or Help,1
 Client role,Investment and finance,24
 Client role,Unspecified,16
 Client role,Other,9
@@ -51,6 +52,62 @@ Client role,Corporate development and strategy,4
 Client role,Research and analysis,2
 Client role,Executive and leadership,1
 Client role,Sales and business development,1
+Account,Oxera Consulting LLP,3
+Account,Swedfund International AB,3
+Account,Arc Group Securities LLC,2
+Account,Ernst & Young LLP,2
+Account,FRP Advisory Trading Limited,2
+Account,Growtheum Capital Partners Pte. Ltd.,2
+Account,Mml Holdco 7 Ltd,2
+Account,Moody's Corporation,2
+Account,PricewaterhouseCoopers LLP,2
+Account,21 Invest SGR S.p.A.,1
+Account,Abu Dhabi National Oil Company (ADNOC) P.J.S.C.,1
+Account,"AlixPartners, LLP",1
+Account,ANZ Group Holdings Limited,1
+Account,Artis Partners LLP,1
+Account,Asian Institute of Management,1
+Account,Baker & McKenzie Global Services LLC,1
+Account,"Brose Fahrzeugteile SE & Co. KG, Coburg",1
+Account,Calibrium AG,1
+Account,Cap Structure Ltd,1
+Account,CFC Corporate Finance Contor GmbH,1
+Account,Cl & Co. Management Services Ltd,1
+Account,ConocoPhillips,1
+Account,Creadev S.A.S.,1
+Account,El Al Israel Airlines Ltd.,1
+Account,EMH Partners GmbH,1
+Account,Fresenius SE & Co. KGaA,1
+Account,Full Circle Capital Ltd.,1
+Account,Future M Company Limited,1
+Account,GEA Group Aktiengesellschaft,1
+Account,Godfrey Remuneration Group Pty Ltd,1
+Account,Grant Thornton UK LLP,1
+Account,Hitachi Energy USA Inc.,1
+Account,Ikhlas Capital GP Limited,1
+Account,Intact Financial Corporation,1
+Account,Korn Ferry,1
+Account,Lee Kum Kee Group Ltd,1
+Account,"MUFG Bank, Ltd.",1
+Account,National Treasury Management Agency,1
+Account,Nouryon Specialty Chemicals B.V.,1
+Account,Oaklins Germany AG,1
+Account,Partech Partners SAS,1
+Account,Pkf Attest,1
+Account,Resmed Pty. Ltd.,1
+Account,Revaia SAS,1
+Account,S&P Global Inc.,1
+Account,Sandvik AB (publ),1
+Account,Schaeffler Technologies AG & Co. KG,1
+Account,Spectris Limited,1
+Account,"Teva Branded Pharmaceutical Products R&D, Inc.",1
+Account,THCP Advisory Limited,1
+Account,The Hang Seng University of Hong Kong (incorporated in Hong Kong with limited liability by guarantee),1
+Account,Touchstone Advisory Limited,1
+Account,Umicore SA,1
+Account,University of Portsmouth,1
+Account,WTS Group AG Steuerberatungsgesellschaft,1
+Account,Íslandsbanki hf.,1
 Workflow,Uncategorized,19
 Workflow,Valuation and company analysis,14
 Workflow,M&A and transactions,13

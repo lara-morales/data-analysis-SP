@@ -73,10 +73,12 @@ Demonstration type,Sales Demo,1
 Demonstration type,Service Review,1
 Demonstration type,Service Review; Subscription Discussion,1
 Demonstration type,Service Review; Technical Review,1
-Demonstration category,client training|new user training|onboarding,181
-Demonstration category,Other,30
-Demonstration category,expert presentation,7
-Demonstration category,workflow enrichment,6
+Demonstration category,Training,182
+Demonstration category,Product Demo or Help,19
+Demonstration category,Subscription or Commercial,12
+Demonstration category,Expert Presentation,7
+Demonstration category,Workflow Enrichment,6
+Demonstration category,Account Review,3
 Client role,Investment and finance,111
 Client role,Unspecified,26
 Client role,Other,25
@@ -87,6 +89,191 @@ Client role,Consulting and advisory,7
 Client role,Sales and business development,5
 Client role,Operations and technical,3
 Client role,Research and analysis,3
+Account,Revaia SAS,4
+Account,Apis Partners Group (UK) Limited,3
+Account,PT Inertia Utama,3
+Account,UTSB Management Sdn. Bhd.,3
+Account,Íslandsbanki hf.,3
+Account,Accuron Technologies Limited,2
+Account,Agoda Bangkok (Thailand),2
+Account,Armanino LLP,2
+Account,Asian Development Bank,2
+Account,AWR Lloyd Limited,2
+Account,Cl & Co. Management Services Ltd,2
+Account,Colinton Capital Partners Pty Ltd,2
+Account,D&A Corporate Finance,2
+Account,FIG Partners,2
+Account,Fortman Cline Capital Markets Limited,2
+Account,Intertek Group plc,2
+Account,JLB Alliance Pte. Ltd.,2
+Account,LCH (Asia-Pacific) Surveyors Limited,2
+Account,"Mabuhay Capital Corporation, Inc.",2
+Account,Match Plan Corporate Finance BV,2
+Account,Mst Financial Services Pty Ltd,2
+Account,Nemetschek SE,2
+Account,Nexia Singapore Pac,2
+Account,Osborne Partners Ltd,2
+Account,Pedrollo S.p.A.,2
+Account,Sapere Research Group Limited,2
+Account,Sedgman Limited,2
+Account,TNB Aura Evergreen Pte. Ltd.,2
+Account,UEM Group Berhad,2
+Account,AAB Business & Tax Advisory LLP,1
+Account,Advokatfirmaet Schjødt AS,1
+Account,AIR8 PTE. LTD,1
+Account,Alcuin Capital Partners LLP,1
+Account,Alphacap Partners Ltd,1
+Account,Altamaha Federal Credit Union,1
+Account,Ambienta SGR S.p.A.,1
+Account,Andersen Corporate Finance & Valuation Advisors B.V.,1
+Account,ArchiMed SAS,1
+Account,Artis Partners LLP,1
+Account,AS1 Growth Partners Pty Ltd,1
+Account,Asahi Breweries Limited,1
+Account,Asian Institute of Management,1
+Account,ASM International NV,1
+Account,"Astemo, Ltd.",1
+Account,Australian Business Growth Fund Pty Ltd,1
+Account,Australian Gold Reagents Pty. Ltd.,1
+Account,AXECO Corporate Finance BV,1
+Account,Bank of Commerce,1
+Account,BF & Company S.r.l.,1
+Account,Bright Valley Capital Limited,1
+Account,Broca Partners Limited,1
+Account,Calibre Partners,1
+Account,Calibrium AG,1
+Account,Capital Credit Union,1
+Account,Cardinal Capital Group,1
+Account,Charoen Pokphand Foods Public Company Limited,1
+Account,Clairfield Limited,1
+Account,Control Risks Group (S) Pte Ltd,1
+Account,Core Credit Union,1
+Account,Corpfin Capital Asesores Sgeic,1
+Account,CT Bright Holdings Limited,1
+Account,CVC Advisers (Luxembourg) S.à r.l.,1
+Account,"Daikin Industries,Ltd.",1
+Account,Davis Polk & Wardwell LLP,1
+Account,DBS Bank Ltd.,1
+Account,Deloitte & Touche LLP,1
+Account,Emirates Nuclear Energy Company,1
+Account,EMK Capital LLP,1
+Account,ENGIE SA,1
+Account,Epiroc AB,1
+Account,Euro Latina Finance,1
+Account,Everest National Insurance Company,1
+Account,Evoco Ltd,1
+Account,Fiji National Provident Fund,1
+Account,"FINEXSI, SA",1
+Account,FireFly Metals Ltd,1
+Account,First Bank & Trust Company,1
+Account,First Oklahoma Bank,1
+Account,Forager Funds Management Pty Ltd.,1
+Account,Foundation Private Equity,1
+Account,Fund Corporation For The Overseas Development Of Japan's Ict And Postal Services (Japan Ict Fund),1
+Account,Galliano's Latin Notes Limited,1
+Account,Geoscience Australia,1
+Account,Globe 24-7 Pty Ltd,1
+Account,Gro Capital A/S,1
+Account,Growtheum Capital Partners Pte. Ltd.,1
+Account,H.C. Loneragan & Company Pty Limited,1
+Account,Hall Chadwick Pty Limited,1
+Account,Haw Par Management Services Pte Ltd,1
+Account,Henslow Pty. Ltd.,1
+Account,Highway One Asset Management B.V.,1
+Account,Hoffmann & Partner AG,1
+Account,Holland Corporate Finance Holding BV,1
+Account,Hudson Advisors L.P.,1
+Account,ICON Corporate Finance Ltd.,1
+Account,Iridium Advisors DMCC,1
+Account,Jefferies Financial Group Inc.,1
+Account,"John Crane, Inc.",1
+Account,Keio University,1
+Account,Kidder Williams Limited,1
+Account,Killik & Co LLP,1
+Account,Kingsway Capital Advisors Llp,1
+Account,"Kirin Holdings Company, Limited",1
+Account,Leadenhall Valuation Services Pty Ltd.,1
+Account,Legoux & Associes,1
+Account,Livingstone Partners B.V.,1
+Account,London Wealth Management Limited,1
+Account,M King & Co Ltd,1
+Account,Mamoura Diversified Global Holding PJSC,1
+Account,"Manila Water Company, Inc.",1
+Account,Marubeni Growth Capital Asia Pte Ltd,1
+Account,"Meiji Seika Pharma Co., Ltd",1
+Account,Mekong Capital Ltd.,1
+Account,Mill Reef Capital Ltd.,1
+Account,"mixi, Inc.",1
+Account,Modus Capital Pty Ltd,1
+Account,"Moody's Investors Service, Inc.",1
+Account,MTZ Properties Pte Ltd,1
+Account,Murray & Company Ltd.,1
+Account,Nalka Invest AB,1
+Account,Nash Advisory Pty Ltd,1
+Account,NEC Corporation,1
+Account,Nedbank Limited,1
+Account,New Silk Road Investment Pte Ltd,1
+Account,Nordstar Partners Limited,1
+Account,North Ridge Partners Pte. Ltd.,1
+Account,Obermark S.à r.l,1
+Account,Ok Tedi Mining Limited,1
+Account,Origo Partners Oy,1
+Account,Oxbow Partners Limited,1
+Account,Pencarrow Private Equity Management Limited,1
+Account,Petroliam Nasional Berhad (PETRONAS),1
+Account,PharmaVentures Ltd.,1
+Account,Pilmico Foods Corporation,1
+Account,Pollen Street Capital Limited,1
+Account,Potentia Capital Services Pty Ltd ATF Potentia Capital Services Trust,1
+Account,PricewaterhouseCoopers LLP,1
+Account,Princeton Digital Group (Singapore) Management Private Limited,1
+Account,Proa Capital De Inversiones S G E I C,1
+Account,Provident Capital Partners Pte. Ltd.,1
+Account,PT Bahana Securities,1
+Account,PT MDS Retailing Tbk,1
+Account,Qapita Fintech Pte. Ltd.,1
+Account,"Rakuten Group, Inc.",1
+Account,REA Group Limited,1
+Account,Regal Partners Limited,1
+Account,Rianta Capital Zurich AG,1
+Account,"Russell Reynolds Associates, Inc.",1
+Account,Sagard SAS,1
+Account,Saha Pathana Inter-Holding Public Company Limited,1
+Account,Sandstone Funds Management Pty Ltd,1
+Account,Savills Valuation and Professional Services (S) Pte. Ltd.,1
+Account,Scouting S.p.A.,1
+Account,"Shinewing Certified Public Accountants Co., Ltd.",1
+Account,SHK Fund Management Limited,1
+Account,Significant Capital Ventures Pty Limited,1
+Account,Sikka Insights Inc.,1
+Account,Singapore University of Social Sciences,1
+Account,STAR Capital Partnership LLP,1
+Account,Stock Growers Bank,1
+Account,SUSI Energy Transition Fund (ORCD) SCSP-RAIF,1
+Account,Sylvan Capital Management Pte Ltd,1
+Account,Syntagma Capital Management SA,1
+Account,Tamesis Partners LLP,1
+Account,Taurus Funds Management Pty Limited,1
+Account,Temenos Singapore Pte Ltd.,1
+Account,Teslin Capital Management BV,1
+Account,The Baptist Foundation Of Oklahoma,1
+Account,Titan Partners Pty Limited,1
+Account,Tivaco Pte. Ltd.,1
+Account,Trillium Partners Limited,1
+Account,UEM Edgenta Berhad,1
+Account,"Unison Capital, Inc.",1
+Account,United Overseas Bank Limited,1
+Account,University of Portsmouth,1
+Account,ValuAnalysis Limited,1
+Account,VCA Asia Pacific Pty Ltd,1
+Account,VCF Capital Partners,1
+Account,Verlinvest S.A.,1
+Account,Vesparum Capital Pty Ltd,1
+Account,Whiteoak Asset Management Pty Ltd,1
+Account,Wilbow Group Pty Ltd,1
+Account,Xcalibur Multiphysics Group S.L.,1
+Account,Xeraya Capital Sdn. Bhd.,1
+Account,Yuanta Securities (Cambodia) Plc.,1
 Workflow,Valuation and company analysis,107
 Workflow,M&A and transactions,61
 Workflow,Excel and office workflows,46
