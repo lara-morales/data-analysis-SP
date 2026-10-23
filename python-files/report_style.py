@@ -143,6 +143,99 @@ def save_page(pdf: PdfPages, figure: Figure) -> None:
     plt.close(figure)
 
 
+def _interpretation_band(figure: Figure, interpretation: list[str]) -> float:
+    """Reading under the title. Returns the y where the chart can begin."""
+    figure.text(0.055, 0.908, "Business Interpretation", fontsize=12, color=RED, fontweight="bold", va="top")
+    body = wrap(" ".join(interpretation), 112, max_lines=8)
+    figure.text(0.055, 0.876, body, fontsize=11, color=BLACK, va="top", linespacing=1.2)
+    return 0.876 - (body.count("\n") + 1) * 0.026 - 0.008
+
+
+def _action_band(figure: Figure, actions: list[str]) -> float:
+    """Recommended actions above the footer. Returns the top of the band."""
+    lines: list[str] = []
+    for action in actions:
+        parts = wrap(action, 112, max_lines=2).split("\n")
+        lines.append("•  " + parts[0])
+        lines.extend("   " + part for part in parts[1:])
+    text = "\n".join(lines)
+    line_count = max(text.count("\n") + 1, 1)
+    panel_h = 0.050 + line_count * 0.026
+    panel_y = 0.046
+    figure.patches.append(
+        plt.Rectangle(
+            (0.055, panel_y),
+            0.89,
+            panel_h,
+            transform=figure.transFigure,
+            facecolor="#F6F6F6",
+            edgecolor="none",
+            zorder=0,
+        )
+    )
+    figure.patches.append(
+        plt.Rectangle(
+            (0.055, panel_y),
+            0.006,
+            panel_h,
+            transform=figure.transFigure,
+            facecolor=RED,
+            edgecolor="none",
+            zorder=1,
+        )
+    )
+    figure.text(0.074, panel_y + panel_h - 0.014, "Recommended Action", fontsize=12, color=RED, fontweight="bold", va="top")
+    figure.text(0.074, panel_y + panel_h - 0.042, text, fontsize=11, color=BLACK, va="top", linespacing=1.2)
+    return panel_y + panel_h
+
+
+def add_chart_with_reading(
+    pdf: PdfPages,
+    title: str,
+    draw: Callable[[Figure], None],
+    interpretation: list[str],
+    actions: list[str],
+) -> None:
+    """Interpretation above the chart, recommended action below it."""
+    figure = new_figure()
+    figure.text(0.055, 0.958, title, fontsize=18, fontweight="bold", color=BLACK, va="top")
+    chart_top = _interpretation_band(figure, interpretation)
+    panel_top = _action_band(figure, actions)
+    chart_bottom = panel_top + 0.055
+    figure.chart_rect = (0.055, chart_bottom, 0.89, max(0.22, chart_top - chart_bottom))  # type: ignore[attr-defined]
+    draw(figure)
+    draw_footer(figure)
+    save_page(pdf, figure)
+
+
+def add_columns_with_reading(
+    pdf: PdfPages,
+    title: str,
+    columns: list[tuple[str, list[str]]],
+    interpretation: list[str],
+    actions: list[str],
+) -> None:
+    """Interpretation, then the year columns, then the recommended action."""
+    figure = new_figure()
+    figure.text(0.055, 0.958, title, fontsize=18, fontweight="bold", color=BLACK, va="top")
+    content_top = _interpretation_band(figure, interpretation)
+    panel_top = _action_band(figure, actions)
+    count = max(len(columns), 1)
+    width = 0.88 / count
+    for index, (heading, items) in enumerate(columns):
+        x = 0.055 + index * width
+        figure.text(x, content_top - 0.01, heading, fontsize=14, fontweight="bold", color=SERIES[index % len(SERIES)], va="top")
+        cursor = content_top - 0.055
+        for item in items:
+            bullet = wrap(item, 40, max_lines=2)
+            if cursor < panel_top + 0.04:
+                break
+            figure.text(x, cursor, bullet, fontsize=12, color=BLACK, va="top", linespacing=1.2)
+            cursor -= 0.02 + 0.028 * (bullet.count("\n") + 1)
+    draw_footer(figure)
+    save_page(pdf, figure)
+
+
 def add_chart_page(
     pdf: PdfPages,
     title: str,
@@ -182,6 +275,87 @@ def add_action_page(pdf: PdfPages, items: list[tuple[str, str]], intro: str) -> 
         wrapped = wrap(paragraph, 125, max_lines=3)
         figure.text(0.085, cursor - 0.03, wrapped, fontsize=9.5, color=BLACK, va="top", linespacing=1.2)
         cursor -= 0.05 + 0.022 * (wrapped.count("\n") + 1)
+    draw_footer(figure)
+    save_page(pdf, figure)
+
+
+def add_executive_page(
+    pdf: PdfPages,
+    title: str,
+    sections: list[tuple[str, str | list[str]]],
+) -> None:
+    """Combined readout. A section is a paragraph or a list of findings."""
+    figure = new_figure()
+    figure.text(0.055, 0.945, title, fontsize=16, fontweight="bold", color=BLACK, va="top")
+    cursor = 0.88
+    for heading, body in sections:
+        if cursor < 0.10:
+            break
+        figure.text(0.055, cursor, heading, fontsize=12, fontweight="bold", color=RED, va="top")
+        cursor -= 0.034
+        blocks = body if isinstance(body, list) else [body]
+        for index, block in enumerate(blocks):
+            prefix = "•  " if isinstance(body, list) else ""
+            wrapped = wrap(block, 110, max_lines=8)
+            figure.text(0.07 if prefix else 0.055, cursor, prefix + wrapped, fontsize=10.5, color=BLACK, va="top", linespacing=1.28)
+            cursor -= 0.016 + 0.026 * (wrapped.count("\n") + 1)
+        cursor -= 0.018
+    draw_footer(figure)
+    save_page(pdf, figure)
+
+
+def add_section_reading(
+    pdf: PdfPages,
+    title: str,
+    interpretation: list[str],
+    actions: list[str],
+) -> None:
+    """Business interpretation and recommended actions for one combined chart."""
+    figure = new_figure()
+    figure.text(0.055, 0.945, title, fontsize=16, fontweight="bold", color=BLACK, va="top")
+    cursor = 0.88
+    figure.text(0.055, cursor, "Business Interpretation", fontsize=12, fontweight="bold", color=RED, va="top")
+    cursor -= 0.036
+    for paragraph in interpretation:
+        wrapped = wrap(paragraph, 112, max_lines=8)
+        figure.text(0.055, cursor, wrapped, fontsize=10.5, color=BLACK, va="top", linespacing=1.28)
+        cursor -= 0.018 + 0.026 * (wrapped.count("\n") + 1)
+    cursor -= 0.012
+    figure.text(0.055, cursor, "Recommended Action", fontsize=12, fontweight="bold", color=RED, va="top")
+    cursor -= 0.036
+    for action in actions:
+        wrapped = wrap(action, 108, max_lines=3)
+        figure.text(0.07, cursor, "•  " + wrapped, fontsize=10.5, color=BLACK, va="top", linespacing=1.25)
+        cursor -= 0.012 + 0.026 * (wrapped.count("\n") + 1)
+    draw_footer(figure)
+    save_page(pdf, figure)
+
+
+def add_recommendation_page(
+    pdf: PdfPages,
+    title: str,
+    intro: str,
+    sections: list[tuple[str, str, list[str]]],
+    *,
+    start_index: int = 1,
+) -> None:
+    """Four short recommendations on one page. Lead paragraphs are omitted."""
+    del intro
+    figure = new_figure()
+    figure.text(0.055, 0.955, title, fontsize=18, fontweight="bold", color=BLACK, va="top")
+    xs = (0.055, 0.52)
+    ys = (0.88, 0.46)
+    for offset, (heading, _lead, bullets) in enumerate(sections[:4]):
+        x = xs[offset % 2]
+        cursor = ys[offset // 2]
+        figure.text(x, cursor, str(start_index + offset), fontsize=16, fontweight="bold", color=RED, va="top")
+        heading_text = wrap(heading, 42, max_lines=3)
+        figure.text(x + 0.035, cursor, heading_text, fontsize=12, fontweight="bold", color=BLACK, va="top", linespacing=1.1)
+        cursor -= 0.022 + 0.024 * (heading_text.count("\n") + 1)
+        for bullet in bullets:
+            bullet_text = wrap(bullet, 58, max_lines=3)
+            figure.text(x + 0.035, cursor, "•  " + bullet_text, fontsize=11, color=BLACK, va="top", linespacing=1.15)
+            cursor -= 0.008 + 0.024 * (bullet_text.count("\n") + 1)
     draw_footer(figure)
     save_page(pdf, figure)
 
@@ -265,30 +439,31 @@ def add_year_columns_page(
             bullet = wrap(item, 40, max_lines=3)
             figure.text(x, cursor, bullet, fontsize=11, color=BLACK, va="top", linespacing=1.25)
             cursor -= 0.04 + 0.03 * (bullet.count("\n") + 1)
-    figure.patches.append(
-        plt.Rectangle(
-            (0.055, 0.075),
-            0.89,
-            0.16,
-            transform=figure.transFigure,
-            facecolor="#F7F7F7",
-            edgecolor="none",
-            zorder=0,
+    if callout:
+        figure.patches.append(
+            plt.Rectangle(
+                (0.055, 0.075),
+                0.89,
+                0.16,
+                transform=figure.transFigure,
+                facecolor="#F7F7F7",
+                edgecolor="none",
+                zorder=0,
+            )
         )
-    )
-    figure.patches.append(
-        plt.Rectangle(
-            (0.055, 0.075),
-            0.007,
-            0.16,
-            transform=figure.transFigure,
-            facecolor=RED,
-            edgecolor="none",
-            zorder=1,
+        figure.patches.append(
+            plt.Rectangle(
+                (0.055, 0.075),
+                0.007,
+                0.16,
+                transform=figure.transFigure,
+                facecolor=RED,
+                edgecolor="none",
+                zorder=1,
+            )
         )
-    )
-    figure.text(0.074, 0.215, "IMPLICATION", fontsize=8, color=RED, fontweight="bold", va="top")
-    figure.text(0.074, 0.15, wrap(callout, 118, max_lines=3), fontsize=10, color=BLACK, va="center", linespacing=1.25)
+        figure.text(0.074, 0.215, "IMPLICATION", fontsize=8, color=RED, fontweight="bold", va="top")
+        figure.text(0.074, 0.15, wrap(callout, 118, max_lines=3), fontsize=10, color=BLACK, va="center", linespacing=1.25)
     draw_footer(figure)
     save_page(pdf, figure)
 
